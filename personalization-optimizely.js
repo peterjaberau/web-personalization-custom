@@ -58,8 +58,7 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
       console.warn('[optimizely Personalization]: Invalid content zone selector:', selector, error);
       return;
     }
-    const output = zone?.querySelector('[data-personalization-json]');
-    if (!output) return;
+    if (!zone) return;
 
     // Only relative fragment paths under the configured AEM root are supported.
     const path = contentPath.trim().replace(/^\/+/, '');
@@ -69,8 +68,15 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
       return;
     }
 
+    // Show the selected path even when a zone does not have a JSON panel.
+    const pathLabel = zone.querySelector('[data-personalization-content-path]');
+    if (pathLabel) pathLabel.textContent = `Content path: ${contentPath.trim()}`;
+    const output = zone.querySelector('[data-personalization-json]');
+    if (!output) return;
+
     const request = Symbol('fragment request');
     latestRequests.set(zone, request);
+    output.textContent = 'Loading JSON response...';
     try {
       // The base path may include a query string, as in the live AEM endpoint.
       const base = contentSource.baseURL || new URL(container.ownerDocument.baseURI).origin;
@@ -87,6 +93,7 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
       }
     } catch (error) {
       if (latestRequests.get(zone) === request) {
+        output.textContent = 'Unable to load the JSON response.';
         console.warn('[optimizely Personalization]: Unable to render AEM fragment:', contentPath, error);
       }
     }
