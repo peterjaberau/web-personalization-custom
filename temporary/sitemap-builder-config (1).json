@@ -1,0 +1,53 @@
+{
+  "settings:loggingLevel": "debug",
+  "settings:personalizationDataspace": "default",
+  "settings:enableSpaReinit": false,
+  "consent:name": "",
+  "consent:listeners": [],
+  "consent:defaultPolicy": "OptIn",
+  "consent:mode": "Advanced",
+  "resolvers:list": [],
+  "events:engagement": [
+    {
+      "id": "page-view",
+      "mode": "custom",
+      "eventType": "userEngagement",
+      "label": "Page View"
+    }
+  ],
+  "profiles:list": [
+    {
+      "id": "email-capture",
+      "name": "Email Capture",
+      "attributes": [
+        {
+          "id": "email-capture-event-type",
+          "key": "eventType",
+          "type": "string",
+          "value": "contactPointEmail",
+          "protected": true
+        },
+        {
+          "id": "email-capture-email",
+          "key": "email",
+          "type": "string",
+          "value": "example@example.com"
+        }
+      ]
+    }
+  ],
+  "pagetypes:list": [
+    {
+      "id": "pg_1793872523550_vuksax",
+      "name": "Business Sim Only",
+      "match": {
+        "kind": "exact",
+        "value": "/business/sim-only"
+      },
+      "listeners": [],
+      "contentZones": [],
+      "contextualAttributes": [],
+      "onLoadEventId": "page-view"
+    }
+  ]
+}

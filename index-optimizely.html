@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MMB8X5HR');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Optimizely Script -->
+
+  <script>(function() {
+    var a = 24176680311
+      , c = "https:" == document.location.protocol ? "https://" : "http://"
+      , b = document.createElement("script");
+    b.type = "text/javascript";
+    b.async = !!0;
+    b.src = c + "www.vodafone.com.au/js/" + a + ".js";
+    a = document.getElementsByTagName("script")[0];
+    a.parentNode.insertBefore(b, a)})();</script>
+
+  <!-- End Optimizely Script -->
+  <!-- Registers the Vodafone custom element used by the AEM banner fragments. -->
+  <script defer src="./assets/vodafone/js/hero-banner.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+      main .section-content { flex-direction: column; gap: 16px; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="debug-toolbar">
+    <nav class="experience-links" aria-label="Experience selection">
+      <a href="?" data-utm-source="">DEFAULT</a>
+      <a href="?utm_source=BUSINESS" data-utm-source="BUSINESS">BUSINESS</a>
+      <a href="?utm_source=TRANSPORTATION" data-utm-source="TRANSPORTATION">TRANSPORTATION</a>
+    </nav>
+    <div class="debug-actions" role="group" aria-label="Personalization debug actions">
+      <button type="button" data-debug-action="decisions">All Decisions</button>
+      <button type="button" data-debug-action="raw">Raw SDK Response</button>
+      <button type="button" data-debug-action="page">Matched Page</button>
+      <button type="button" data-debug-action="zones">Content Zones</button>
+      <button type="button" data-debug-action="status">Match Status</button>
+    </div>
+  </div>
+
+
+  <section id="section-hero">
+    <div class="page-section hero-default">
+      <div class="section-content">
+        <h1>SECTION_HERO_V1: Waiting for a decision</h1>
+        <button type="button" class="log-decision">Log decision</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-faq">
+    <div class="page-section faq">
+      <div class="section-content">
+        <h1>SECTION_FAQ_V1: Waiting for a decision</h1>
+        <button type="button" class="log-decision">Log decision</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-features">
+    <div class="page-section features">
+      <div class="section-content">
+        <h1>SECTION_FEATURES_V1: Waiting for a decision</h1>
+        <button type="button" class="log-decision">Log decision</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script type="module">
+  import { applyPersonalizationFromOptimizely, connectToDecisions, debugOptimizely } from './personalization-optimizely.js';
+  import { connectDecisionDebug } from './debug.js';
+
+  debugOptimizely();
+
+  connectToDecisions(applyPersonalizationFromOptimizely, 'main');
+
+  connectDecisionDebug('main');
+</script>
+</body>
+</html>
+
+

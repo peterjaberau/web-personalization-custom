@@ -1,0 +1,191 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #172033;
+  background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main > section {
+  min-height: 200px;
+  border: 1px solid #d5dbe4;
+}
+
+.page-section {
+  padding: 6px 16px;
+}
+
+.section-content {
+  width: min(100%, 1200px);
+  min-height: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+}
+
+.page-section h1,
+.page-section h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
+}
+
+.feature-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.feature-item {
+  flex: 0 1 calc((100% - 72px) / 4);
+  min-width: 190px;
+  display: grid;
+  grid-template-rows: 76px 3.9rem auto;
+  align-items: start;
+  text-align: center;
+}
+
+.feature-item img {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto;
+}
+
+.feature-item h2 {
+  align-self: center;
+  font-size: clamp(1.1rem, 1.6vw, 1.4rem);
+  letter-spacing: -0.02em;
+}
+
+.feature-item p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.faq .section-content {
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.faq-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.faq-item {
+  flex: 0 1 calc((100% - 40px) / 3);
+  min-width: 220px;
+  min-height: 180px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgb(23 32 51 / 12%);
+  text-align: center;
+}
+
+.faq-item img {
+  width: 48px;
+  height: 48px;
+}
+
+.faq-item h3 {
+  margin: 12px 0 8px;
+  font-size: 1.25rem;
+}
+
+.faq-item p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.hero-default .section-content {
+  background: #eef6ff;
+}
+
+.hero-business .section-content {
+  background: #f2f8f1;
+}
+
+.hero-transportation .section-content {
+  background: #f2f8f1;
+}
+
+
+.features .section-content {
+  background: #fff8e9;
+}
+
+.faq .section-content {
+  background: #f8f1ff;
+}
+
+.contacts .section-content {
+  background: #eefafa;
+}
+
+/* Wrapper-based personalization hides only the selected point's alternatives. */
+[data-personalization-point] > [data-personalization-experience][hidden] {
+  display: none !important;
+}
+
+.debug-toolbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: #f3f6fa;
+  border: 1px solid #d5dbe4;
+}
+
+.debug-toolbar button {
+  padding: 8px 14px;
+  border: 1px solid #aab6c5;
+  border-radius: 4px;
+  background: #fff;
+  color: #172033;
+  cursor: pointer;
+}
+
+.debug-toolbar button:hover {
+  background: #e7edf5;
+}
+
+.experience-links,
+.debug-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.experience-links a {
+  color: #172033;
+  font-weight: 600;
+}
+
+.debug-actions {
+  margin-left: auto;
+  justify-content: flex-end;
+}

@@ -1,0 +1,69 @@
+{
+  "with-content-path-aem-url": [
+    {
+      "[DEBUG]: Sent event": {
+        "source": {
+          "pageType": "Home page",
+          "url": "http://localhost:63342/salesforce-aem-personalization-poc/src/app/static/index.html?_ijt=4n5qj686k42e4rkg8dt3h1is6s&_ij_reload=RELOAD_ON_SAVE",
+          "urlReferrer": "http://localhost:63342/salesforce-aem-personalization-poc/src/app/static/index.html?_ijt=4n5qj686k42e4rkg8dt3h1is6s&_ij_reload=RELOAD_ON_SAVE",
+          "channel": "Web"
+        },
+        "user": {
+          "anonymousId": "f0d46967b7a5c81b"
+        },
+        "interaction": {
+          "name": "Page View - Home",
+          "eventType": "userEngagement"
+        },
+        "pageView": true,
+        "consents": []
+      }
+    },
+    {
+      "[Personalization] Requested points": ["SECTION_HERO_V1", "SECTION_FAQ_V1", "SECTION_FEATURES_V1"]
+    },
+    {
+      "[Personalization] Raw SDK response": {
+        "personalizations": [
+          {
+            "personalizationId": "411901d2-9b90-4a22-9f19-6e28ff131b22",
+            "personalizationPointId": "9pp9p000000017NAAQ",
+            "personalizationPointName": "SECTION_HERO_V1",
+            "decisionId": "9pb9p00000001XBAAY",
+            "data": [],
+            "attributes": {
+              "contentPath": "/banner/business/team-plan/master",
+              "experienceKey": "DEFAULT"
+            },
+            "metadata": {}
+          },
+          {
+            "personalizationId": "7b643d8b-fafb-46a8-960d-27686057110d",
+            "personalizationPointId": "9pp9p000000018zAAA",
+            "personalizationPointName": "SECTION_FAQ_V1",
+            "decisionId": "9pb9p00000001VZAAY",
+            "data": [],
+            "attributes": {
+              "contentPath": "/banner/business/team-plan/master",
+              "experienceKey": "DEFAULT"
+            },
+            "metadata": {}
+          },
+          {
+            "personalizationId": "c190a7b6-3807-4cee-9bda-3b18bfc5e9bc",
+            "personalizationPointId": "9pp9p00000001AbAAI",
+            "personalizationPointName": "SECTION_FEATURES_V1",
+            "decisionId": "9pb9p00000001TxAAI",
+            "data": [],
+            "attributes": {
+              "contentPath": "/banner/business/team-plan/master",
+              "experienceKey": "BUSINESS"
+            },
+            "metadata": {}
+          }
+        ],
+        "requestId": "0385d770-5f0d-4090-bedd-fa81aeb9d3ab"
+      }
+    }
+  ]
+}
