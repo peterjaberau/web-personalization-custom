@@ -1,36 +1,18 @@
 // Local Optimizely demo server. The listed AEM fragments are saved snapshots.
 import { createServer } from 'node:http';
-import { readFile } from 'node:fs/promises';
+import { readFile, realpath } from 'node:fs/promises';
 import { extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('./', import.meta.url));
-const port = 8765;
-const allowedPaths = new Set([
-  'banner/business/team-plan/master',
-  'banner/business/sim-plan/sim-360',
-  'banner/business/eofy26/nbn/master',
-  'banner/business/iphone18promax/master',
-  'banner/business/iphone-duo/master',
-]);
-// Only demo assets are served; repository metadata and unrelated files stay private.
+const port = Number(process.env.PORT || 8765);
+const host = process.env.HOST || '127.0.0.1';
+// Only demo files and assets are served; repository metadata stays private.
 const publicFiles = new Set([
-  '/index-optimizely.html', '/personalization-optimizely.js', '/debug.js', '/style.css',
-  '/assets/vodafone/js/hero-banner.min.js',
-  '/assets/vodafone/images/VF-HP-desktop-offer-Teams-4000-920.webp',
-  '/assets/vodafone/images/VF-HP-MOB-TEAMS.webp',
-  "/assets/vodafone/images/business/VF-HP-MOB-SIMO-360-copy.webp",
-  "/assets/vodafone/images/business/VF-HP-MOB-TEAMS.webp",
-  "/assets/vodafone/images/business/VF-HP-MOB-iphone-Duo.webp",
-  "/assets/vodafone/images/business/VF-HP-desktop-SIMO-360-4000-920.webp",
-  "/assets/vodafone/images/business/VF-HP-desktop-iPhonePro-4000-920 2.webp",
-  "/assets/vodafone/images/business/VF-HP-desktop-internet-4000-920.webp",
-  "/assets/vodafone/images/business/VF-HP-desktop-iphone-Duo-4000-920.webp",
-  "/assets/vodafone/images/business/VF-HP-desktop-offer-Teams-4000-920.webp",
-  "/assets/vodafone/images/business/VF-HP-iPhone18-MOB.webp",
-  "/assets/vodafone/images/business/VF-internet-mob.webp",
+  '/index-optimizely.html', '/personalization-optimizely.js', '/personalization-config.js', '/debug.js', '/style.css',
 ]);
-const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp' };
+const assetTypes = new Set(['.json', '.js', '.webp', '.png', '.jpg', '.jpeg', '.svg', '.css']);
+const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml' };
 
 createServer(async (req, res) => {
   if (req.method !== 'GET') {
@@ -38,25 +20,18 @@ createServer(async (req, res) => {
     return;
   }
   try {
-    const url = new URL(req.url, `http://127.0.0.1:${port}`);
-    if (url.pathname === '/__aem-fragment') {
-      const path = (url.searchParams.get('path') || '').replace(/^\/+/, '');
-      if (!allowedPaths.has(path)) {
-        res.writeHead(400).end('Fragment path is not allowed');
-        return;
-      }
-      const snapshot = resolve(root, 'assets/vodafone/fragments', `${path}.json`);
-      const body = await readFile(snapshot);
-      res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' }).end(body);
-      return;
-    }
+    const url = new URL(req.url, 'http://localhost');
     const name = url.pathname === '/' ? '/index-optimizely.html' : decodeURIComponent(url.pathname);
-    if (!publicFiles.has(name)) {
+    const parts = name.split('/');
+    const isAsset = name.startsWith('/assets/') && assetTypes.has(extname(name).toLowerCase())
+      && parts.every((part) => part !== '.' && part !== '..' && !part.startsWith('.'));
+    if (!publicFiles.has(name) && !isAsset) {
       res.writeHead(404).end('Not found');
       return;
     }
-    const file = resolve(root, `.${name}`);
-    if (!file.startsWith(root.endsWith(sep) ? root : root + sep)) {
+    const file = await realpath(resolve(root, `.${name}`));
+    const realRoot = await realpath(root);
+    if (!file.startsWith(realRoot + sep)) {
       res.writeHead(403).end('Forbidden');
       return;
     }
@@ -69,6 +44,6 @@ createServer(async (req, res) => {
       res.writeHead(502).end('Unable to retrieve the requested content');
     }
   }
-}).listen(port, '127.0.0.1', () => {
-  console.log(`Optimizely demo: http://127.0.0.1:${port}/index-optimizely.html`);
+}).listen(port, host, () => {
+  console.log(`Optimizely demo: http://${host}:${port}/index-optimizely.html`);
 });

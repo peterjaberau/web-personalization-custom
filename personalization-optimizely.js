@@ -1,3 +1,5 @@
+import { contentSource } from './personalization-config.js';
+
 let optimizelyCheck;
 
 /** Log Optimizely once it becomes available, even if it loads after this script. */
@@ -29,7 +31,6 @@ export function debugOptimizely() {
 }
 
 
-const aemBaseURL = '/__aem-fragment';
 const latestRequests = new WeakMap();
 
 /** Fetch and render each Salesforce decision's AEM fragment in its content zone. */
@@ -59,11 +60,11 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
 
     const request = Symbol('fragment request');
     latestRequests.set(zone, request);
-    // Keep the Salesforce contentPath and request its snapshot from this page's server.
-    const url = new URL(aemBaseURL, container.ownerDocument.baseURI);
-    url.searchParams.set('path', contentPath.trim());
-
     try {
+      // The base path may include a query string, as in the live AEM endpoint.
+      const base = contentSource.baseURL || new URL(container.ownerDocument.baseURI).origin;
+      const prefix = contentSource.basePath.replace(/\/+$/, '');
+      const url = new URL(`${prefix}/${path}${contentSource.suffix}`, `${base.replace(/\/+$/, '')}/`);
       const response = await fetch(url.toString());
       if (!response.ok) throw new Error(`AEM request failed (${response.status})`);
       const fragment = await response.json();

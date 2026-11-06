@@ -5,4 +5,4 @@
 3. Open the forwarded port 8765 from the **Ports** tab. Keep its visibility private.
 4. Open `/index-optimizely.html` using the forwarded URL.
 
-The server serves saved snapshots of the five configured Vodafone AEM fragments; it does not fetch them from Vodafone. The page must be served through this server to use the proxy. Salesforce SDK configuration and sitemap matching may need to be updated for the forwarded Codespace URL. Node.js 20 or newer is required.
+The demo loads saved AEM snapshots from the current page origin. Change `contentSource` in `personalization-config.js` to select another base URL and base path. The default server serves the local snapshots and assets; it does not fetch them from Vodafone. Salesforce SDK configuration and sitemap matching may need to be updated for the forwarded Codespace URL. Node.js 20 or newer is required.
