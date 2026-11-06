@@ -9,7 +9,7 @@ const port = Number(process.env.PORT || 8765);
 const host = process.env.HOST || '127.0.0.1';
 // Only demo files and fragment JSON are served; repository metadata stays private.
 const publicFiles = new Set([
-  '/index-optimizely.html', '/personalization-optimizely.js', '/debug.js', '/style.css',
+  '/index-optimizely.html', '/personalization-optimizely.js', '/personalization-salesforce-optimizely.js', '/debug.js', '/style.css',
 ]);
 const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml', '.woff': 'font/woff' };
 

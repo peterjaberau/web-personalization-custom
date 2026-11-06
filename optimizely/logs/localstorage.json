@@ -1,0 +1,1869 @@
+{
+  "sourceIP": "101.117.252.219",
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$session_state": {
+    "lastSessionTimestamp": 1793966182208,
+    "sessionId": "618c3b22-5152-4cbe-810e-e65d797e029d"
+  },
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$tracker_optimizely": {},
+  "_uetvid_exp": "Wed, 01 Dec 2027 11:56:25 GMT",
+  "evgVE": false,
+  "NRBA_SESSION::6b7ba6ed": {
+    "value": "3b7cf50214fa5dc7",
+    "inactiveAt": 1793967977814,
+    "expiresAt": 1793980211733,
+    "updatedAt": 1793966186484,
+    "sessionReplayMode": 0,
+    "sessionReplaySentFirstChunk": false,
+    "sessionTraceMode": 0,
+    "traceHarvestStarted": false,
+    "loggingMode": 1,
+    "logApiMode": 1,
+    "serverTimeDiff": -247,
+    "custom": {
+      "ContentsquareSID": "e9b08817-08ff-a1eb-bc24-38ba2bf900f9.12",
+      "ContentsquareReplay": "https://app.contentsquare.com/quick-playback/index.html?pid=82372&uu=e9b08817-08ff-a1eb-bc24-38ba2bf900f9&sn=12&pvid=1&recordingType=cs&vd=new-relic"
+    },
+    "numOfResets": 0,
+    "consent": false,
+    "cachedRumResponse": {
+      "app": {
+        "agents": [
+          {
+            "entityGuid": "NDU1MDQ5NnxCUk9XU0VSfEFQUExJQ0FUSU9OfDU5NDU4MDg5NA"
+          }
+        ],
+        "nrServerTime": 1793965812346
+      },
+      "stn": 0,
+      "err": 1,
+      "ins": 1,
+      "spa": 1,
+      "sr": 1,
+      "srs": 0,
+      "st": 1,
+      "sts": 0,
+      "log": 1,
+      "logapi": 1
+    }
+  },
+  "_gcl_ls": {
+    "schema": "gcl",
+    "version": 1,
+    "gsid_dc": {
+      "value": {
+        "joinId": "XDtXVVxqoKoEU5E9EMQHSLCQXEZuBB9DPQ",
+        "lastJoinedTimeMs": 1793966185234
+      },
+      "expires": 1793966485234
+    },
+    "gcl_ctr": {
+      "value": {
+        "value": 0,
+        "timeouts": 0,
+        "errors": 0,
+        "eopCount": 0,
+        "creationTimeMs": 1793423219658
+      },
+      "expires": 1801199219658
+    },
+    "last_convs": {
+      "value": [],
+      "expires": 1801262298065
+    }
+  },
+  "_pin_unauth_ls": {
+    "value": "dWlkPVlUUTJOREE0T1RrdE16ZG1ZUzAwTURRNExUaGlNVFF0WVRGallUaGlPVGsyTVRjMw",
+    "expires": "2027-11-06T11:56:25.673Z"
+  },
+  "_ga": {
+    "GAClientId": "420180006",
+    "lastVisitedDate": "2026-11-06T11:56:22.534Z"
+  },
+  "chat_type": "proactive",
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$layer_map": {},
+  "CStagID": "",
+  "optimizely_data$$pending_events": {},
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$layer_states": [
+    {
+      "layerId": "5753118594433024",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "5219993323831296": "5945183072681984"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965813178"
+      },
+      "decision": {
+        "layerId": "5753118594433024",
+        "experimentId": "5219993323831296",
+        "variationId": "5945183072681984",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965813178",
+      "decisionTimestamp": 1793965813184,
+      "decisionEventId": "c8021def-8e42-4a01-93c8-0982af4e9f9b"
+    },
+    {
+      "layerId": "4761231834218496",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "4942833856020480": "4926597604573184"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965809956"
+      },
+      "decision": {
+        "layerId": "4761231834218496",
+        "experimentId": "4942833856020480",
+        "variationId": "4926597604573184",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965809956",
+      "decisionTimestamp": 1793965809972,
+      "decisionEventId": "401f5ab9-0a57-4cba-baee-39fd2bd41d06"
+    },
+    {
+      "layerId": "6055659093884928",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "4552690066259968": "5867809572388864"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965809956"
+      },
+      "decision": {
+        "layerId": "6055659093884928",
+        "experimentId": "4552690066259968",
+        "variationId": "5867809572388864",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965809956",
+      "decisionTimestamp": 1793965809973,
+      "decisionEventId": "bcfeef90-6f80-40d4-a803-731bed63f791"
+    },
+    {
+      "layerId": "6070859945738240",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "5514831046901760": "5674150644154368"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965809956"
+      },
+      "decision": {
+        "layerId": "6070859945738240",
+        "experimentId": "5514831046901760",
+        "variationId": "5674150644154368",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965809956",
+      "decisionTimestamp": 1793965809974,
+      "decisionEventId": "84ddbff6-a923-4a1e-9815-88054c3009ba"
+    },
+    {
+      "layerId": "6084689180491776",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "6272862703583232": "5991387726872576"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965809956"
+      },
+      "decision": {
+        "layerId": "6084689180491776",
+        "experimentId": "6272862703583232",
+        "variationId": "5991387726872576",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965809956",
+      "decisionTimestamp": 1793965809975,
+      "decisionEventId": "94b95c27-43f3-441d-be38-be09c689706d"
+    },
+    {
+      "layerId": "6716805280956416",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "4874124976193536": "5300127907184640"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965809956"
+      },
+      "decision": {
+        "layerId": "6716805280956416",
+        "experimentId": "4874124976193536",
+        "variationId": "5300127907184640",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965809956",
+      "decisionTimestamp": 1793965809977,
+      "decisionEventId": "13f5affd-af46-4ba9-86dd-0b6e3584591e"
+    },
+    {
+      "layerId": "4968657497882624",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "4776086934913024": "4898158914830336",
+          "5379162586742784": "5714257176690688"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965809956"
+      },
+      "decision": {
+        "layerId": "4968657497882624",
+        "experimentId": "5379162586742784",
+        "variationId": "5714257176690688",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965809956",
+      "decisionTimestamp": 1793965809979,
+      "decisionEventId": "80fb1e67-d30d-40e3-b4b8-bf9e1c785e3e"
+    },
+    {
+      "layerId": "4915369838641152",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "6041269745483776": "5361704618426368"
+        },
+        "audienceIds": [
+          "5747059051986944"
+        ],
+        "activationId": "1793965813033"
+      },
+      "decision": {
+        "layerId": "4915369838641152",
+        "experimentId": "6041269745483776",
+        "variationId": "5361704618426368",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793965813033",
+      "decisionTimestamp": 1793965813041,
+      "decisionEventId": "2d37832a-4ae6-4810-ac07-38041103cbc5"
+    },
+    {
+      "layerId": "6636850394169344",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "6720080334028800": "6074198538321920"
+        },
+        "audienceIds": [
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "activationId": "1793966182205"
+      },
+      "decision": {
+        "layerId": "6636850394169344",
+        "experimentId": "6720080334028800",
+        "variationId": "6074198538321920",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793966182205",
+      "decisionTimestamp": 1793966182218,
+      "decisionEventId": "d8e98ee9-69da-42cb-96b7-f61d8efb5151"
+    },
+    {
+      "layerId": "5710553163759616",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "4930130561204224": "5428207248211968"
+        },
+        "audienceIds": [
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "activationId": "1793966182205"
+      },
+      "decision": {
+        "layerId": "5710553163759616",
+        "experimentId": "4930130561204224",
+        "variationId": "5428207248211968",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793966182205",
+      "decisionTimestamp": 1793966182216,
+      "decisionEventId": "f10a6748-3d18-4712-9f75-541b201e5c5c"
+    },
+    {
+      "layerId": "6187662548140032",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "5505477121933312": "6445246433722368"
+        },
+        "audienceIds": [
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "activationId": "1793966182205"
+      },
+      "decision": {
+        "layerId": "6187662548140032",
+        "experimentId": "5505477121933312",
+        "variationId": "6445246433722368",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793966182205",
+      "decisionTimestamp": 1793966182217,
+      "decisionEventId": "7f90f0d7-cb20-4590-9241-7f96136081da"
+    },
+    {
+      "layerId": "5058376931999744",
+      "revision": "27669",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "5585651746209792": "4703059320766464"
+        },
+        "audienceIds": [
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "activationId": "1793966182205"
+      },
+      "decision": {
+        "layerId": "5058376931999744",
+        "experimentId": "5585651746209792",
+        "variationId": "4703059320766464",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793966182205",
+      "decisionTimestamp": 1793966182219,
+      "decisionEventId": "8942ade0-88fa-4084-8282-681257ab81d0"
+    },
+    {
+      "layerId": "5878008693653504",
+      "revision": "27654",
+      "decisionTicket": {
+        "bucketingId": "oeu1793437753488r0.0355891724734525",
+        "globalHoldback": 0,
+        "preferredVariationMap": {
+          "6039632842850304": "6467830546169856"
+        },
+        "audienceIds": [
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "activationId": "1793876907856"
+      },
+      "decision": {
+        "layerId": "5878008693653504",
+        "experimentId": "6039632842850304",
+        "variationId": "6467830546169856",
+        "isLayerHoldback": false,
+        "isLayerConcluded": false
+      },
+      "decisionActivationId": "1793876907856",
+      "decisionTimestamp": 1793876907870,
+      "decisionEventId": "1b353a52-d2ef-425a-b10e-25080a74a223"
+    }
+  ],
+  "_uetvid": "2b8a5800d48811f19581d70700d7749a",
+  "lastExternalReferrer": "empty",
+  "li_adsId": "6d04a584-4dbe-4c6b-b334-5ec211ea9717",
+  "viewedProducts": [],
+  "EVG_VE_LAUNCHED_BY_EXTENSION": false,
+  "CSID": "e9b08817-08ff-a1eb-bc24-38ba2bf900f9.1793410786.12.1793966185.1793965812.1760635832.1827574786485.1.x~5.5.U.9.1793967985470~0~",
+  "vhaTotalBundles": 0,
+  "serviceType": "New",
+  "lastQuitURL": "https://www.vodafone.com.au/business/team-plans",
+  "_derived_epik_ls": {
+    "value": "dj0yJnU9NG1Fb3BXQVJQejh6elRzeWlwYTFzU2d1dEViUUdsSm4mbj1QM0RQeTVmR2tJLTBManFsN3RNSkJBJm09MSZ0PUFBQUFBR3J0d0drJnJtPTEmcnQ9QUFBQUFHcnR3R2smc3A9Mg",
+    "expires": "2027-11-06T11:56:25.673Z"
+  },
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$event_queue": [
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "26357651",
+      "tb": 1793966183253,
+      "ts": [
+        {
+          "d": 0,
+          "i": 0
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_every_page",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "cee01e6f",
+      "tb": 1793966183254,
+      "ts": [
+        {
+          "d": 0,
+          "i": 1
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "1e8ccc77",
+      "tb": 1793966183255,
+      "ts": [
+        {
+          "d": 0,
+          "i": 2
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "129d4c7b",
+      "tb": 1793966183256,
+      "ts": [
+        {
+          "d": 0,
+          "i": 3
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "2b0fd00a",
+      "tb": 1793966183265,
+      "ts": [
+        {
+          "d": 0,
+          "i": 4
+        }
+      ]
+    }
+  ],
+  "_uetsid": "4e3f7b10d8cc11f18dd285666209403a",
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$events": [
+    {
+      "eb": {
+        "n": "24176680311_homepage",
+        "y": "pageview",
+        "c": "other",
+        "o": {
+          "herobannerheader": "",
+          "why": ""
+        }
+      },
+      "h": "a338903b",
+      "tb": 1793437753851,
+      "ts": [
+        {
+          "d": 0,
+          "i": 0
+        },
+        {
+          "d": 48540931,
+          "i": 26
+        },
+        {
+          "d": 49147667,
+          "i": 55
+        },
+        {
+          "d": 49147718,
+          "i": 59
+        },
+        {
+          "d": 253236200,
+          "i": 78
+        },
+        {
+          "d": 253236266,
+          "i": 82
+        },
+        {
+          "d": 253403654,
+          "i": 91
+        },
+        {
+          "d": 253584897,
+          "i": 108
+        },
+        {
+          "d": 412986714,
+          "i": 131
+        },
+        {
+          "d": 412986755,
+          "i": 135
+        },
+        {
+          "d": 501419783,
+          "i": 201
+        },
+        {
+          "d": 501419851,
+          "i": 205
+        },
+        {
+          "d": 526068362,
+          "i": 227
+        },
+        {
+          "d": 526068554,
+          "i": 231
+        },
+        {
+          "d": 528056783,
+          "i": 245
+        },
+        {
+          "d": 528057291,
+          "i": 249
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_popular_products_component_",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "6e8143dd",
+      "tb": 1793437753852,
+      "ts": [
+        {
+          "d": 0,
+          "i": 1
+        },
+        {
+          "d": 48540931,
+          "i": 27
+        },
+        {
+          "d": 49147668,
+          "i": 56
+        },
+        {
+          "d": 49147719,
+          "i": 60
+        },
+        {
+          "d": 253236200,
+          "i": 79
+        },
+        {
+          "d": 253236265,
+          "i": 83
+        },
+        {
+          "d": 253403654,
+          "i": 92
+        },
+        {
+          "d": 253584897,
+          "i": 109
+        },
+        {
+          "d": 412986715,
+          "i": 132
+        },
+        {
+          "d": 412986756,
+          "i": 136
+        },
+        {
+          "d": 501419783,
+          "i": 202
+        },
+        {
+          "d": 501419851,
+          "i": 206
+        },
+        {
+          "d": 526068363,
+          "i": 228
+        },
+        {
+          "d": 526068555,
+          "i": 232
+        },
+        {
+          "d": 528056783,
+          "i": 246
+        },
+        {
+          "d": 528057292,
+          "i": 250
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_hp_save_purple",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "571a2448",
+      "tb": 1793437753854,
+      "ts": [
+        {
+          "d": 0,
+          "i": 2
+        },
+        {
+          "d": 922,
+          "i": 5
+        },
+        {
+          "d": 48540931,
+          "i": 28
+        },
+        {
+          "d": 48541881,
+          "i": 31
+        },
+        {
+          "d": 49146979,
+          "i": 46
+        },
+        {
+          "d": 49147671,
+          "i": 57
+        },
+        {
+          "d": 49147721,
+          "i": 61
+        },
+        {
+          "d": 253235498,
+          "i": 69
+        },
+        {
+          "d": 253236199,
+          "i": 80
+        },
+        {
+          "d": 253236265,
+          "i": 84
+        },
+        {
+          "d": 253403654,
+          "i": 93
+        },
+        {
+          "d": 253404438,
+          "i": 96
+        },
+        {
+          "d": 253584897,
+          "i": 110
+        },
+        {
+          "d": 412985968,
+          "i": 122
+        },
+        {
+          "d": 412986716,
+          "i": 133
+        },
+        {
+          "d": 412986757,
+          "i": 137
+        },
+        {
+          "d": 501419146,
+          "i": 192
+        },
+        {
+          "d": 501419783,
+          "i": 203
+        },
+        {
+          "d": 501419850,
+          "i": 207
+        },
+        {
+          "d": 526067737,
+          "i": 218
+        },
+        {
+          "d": 526068378,
+          "i": 229
+        },
+        {
+          "d": 526068558,
+          "i": 233
+        },
+        {
+          "d": 528056117,
+          "i": 236
+        },
+        {
+          "d": 528056785,
+          "i": 247
+        },
+        {
+          "d": 528057294,
+          "i": 251
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_every_page",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "cee01e6f",
+      "tb": 1793437753856,
+      "ts": [
+        {
+          "d": 0,
+          "i": 3
+        },
+        {
+          "d": 924,
+          "i": 11
+        },
+        {
+          "d": 2801,
+          "i": 15
+        },
+        {
+          "d": 8758,
+          "i": 18
+        },
+        {
+          "d": 13808,
+          "i": 22
+        },
+        {
+          "d": 21555,
+          "i": 24
+        },
+        {
+          "d": 48540930,
+          "i": 29
+        },
+        {
+          "d": 48541882,
+          "i": 37
+        },
+        {
+          "d": 48544661,
+          "i": 41
+        },
+        {
+          "d": 48547664,
+          "i": 43
+        },
+        {
+          "d": 49146999,
+          "i": 52
+        },
+        {
+          "d": 49147673,
+          "i": 58
+        },
+        {
+          "d": 49147721,
+          "i": 62
+        },
+        {
+          "d": 49152395,
+          "i": 64
+        },
+        {
+          "d": 49155594,
+          "i": 66
+        },
+        {
+          "d": 253235504,
+          "i": 75
+        },
+        {
+          "d": 253236198,
+          "i": 81
+        },
+        {
+          "d": 253236264,
+          "i": 85
+        },
+        {
+          "d": 253239340,
+          "i": 87
+        },
+        {
+          "d": 253244792,
+          "i": 89
+        },
+        {
+          "d": 253403653,
+          "i": 94
+        },
+        {
+          "d": 253404440,
+          "i": 102
+        },
+        {
+          "d": 253584573,
+          "i": 106
+        },
+        {
+          "d": 253584896,
+          "i": 111
+        },
+        {
+          "d": 253588198,
+          "i": 112
+        },
+        {
+          "d": 253596570,
+          "i": 115
+        },
+        {
+          "d": 253601722,
+          "i": 119
+        },
+        {
+          "d": 412985974,
+          "i": 128
+        },
+        {
+          "d": 412986716,
+          "i": 134
+        },
+        {
+          "d": 412986757,
+          "i": 138
+        },
+        {
+          "d": 413049115,
+          "i": 140
+        },
+        {
+          "d": 437606070,
+          "i": 144
+        },
+        {
+          "d": 438113255,
+          "i": 148
+        },
+        {
+          "d": 438284376,
+          "i": 152
+        },
+        {
+          "d": 438472392,
+          "i": 156
+        },
+        {
+          "d": 438528460,
+          "i": 160
+        },
+        {
+          "d": 438546987,
+          "i": 164
+        },
+        {
+          "d": 438601212,
+          "i": 168
+        },
+        {
+          "d": 438812602,
+          "i": 172
+        },
+        {
+          "d": 438836389,
+          "i": 176
+        },
+        {
+          "d": 438855625,
+          "i": 180
+        },
+        {
+          "d": 438866724,
+          "i": 184
+        },
+        {
+          "d": 439155079,
+          "i": 188
+        },
+        {
+          "d": 501419159,
+          "i": 198
+        },
+        {
+          "d": 501419782,
+          "i": 204
+        },
+        {
+          "d": 501419849,
+          "i": 208
+        },
+        {
+          "d": 501423624,
+          "i": 210
+        },
+        {
+          "d": 501440026,
+          "i": 213
+        },
+        {
+          "d": 526067743,
+          "i": 224
+        },
+        {
+          "d": 526068377,
+          "i": 230
+        },
+        {
+          "d": 526068559,
+          "i": 234
+        },
+        {
+          "d": 528056122,
+          "i": 242
+        },
+        {
+          "d": 528056785,
+          "i": 248
+        },
+        {
+          "d": 528057296,
+          "i": 252
+        },
+        {
+          "d": 528060189,
+          "i": 254
+        },
+        {
+          "d": 528064468,
+          "i": 257
+        },
+        {
+          "d": 528274592,
+          "i": 262
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_homepage",
+        "y": "pageview",
+        "c": "other",
+        "o": {
+          "herobannerheader": "",
+          "why": "Why choose Vodafone"
+        }
+      },
+      "h": "4bbd5518",
+      "tb": 1793437754775,
+      "ts": [
+        {
+          "d": 0,
+          "i": 4
+        },
+        {
+          "d": 48540959,
+          "i": 30
+        },
+        {
+          "d": 253403516,
+          "i": 95
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "68719ce3",
+      "tb": 1793437754777,
+      "ts": [
+        {
+          "d": 0,
+          "i": 6
+        },
+        {
+          "d": 48540958,
+          "i": 32
+        },
+        {
+          "d": 49146059,
+          "i": 47
+        },
+        {
+          "d": 253234576,
+          "i": 70
+        },
+        {
+          "d": 253403516,
+          "i": 97
+        },
+        {
+          "d": 412985046,
+          "i": 123
+        },
+        {
+          "d": 501418225,
+          "i": 193
+        },
+        {
+          "d": 526066815,
+          "i": 219
+        },
+        {
+          "d": 528055195,
+          "i": 237
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "bbfc770d",
+      "tb": 1793437754778,
+      "ts": [
+        {
+          "d": 0,
+          "i": 7
+        },
+        {
+          "d": 48540958,
+          "i": 33
+        },
+        {
+          "d": 49146065,
+          "i": 48
+        },
+        {
+          "d": 253234576,
+          "i": 71
+        },
+        {
+          "d": 253403516,
+          "i": 98
+        },
+        {
+          "d": 412985047,
+          "i": 124
+        },
+        {
+          "d": 501418226,
+          "i": 194
+        },
+        {
+          "d": 526066816,
+          "i": 220
+        },
+        {
+          "d": 528055195,
+          "i": 238
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "654b84af",
+      "tb": 1793437754778,
+      "ts": [
+        {
+          "d": 0,
+          "i": 8
+        },
+        {
+          "d": 48540958,
+          "i": 34
+        },
+        {
+          "d": 49146068,
+          "i": 49
+        },
+        {
+          "d": 253234577,
+          "i": 72
+        },
+        {
+          "d": 253403516,
+          "i": 99
+        },
+        {
+          "d": 412985048,
+          "i": 125
+        },
+        {
+          "d": 501418228,
+          "i": 195
+        },
+        {
+          "d": 526066817,
+          "i": 221
+        },
+        {
+          "d": 528055196,
+          "i": 239
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "ae2f2927",
+      "tb": 1793437754779,
+      "ts": [
+        {
+          "d": 0,
+          "i": 9
+        },
+        {
+          "d": 48540958,
+          "i": 35
+        },
+        {
+          "d": 49146071,
+          "i": 50
+        },
+        {
+          "d": 253234578,
+          "i": 73
+        },
+        {
+          "d": 253403516,
+          "i": 100
+        },
+        {
+          "d": 412985048,
+          "i": 126
+        },
+        {
+          "d": 501418230,
+          "i": 196
+        },
+        {
+          "d": 526066817,
+          "i": 222
+        },
+        {
+          "d": 528055196,
+          "i": 240
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "2cd025b5",
+      "tb": 1793437754780,
+      "ts": [
+        {
+          "d": 0,
+          "i": 10
+        },
+        {
+          "d": 48540957,
+          "i": 36
+        },
+        {
+          "d": 49146074,
+          "i": 51
+        },
+        {
+          "d": 253234578,
+          "i": 74
+        },
+        {
+          "d": 253403515,
+          "i": 101
+        },
+        {
+          "d": 412985048,
+          "i": 127
+        },
+        {
+          "d": 501418232,
+          "i": 197
+        },
+        {
+          "d": 526066818,
+          "i": 223
+        },
+        {
+          "d": 528055197,
+          "i": 241
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "b689ceca",
+      "tb": 1793437754781,
+      "ts": [
+        {
+          "d": 0,
+          "i": 12
+        },
+        {
+          "d": 48540957,
+          "i": 38
+        },
+        {
+          "d": 49146078,
+          "i": 53
+        },
+        {
+          "d": 253234580,
+          "i": 76
+        },
+        {
+          "d": 253403515,
+          "i": 103
+        },
+        {
+          "d": 412985050,
+          "i": 129
+        },
+        {
+          "d": 501418237,
+          "i": 199
+        },
+        {
+          "d": 526066820,
+          "i": 225
+        },
+        {
+          "d": 528055199,
+          "i": 243
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_single_homepage",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "878b4ff1",
+      "tb": 1793437754782,
+      "ts": [
+        {
+          "d": 0,
+          "i": 13
+        },
+        {
+          "d": 48540957,
+          "i": 39
+        },
+        {
+          "d": 49146078,
+          "i": 54
+        },
+        {
+          "d": 253234580,
+          "i": 77
+        },
+        {
+          "d": 253403515,
+          "i": 104
+        },
+        {
+          "d": 412985050,
+          "i": 130
+        },
+        {
+          "d": 501418239,
+          "i": 200
+        },
+        {
+          "d": 526066821,
+          "i": 226
+        },
+        {
+          "d": 528055199,
+          "i": 244
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "4ae82615",
+      "tb": 1793437756656,
+      "ts": [
+        {
+          "d": 0,
+          "i": 14
+        },
+        {
+          "d": 48541860,
+          "i": 40
+        },
+        {
+          "d": 49149594,
+          "i": 63
+        },
+        {
+          "d": 253236539,
+          "i": 86
+        },
+        {
+          "d": 253581771,
+          "i": 105
+        },
+        {
+          "d": 501420823,
+          "i": 209
+        },
+        {
+          "d": 528057388,
+          "i": 253
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "129d4c7b",
+      "tb": 1793437756658,
+      "ts": [
+        {
+          "d": 0,
+          "i": 16
+        },
+        {
+          "d": 5961,
+          "i": 20
+        },
+        {
+          "d": 11008,
+          "i": 23
+        },
+        {
+          "d": 18783,
+          "i": 25
+        },
+        {
+          "d": 48541860,
+          "i": 42
+        },
+        {
+          "d": 48544865,
+          "i": 44
+        },
+        {
+          "d": 49149594,
+          "i": 65
+        },
+        {
+          "d": 49152797,
+          "i": 67
+        },
+        {
+          "d": 253236538,
+          "i": 88
+        },
+        {
+          "d": 253241994,
+          "i": 90
+        },
+        {
+          "d": 253581776,
+          "i": 107
+        },
+        {
+          "d": 253585403,
+          "i": 113
+        },
+        {
+          "d": 253593773,
+          "i": 117
+        },
+        {
+          "d": 253598924,
+          "i": 120
+        },
+        {
+          "d": 413046317,
+          "i": 141
+        },
+        {
+          "d": 437603270,
+          "i": 145
+        },
+        {
+          "d": 438110454,
+          "i": 149
+        },
+        {
+          "d": 438281576,
+          "i": 153
+        },
+        {
+          "d": 438469592,
+          "i": 157
+        },
+        {
+          "d": 438525660,
+          "i": 161
+        },
+        {
+          "d": 438544186,
+          "i": 165
+        },
+        {
+          "d": 438598412,
+          "i": 169
+        },
+        {
+          "d": 438809801,
+          "i": 173
+        },
+        {
+          "d": 438833588,
+          "i": 177
+        },
+        {
+          "d": 438852824,
+          "i": 181
+        },
+        {
+          "d": 438863922,
+          "i": 185
+        },
+        {
+          "d": 439152278,
+          "i": 189
+        },
+        {
+          "d": 501420828,
+          "i": 211
+        },
+        {
+          "d": 501437231,
+          "i": 215
+        },
+        {
+          "d": 528057389,
+          "i": 255
+        },
+        {
+          "d": 528061675,
+          "i": 259
+        },
+        {
+          "d": 528271791,
+          "i": 264
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "26357651",
+      "tb": 1793437762610,
+      "ts": [
+        {
+          "d": 0,
+          "i": 17
+        },
+        {
+          "d": 253587816,
+          "i": 114
+        },
+        {
+          "d": 413040360,
+          "i": 139
+        },
+        {
+          "d": 437597316,
+          "i": 143
+        },
+        {
+          "d": 438104500,
+          "i": 147
+        },
+        {
+          "d": 438275621,
+          "i": 151
+        },
+        {
+          "d": 438463637,
+          "i": 155
+        },
+        {
+          "d": 438519705,
+          "i": 159
+        },
+        {
+          "d": 438538232,
+          "i": 163
+        },
+        {
+          "d": 438592457,
+          "i": 167
+        },
+        {
+          "d": 438803847,
+          "i": 171
+        },
+        {
+          "d": 438827634,
+          "i": 175
+        },
+        {
+          "d": 438846870,
+          "i": 179
+        },
+        {
+          "d": 438857968,
+          "i": 183
+        },
+        {
+          "d": 439146324,
+          "i": 187
+        },
+        {
+          "d": 501431272,
+          "i": 212
+        },
+        {
+          "d": 528055714,
+          "i": 256
+        },
+        {
+          "d": 528265837,
+          "i": 261
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "1e8ccc77",
+      "tb": 1793437762616,
+      "ts": [
+        {
+          "d": 0,
+          "i": 19
+        },
+        {
+          "d": 253587812,
+          "i": 116
+        },
+        {
+          "d": 501431269,
+          "i": 214
+        },
+        {
+          "d": 528055714,
+          "i": 258
+        },
+        {
+          "d": 528265832,
+          "i": 263
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "2b0fd00a",
+      "tb": 1793437762622,
+      "ts": [
+        {
+          "d": 0,
+          "i": 21
+        },
+        {
+          "d": 253587811,
+          "i": 118
+        },
+        {
+          "d": 501431270,
+          "i": 216
+        },
+        {
+          "d": 528055713,
+          "i": 260
+        },
+        {
+          "d": 528265828,
+          "i": 265
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_homepage",
+        "y": "pageview",
+        "c": "other",
+        "o": {
+          "herobannerheader": "The ultimate Pro iPhone. From $48/mth",
+          "why": "Why choose Vodafone"
+        }
+      },
+      "h": "e298bc3e",
+      "tb": 1793486900824,
+      "ts": [
+        {
+          "d": 0,
+          "i": 45
+        },
+        {
+          "d": 204088523,
+          "i": 68
+        },
+        {
+          "d": 363838991,
+          "i": 121
+        },
+        {
+          "d": 452272169,
+          "i": 191
+        },
+        {
+          "d": 476920762,
+          "i": 217
+        },
+        {
+          "d": 478909145,
+          "i": 235
+        }
+      ]
+    },
+    {
+      "eb": {
+        "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
+        "y": "pageview",
+        "c": "other"
+      },
+      "h": "3b2ba051",
+      "tb": 1793850802977,
+      "ts": [
+        {
+          "d": 0,
+          "i": 142
+        },
+        {
+          "d": 24556952,
+          "i": 146
+        },
+        {
+          "d": 25064136,
+          "i": 150
+        },
+        {
+          "d": 25235258,
+          "i": 154
+        },
+        {
+          "d": 25423274,
+          "i": 158
+        },
+        {
+          "d": 25479342,
+          "i": 162
+        },
+        {
+          "d": 25497867,
+          "i": 166
+        },
+        {
+          "d": 25552094,
+          "i": 170
+        },
+        {
+          "d": 25763482,
+          "i": 174
+        },
+        {
+          "d": 25787271,
+          "i": 178
+        },
+        {
+          "d": 25806507,
+          "i": 182
+        },
+        {
+          "d": 25817604,
+          "i": 186
+        },
+        {
+          "d": 26105960,
+          "i": 190
+        }
+      ]
+    }
+  ],
+  "lastExternalReferrerTime": 1793965811520,
+  "_uetsid_exp": "Sat, 07 Nov 2026 11:56:25 GMT",
+  "_cs_cu": "https://www.vodafone.com.au/business/team-plans",
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$contextual_mab": {},
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$variation_map": {
+    "5753118594433024": {
+      "5219993323831296": "5945183072681984"
+    },
+    "4761231834218496": {
+      "4942833856020480": "4926597604573184"
+    },
+    "6055659093884928": {
+      "4552690066259968": "5867809572388864"
+    },
+    "6070859945738240": {
+      "5514831046901760": "5674150644154368"
+    },
+    "6084689180491776": {
+      "6272862703583232": "5991387726872576"
+    },
+    "6716805280956416": {
+      "4874124976193536": "5300127907184640"
+    },
+    "4968657497882624": {
+      "4776086934913024": "4898158914830336",
+      "5379162586742784": "5714257176690688"
+    },
+    "4915369838641152": {
+      "6041269745483776": "5361704618426368"
+    },
+    "6636850394169344": {
+      "6720080334028800": "6074198538321920"
+    },
+    "5710553163759616": {
+      "4930130561204224": "5428207248211968"
+    },
+    "6187662548140032": {
+      "5505477121933312": "6445246433722368"
+    },
+    "5058376931999744": {
+      "5585651746209792": "4703059320766464"
+    },
+    "5878008693653504": {
+      "6039632842850304": "6467830546169856"
+    }
+  },
+  "evgVE-cdp-sitemap-editor": false,
+  "optimizely_data$$oeu1793437753488r0.0355891724734525$$24176680311$$visitor_profile": {
+    "profile": {
+      "visitorId": "oeu1793437753488r0.0355891724734525",
+      "customBehavior": {},
+      "first_session": false,
+      "browserId": "gc",
+      "browserVersion": "156.0.0.0",
+      "device": "desktop",
+      "device_type": "desktop_laptop",
+      "referrer": null,
+      "source_type": "direct"
+    },
+    "metadata": {
+      "visitorId": {},
+      "events": {},
+      "customBehavior": {},
+      "first_session": {},
+      "browserId": {},
+      "browserVersion": {},
+      "device": {},
+      "device_type": {},
+      "referrer": {},
+      "source_type": {}
+    }
+  }
+}

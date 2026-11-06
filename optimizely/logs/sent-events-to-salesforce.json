@@ -1,0 +1,17 @@
+{
+  "source": {
+    "pageType": "Optimizely",
+    "url": "https://web-personalization-custom.vercel.app/index-optimizely.html",
+    "urlReferrer": "",
+    "channel": "Web"
+  },
+  "user": {
+    "anonymousId": "d01a4bcb711ac62b"
+  },
+  "interaction": {
+    "name": "Page View - Home",
+    "eventType": "userEngagement"
+  },
+  "pageView": true,
+  "consents": []
+}

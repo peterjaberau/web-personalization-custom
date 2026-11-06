@@ -1,0 +1,1001 @@
+{
+  "vha": {
+    "campaigns": {
+      "6633556147961856": {
+        "changes": [],
+        "id": "6633556147961856",
+        "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+        "commitId": "6621639090110464",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "4564362371792896",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "5914836454866944",
+                "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+                "actions": [
+                  {
+                    "viewId": "4745572075175936",
+                    "changes": [
+                      {
+                        "css": {},
+                        "isOpalManaged": false,
+                        "dependencies": [],
+                        "name": "",
+                        "attributes": {
+                          "html": "<p class=\"desktop-text\" data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  Call us on 1300 111 111\n</p>\n<vha-button class=\"primaryCTA cta-button\" href=\"tel:1300111111\" target=\"_self\" type=\"tertiary\" dlkey=\"dataLayer\" dleventname=\"eventTrack\" dlpath=\"vca/business/eofy\" dleventdata=\"{\" pageeventname\":\"vca=\"\" eofy\",\"pageeventtype\":\"hero-banner\",\"pageeventvalue\":\"click\",\"pageeventattributetwo\":\"call=\"\" us=\"\" on=\"\" 1300=\"\" 111=\"\" 111\"}\"=\"\" dldisable=\"false\" dldebug=\"false\" custompageeventtype=\"hero-banner\" data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  Call us on 1300 111 111\n</vha-button>\n<style data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  .cta-button {\n  display: none;\n}\n#tnceofy{\n--rui-button__background-color-hover: #ffff;\n--rui-button__text-decoration-hover: #990000;\nfont-size: 24px;\n  \n  \n\n }\n.desktop-text {\n  display: block;\n  font-size: 24px;\n}\n \n/* Mobile */\n@media screen and (max-width: 768px) {\n  .cta-button {\n    display: block !important;\n    --rui-button__color: #FFFFFF;\n    --rui-button__background-color:#E60000;\n    \n  }\n   \n  .desktop-text {\n    display: none !important;\n  }\n}\n@media (min-width: 768px) and (orientation: portrait) { \n   .cta-button {\n    display: block !important;\n   --rui-button__color: #FFFFFF;\n   --rui-button__background-color:#E60000;\n    \n  }\n \n  .desktop-text {\n    display: none !important;\n  }\n}\n</style>"
+                        },
+                        "type": "attribute",
+                        "id": "5D56574D-CFE4-49E7-929E-55601626ED09",
+                        "selector": ".cta-container"
+                      }
+                    ],
+                    "pageId": "4745572075175936"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "6633556147961856"
+            },
+            "deployed": false,
+            "campaignName": "EGW|DCP-17619-Personalized-business-banner-eofy-cta"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "4745572075175936"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "4564362371792896",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "4745572075175936"
+        ]
+      },
+      "4747571281788928": {
+        "changes": [],
+        "id": "4747571281788928",
+        "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "commitId": "4717124617240576",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "5873471188631552",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "6088373836709888",
+                "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+                "actions": [
+                  {
+                    "viewId": "5210171411005440",
+                    "changes": [
+                      {
+                        "id": "187310FF-EDCD-4065-8BF2-3A752DD53152",
+                        "type": "custom_code",
+                        "dependencies": []
+                      },
+                      {
+                        "id": "1DD77F69-A306-4D6F-84C2-BFFB175F80B4",
+                        "type": "append",
+                        "dependencies": [],
+                        "name": "",
+                        "isOpalManaged": false,
+                        "selector": "head",
+                        "value": "<style>[data-testid=\"plan-card-AU13007\"].optly-highlighted,\n[data-testid=\"plan-card-AU13008\"].optly-highlighted,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted {\n \n  background-color: #000000 !important;\n  border-bottom: none !important;\n}\n\n.plan-icon img[src*=\"cable-fibre.svg\"] {\n  filter: brightness(0) !important;\n}\n\n\n/*/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT BACKGROUND CONTROLS       */\n/* ==================================================== */\n\n/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT CONTROLS (EXACT DOM MATCH)*/\n/* ==================================================== */\n\n/* 1. Turns the inner container background solid black when highlighted */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: transparent !important;\n}\n\n/* 2. Forces all nested text inside the black banner (including the superscript R) to white */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted *,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted * {\n  color: #ffffff !important;\n}\n\n\n\n/* ==================================================== */\n/* HIGHLIGHTED STATE CONTROL FOR DETACHED MOBILE BADGE  */\n/* ==================================================== */\n\n/* Clear parent nesting dependencies. Target the highlight directly on the badge class */\n[data-testid=\"plan-card-badge\"].optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important;\n  color: #ffffff !important;\n}\n\n/* Force all text tags inside the highlighted badge to turn white */\n[data-testid=\"plan-card-badge\"].optly-highlighted * {\n  color: #ffffff !important;\n}\n\n/* Targets the badge element safely inside your highlighted Pro plans */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important; /* Clears any existing colored outlines */\n}\n\n/* Forces the text color inside the black badge to turn crisp white */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  color: #ffffff !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted\n {\n  background-color: #000000 !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"] {\n  color: #ffffff !important;\n}\n\n\n/* ==================================================== */\n/* MOBILE VERTICAL TOGGLE STACK CONTROLS (< 768px)      */\n/* ==================================================== */\n@media screen and (max-width: 767px) {\n  \n  /* 1. Set gap to 0 to join the top and bottom button blocks */\n  .plans-toggle-container {\n    display: flex !important;\n    flex-direction: column !important;\n    align-items: stretch !important;\n    width: 100% !important;\n    max-width: 480px; \n    margin: 0 auto !important;\n    position: relative !important; \n    border-radius: 8px !important;\n    overflow: hidden !important; \n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;\n    border: 1px solid #e0e0e0 !important;\n    box-sizing: border-box !important;\n    gap: 0px !important; /* FIXED: Closed vertical whitespace gap */\n  }\n\n  /* 2. Style layout buttons to expand to full container width */\n  .plans-toggle-container button.plan-tab {\n    width: 100% !important;\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    text-align: left !important;\n    padding: 20px 18px !important;\n    border: none !important;\n    box-sizing: border-box !important;\n    margin: 0 !important; /* FIXED: Clears any leftover framework spacing */\n    background-color: #ffffff !important; \n    color: #111111 !important;\n  }\n\n  /* 3. Style properties for your 'Basic plans' layout tab */\n  .plans-toggle-container #btn-basic {\n    background-color: #ffffff !important;\n    color: #111111 !important;\n  }\n  .plans-toggle-container #btn-basic .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #111111 !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-basic .plan-desc {\n    font-size: 13px !important;\n    color: #555555 !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n  .plans-toggle-container #btn-basic .plan-icon {\n    color: #111111 !important;\n    margin-right: 16px !important;\n    display: flex !important;\n    align-items: center !important;\n  }\n\n  /* 4. Style properties for your 'Max Plans' dark mode style */\n  .plans-toggle-container #btn-pro {\n    background-color: #212529 !important; /* Matte charcoal dark background */\n    color: #ffffff !important;\n  }\n  .plans-toggle-container #btn-pro .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #ffffff !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-pro .plan-desc {\n    font-size: 13px !important;\n    color: #cccccc !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n\n  /* 5. Custom layout adjustments for your Max plan icon circle component */\n  .plans-toggle-container .plan-icon-circle {\n    width: 42px !important;\n    height: 42px !important;\n    min-width: 42px !important;\n    border: 2px solid #ffffff !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    margin-right: 16px !important;\n    font-size: 13px !important;\n    font-weight: 700 !important;\n    text-transform: lowercase !important;\n    color: #ffffff !important;\n    box-sizing: border-box !important;\n  }\n\n  /* 6. Absolute overlay configuration for your middle 'or' text component */\n  .plans-toggle-container .divider-text {\n    position: absolute !important;\n    top: 50% !important;\n    left: 50% !important;\n    transform: translate(-50%, -50%) !important; \n    z-index: 5 !important;\n    background-color: #ffffff !important;\n    color: #777777 !important;\n    font-size: 12px !important;\n    width: 30px !important;\n    height: 30px !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    border: 1px solid #dcdcdc !important;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;\n    pointer-events: none !important; \n  }\n}</style>"
+                      },
+                      {
+                        "operator": "before",
+                        "isOpalManaged": false,
+                        "dependencies": [],
+                        "name": "",
+                        "value": "<div class=\"plans-toggle-container\">\r\n  \r\n  <!-- Basic Button Layout Tab (Active State Default) -->\r\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\">\r\n    <!-- Corrected Inline SVG Vector Asset -->\r\n    <div class=\"plan-icon\">\r\n      <svg xmlns=\"http://w3.org\" width=\"24\" height=\"24\" viewBox=\"0 -960 960 960\" fill=\"currentColor\">\r\n        <path d=\"M720-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-360-160q-66 0-113-47t-47-113q0-66 47-113t113-47h40v320h-40Zm120 0v-320h120l160 160-160 160H480Zm0-400v-80q0-33 23.5-56.5T560-800h40v80h-40v320h-40Zm-280 80H120q-17 0-28.5-11.5T80-640q0-17 11.5-28.5T120-680h40v160Z\"/>\r\n      </svg>\r\n    </div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Basic plans</span>\r\n      <span class=\"plan-desc\">Classic, unbeatable value nbn&reg; plans for small business.</span>\r\n    </div>\r\n  </button>\r\n\r\n  <span class=\"divider-text\">or</span>\r\n\r\n  <!-- Pro Button Layout Tab -->\r\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\">\r\n    <div class=\"plan-icon-circle\">pro</div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Pro plans</span>\r\n      <span class=\"plan-desc\">Boosted upload speeds and priority fault restoration.</span>\r\n    </div>\r\n  </button>\r\n  \r\n</div>\r\n<style>\r\n    /* Outer Grid Container Structural Parent */\r\n.plans-toggle-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100%;\r\n  max-width: 1140px;\r\n  margin: 24px auto;\r\n  gap: 16px;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Base Common Tab Buttons Layout Blueprint */\r\n.plan-tab {\r\n  flex: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 14px;\r\n  padding: 16px 24px;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n  text-align: left;\r\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Interior Typography Flex Containers */\r\n.plan-info {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 4px;\r\n}\r\n\r\n.plan-title {\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n  letter-spacing: -0.2px;\r\n}\r\n\r\n.plan-desc {\r\n  font-size: 12px;\r\n  line-height: 1.4;\r\n}\r\n\r\n/* Middle Layout Text Label \"or\" Spacer */\r\n.divider-text {\r\n  color: #71717a;\r\n  font-size: 14px;\r\n  font-weight: 400;\r\n  user-select: none;\r\n  padding: 0 4px;\r\n}\r\n\r\n/* ==================================================== */\r\n/* VARIANT CONFIGURATION DESIGN                         */\r\n/* ==================================================== */\r\n\r\n/* --- Basic Option (White Canvas Theme) --- */\r\n#btn-basic {\r\n  background-color: #ffffff;\r\n  border: 1px solid #e4e4e7;\r\n  color: #18181b;\r\n}\r\n\r\n#btn-basic .plan-desc {\r\n  color: #71717a;\r\n}\r\n\r\n#btn-basic .plan-icon {\r\n  color: #52525b;\r\n  display: flex;\r\n  align-items: center;\r\n  flex-shrink: 0;\r\n}\r\n\r\n/* Basic Highlighting Selector Class Override */\r\n#btn-basic.active {\r\n  border: 2px solid #18181b !important;\r\n  box-shadow: 0 4px 12px rgba(24, 24, 27, 0.06);\r\n}\r\n\r\n\r\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\r\n#btn-pro {\r\n  background-color: #27272a;\r\n  border: 1px solid transparent;\r\n  color: #ffffff;\r\n}\r\n\r\n#btn-pro .plan-desc {\r\n  color: #a1a1aa;\r\n}\r\n\r\n/* Circular \"pro\" Text Vector Asset Badge */\r\n.plan-icon-circle {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 28px;\r\n  height: 28px;\r\n  border-radius: 50%;\r\n  border: 1.5px solid #ffffff;\r\n  font-size: 10px;\r\n  font-weight: 700;\r\n  text-transform: lowercase;\r\n  flex-shrink: 0;\r\n  user-select: none;\r\n}\r\n\r\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\r\n#btn-pro.active {\r\n  border: 2px solid #E60000 !important;\r\n  box-shadow: 0 4px 16px rgba(230, 0, 0, 0.18);\r\n}\r\n\r\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\r\n.plan-tab:not(.active):hover {\r\n  transform: translateY(-1px);\r\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\r\n}\r\n\r\n</style>",
+                        "type": "append",
+                        "id": "57C0A1E4-F0C0-48C2-8FFB-B6376F036447",
+                        "selector": ".iGBhDJ"
+                      },
+                      {
+                        "css": {},
+                        "isOpalManaged": false,
+                        "dependencies": [],
+                        "name": "",
+                        "attributes": {
+                          "html": "<div><p>All plans come with next gen Wi-Fi 7 modem + first Mesh, a static IP address and <a href=\"https://www.vodafone.com.au/business/fibre-upgrade\" >$0 upgrade to FTTP fibre if eligible.</a>\n  </p>\n  <p>Unsure which plan best suits your business? Here’s the difference:\n  </p>\n  </div>\n\n<div class=\"plans-toggle-container\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <img alt=\"\" src=\"https://www.vodafone.com.au/images/icon/system/red/cable-fibre.svg\" class=\"sc-6295c191-3 jSpdYF\">\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Core plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n       Reliable, everyday speeds.\n      </span>\n    </div>\n  </button>\n  <span class=\"divider-text\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    or\n  </span>\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon-circle\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      Max\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Max plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Faster uploads and priority support.\n      </span>\n    </div>\n  </button>\n</div>\n<style data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  /* Outer Grid Container Structural Parent */\n.plans-toggle-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  max-width: 1140px;\n  margin: 24px auto;\n  gap: 16px;\n  font-family: Arial, Helvetica, sans-serif;\n  box-sizing: border-box;\n}\n\n/* Base Common Tab Buttons Layout Blueprint */\n.plan-tab {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 16px 24px;\n  border-radius: 8px;\n  cursor: pointer;\n  text-align: left;\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  box-sizing: border-box;\n}\n\n/* Interior Typography Flex Containers */\n.plan-info {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.plan-title {\n  font-size: 16px;\n  font-weight: 700;\n  letter-spacing: -0.2px;\n}\n\n.plan-desc {\n  font-size: 12px;\n  line-height: 1.4;\n}\n\n/* Middle Layout Text Label \"or\" Spacer */\n.divider-text {\n  color: #71717a;\n  font-size: 14px;\n  font-weight: 400;\n  user-select: none;\n  padding: 0 4px;\n}\n\n/* ==================================================== */\n/* VARIANT CONFIGURATION DESIGN                         */\n/* ==================================================== */\n\n/* --- Basic Option (White Canvas Theme) --- */\n#btn-basic {\n  background-color: #ffffff;\n  border: 1px solid #e4e4e7;\n  color: #18181b;\n}\n\n#btn-basic .plan-desc {\n  color: #71717a;\n}\n\n#btn-basic .plan-icon {\n  color: #52525b;\n  display: flex;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n/* Basic Highlighting Selector Class Override */\n#btn-basic.active {\n \n}\n\n\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\n#btn-pro {\n  background-color: #27272a;\n  border: 1px solid transparent;\n  color: #ffffff;\n}\n\n#btn-pro .plan-desc {\n  color: #a1a1aa;\n}\n\n/* Circular \"pro\" Text Vector Asset Badge */\n.plan-icon-circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  border: 1.5px solid #ffffff;\n  font-size: 10px;\n  font-weight: 700;\n  text-transform: lowercase;\n  flex-shrink: 0;\n  user-select: none;\n}\n\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\n#btn-pro.active {\n \n}\n\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\n.plan-tab:not(.active):hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\n}\n</style>\n<div aria-live=\"polite\" font-size=\"[object Object]\" class=\"sc-cead3999-0 iGBhDJ\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  Showing\n  <b data-testid=\"filtered-items\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    5\n  </b>\n  Internet Plans\n</div>"
+                        },
+                        "type": "attribute",
+                        "id": "7333102A-AB83-4097-86DF-3D9DE94B5F8A",
+                        "selector": ".fvargx"
+                      }
+                    ],
+                    "pageId": "5210171411005440"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "4747571281788928"
+            },
+            "deployed": false,
+            "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "5210171411005440"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "5873471188631552",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "5210171411005440"
+        ]
+      },
+      "6700766973394944": {
+        "changes": [],
+        "id": "6700766973394944",
+        "name": "DCP-18608-Apple-PDP-iPhone Duo",
+        "commitId": "4977012450787328",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5747059051986944"
+            ],
+            "audienceName": "experiment-eligible group",
+            "changes": [],
+            "id": "4826623281725440",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "5415022778646528",
+                "name": "DCP-18608-Apple-PDP-iPhone Duo",
+                "actions": [
+                  {
+                    "viewId": "6572079468773376",
+                    "changes": [
+                      {
+                        "id": "efa2246bea194ce48ac6482551ddaa05",
+                        "type": "custom_code",
+                        "dependencies": []
+                      },
+                      {
+                        "id": "db3f58d385f94b2ba878d63590adf594",
+                        "type": "widget",
+                        "dependencies": [],
+                        "name": "EXT-Presentation-PDP Offer Module - v2",
+                        "widget_id": "5826385361502208",
+                        "config": {
+                          "extensionID": "ExtPresoPDPOfferModal",
+                          "offerImgURL": "https://www.vodafone.com.au/images/icon/mid/light/upgrade-and-protect.svg",
+                          "offerHeadingText": "Upgrade & Protect Plus included",
+                          "offerSubheadingText": "See how it works",
+                          "offerBannerBackground": "rgba(255, 255, 255, 1)",
+                          "offerBannerBorder": "rgba(204, 204, 204, 1)",
+                          "offerModalHTML": "<div class=\"pdp-offer-modal-header\">\n                        <h2 class=\"pdp-offer-modal-title\" id=\"pdp-pdp-offer-modal-title\">Here’s how it works</h2>\n                        \n                    </div>\n<ol class=\"pdp-offer-modal-steps\" aria-label=\"Steps to add a offer\">\n                        <li class=\"pdp-offer-modal-step\">Select an iPhone 17, iPhone 17 Pro or iPhone 17 Pro Max over 36 months</li>\n                        <li class=\"pdp-offer-modal-step\">Add our $79 Extra Large Plan and stay connected for 36 months. Min cost $3,643 (based on 256GB model).</li>\n  \n  <li class=\"pdp-offer-modal-step\">A $1,200 credit will automatically be applied to your bill  as $33.34/mth over 36 months.</li>\n                    </ol>\n<div class=\"pdp-offer-modal-cta-row\">\n<button class=\"pdp-offer-modal-cta\">Ok, got it</button></div>\n                    <p class=\"step-text-mobile\">Terms and conditions</p>\n\n                    <p class=\"pdp-offer-modal-disclaimer\">If you cancel before 36 months, any remaining credit won't apply and undiscounted remaining device instalments will be charged on your final bill. Ends 30/06. T&C apply.</p>",
+                          "subscriber": "PDPPlanOfferModuleEmitter"
+                        }
+                      },
+                      {
+                        "id": "da2e33179821416a9ca7db09f0438f04",
+                        "type": "widget",
+                        "dependencies": [],
+                        "name": "Ext-logic-SelectorMatch",
+                        "widget_id": "6024735675383808",
+                        "config": {
+                          "targetURLs": "[\"/mobile/mobile-phones/apple/iphone-duo\"]",
+                          "selectorRules": "[\n  {\n      \"el\":\"[data-testid='plan-card-title-AU13066'] > span:first-of-type\",\n      \"injectType\":\"after\"\n  },\n  {\n      \"el\":\"[data-testid='plan-card-title-AU13065'] > span:first-of-type\",\n      \"injectType\":\"after\"\n  }\n]",
+                          "emitter": "PDPPlanOfferModuleEmitter"
+                        }
+                      },
+                      {
+                        "id": "61b07542d76140cdb1c9bc01373918ec",
+                        "type": "widget",
+                        "dependencies": [],
+                        "name": "MOD-Ext-Presentation-Offer",
+                        "widget_id": "6102051602563072",
+                        "config": {
+                          "eyebrow": "Launch offer",
+                          "mainTitle": "Save up to $1900 with an iPhone Duo",
+                          "offerList": "icon=https://www.vodafone.com.au/images/icons/pdp-offer-price-tag.svg\n                       title=Save $216 over 12 months with our Medium Upgrade & Protect Plan\n                       subtitle=When you choose an iPhone Duo over 24, 36, or 48 months with our Medium Upgrade & Protect Plan.\n                       bodyTitle=Upgrade & Protect Plus included\n                       body=When you stay connected for 24, 36 or 48 months. That’s $359, $539, or $719 in value. Upgrade early to a new phone after 12 months, get an exchange or replace your screen.\n                        |\n                        icon=https://www.vodafone.com.au/images/icons/pdp-offer-trade-in.svg\n                        title=Save up to $1684\n                        subtitle=When you trade in your iPhone 17 Pro Max 1TB or above in Good Working Order.\n                        bodyTitle=Up to $1384 residual value on your iPhone 17 Pro Max 1TB\n                        bodyLink=Check your trade-in estimate\n                        bodyTitle2=$300 bonus credit on top of your residual value\n                        offerFooter=Applied as a monthly credit to your bill, when you stay connected for 24, 36, or 48 months. T&C apply.",
+                          "tcButton": "T&Cs apply",
+                          "modalTitle": "Terms & Conditions",
+                          "modalContent": "Offer available on eligible iPhone 18 models on a 36-month plan. Save $1800 comprises the applicable monthly plan discount and Upgrade and Protect value.\\nTrade-in credit applies to eligible devices in Good Working Order. Offer available for a limited time only.\\nUpgrade and Protect is a separately provided service. All prices include GST. See full terms and conditions at vodafone.com.au.",
+                          "subscriber": "iPhoneNPIEmitter",
+                          "extensionID": "DCP18608appleiphoneduopdp"
+                        }
+                      },
+                      {
+                        "id": "01B9B918-A93D-4E12-ABA7-334C96233CD9",
+                        "type": "widget",
+                        "dependencies": [],
+                        "name": "MOD-Ext-Logic-Offer",
+                        "widget_id": "6638738485280768",
+                        "config": {
+                          "emitter": "iPhoneNPIEmitter"
+                        }
+                      }
+                    ],
+                    "pageId": "6572079468773376"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "DCP-18608-Apple-PDP-iPhone Duo",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "6700766973394944"
+            },
+            "deployed": false,
+            "campaignName": "DCP-18608-Apple-PDP-iPhone Duo"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "6572079468773376"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "4826623281725440",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "6572079468773376"
+        ]
+      }
+    },
+    "pages": {
+      "4745572075175936": {
+        "id": "4745572075175936",
+        "category": "other",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_6",
+        "name": "URL Targeting for EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/eofy"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "deactivationEnabled": false,
+        "undoOnDeactivation": false,
+        "tags": [],
+        "activationType": "url_changed"
+      },
+      "5210171411005440": {
+        "id": "5210171411005440",
+        "category": "other",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
+        "name": "URL Targeting for EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/nbn-plans"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "deactivationEnabled": false,
+        "undoOnDeactivation": false,
+        "tags": [],
+        "activationType": "url_changed"
+      },
+      "6572079468773376": {
+        "id": "6572079468773376",
+        "category": "other",
+        "apiName": "24176680311_url_targeting_for_copy_of_dcp18277applenpipdpiphone_",
+        "name": "URL Targeting for DCP-18608-Apple-PDP-iPhone Duo",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "substring",
+              "type": "url",
+              "value": "/mobile/mobile-phones/apple/iphone-duo"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "step=2"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "step=3"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/business"
+              }
+            ]
+          ]
+        ],
+        "deactivationEnabled": true,
+        "undoOnDeactivation": true,
+        "tags": [],
+        "activationType": "url_changed"
+      }
+    },
+    "experiments": {
+      "4564362371792896": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "4564362371792896",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "5914836454866944",
+            "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+            "actions": [
+              {
+                "viewId": "4745572075175936",
+                "changes": [
+                  {
+                    "css": {},
+                    "isOpalManaged": false,
+                    "dependencies": [],
+                    "name": "",
+                    "attributes": {
+                      "html": "<p class=\"desktop-text\" data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  Call us on 1300 111 111\n</p>\n<vha-button class=\"primaryCTA cta-button\" href=\"tel:1300111111\" target=\"_self\" type=\"tertiary\" dlkey=\"dataLayer\" dleventname=\"eventTrack\" dlpath=\"vca/business/eofy\" dleventdata=\"{\" pageeventname\":\"vca=\"\" eofy\",\"pageeventtype\":\"hero-banner\",\"pageeventvalue\":\"click\",\"pageeventattributetwo\":\"call=\"\" us=\"\" on=\"\" 1300=\"\" 111=\"\" 111\"}\"=\"\" dldisable=\"false\" dldebug=\"false\" custompageeventtype=\"hero-banner\" data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  Call us on 1300 111 111\n</vha-button>\n<style data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  .cta-button {\n  display: none;\n}\n#tnceofy{\n--rui-button__background-color-hover: #ffff;\n--rui-button__text-decoration-hover: #990000;\nfont-size: 24px;\n  \n  \n\n }\n.desktop-text {\n  display: block;\n  font-size: 24px;\n}\n \n/* Mobile */\n@media screen and (max-width: 768px) {\n  .cta-button {\n    display: block !important;\n    --rui-button__color: #FFFFFF;\n    --rui-button__background-color:#E60000;\n    \n  }\n   \n  .desktop-text {\n    display: none !important;\n  }\n}\n@media (min-width: 768px) and (orientation: portrait) { \n   .cta-button {\n    display: block !important;\n   --rui-button__color: #FFFFFF;\n   --rui-button__background-color:#E60000;\n    \n  }\n \n  .desktop-text {\n    display: none !important;\n  }\n}\n</style>"
+                    },
+                    "type": "attribute",
+                    "id": "5D56574D-CFE4-49E7-929E-55601626ED09",
+                    "selector": ".cta-container"
+                  }
+                ],
+                "pageId": "4745572075175936"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "6633556147961856"
+        },
+        "deployed": false,
+        "campaignName": "EGW|DCP-17619-Personalized-business-banner-eofy-cta"
+      },
+      "5873471188631552": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "5873471188631552",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "6088373836709888",
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "actions": [
+              {
+                "viewId": "5210171411005440",
+                "changes": [
+                  {
+                    "id": "187310FF-EDCD-4065-8BF2-3A752DD53152",
+                    "type": "custom_code",
+                    "dependencies": []
+                  },
+                  {
+                    "id": "1DD77F69-A306-4D6F-84C2-BFFB175F80B4",
+                    "type": "append",
+                    "dependencies": [],
+                    "name": "",
+                    "isOpalManaged": false,
+                    "selector": "head",
+                    "value": "<style>[data-testid=\"plan-card-AU13007\"].optly-highlighted,\n[data-testid=\"plan-card-AU13008\"].optly-highlighted,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted {\n \n  background-color: #000000 !important;\n  border-bottom: none !important;\n}\n\n.plan-icon img[src*=\"cable-fibre.svg\"] {\n  filter: brightness(0) !important;\n}\n\n\n/*/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT BACKGROUND CONTROLS       */\n/* ==================================================== */\n\n/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT CONTROLS (EXACT DOM MATCH)*/\n/* ==================================================== */\n\n/* 1. Turns the inner container background solid black when highlighted */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: transparent !important;\n}\n\n/* 2. Forces all nested text inside the black banner (including the superscript R) to white */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted *,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted * {\n  color: #ffffff !important;\n}\n\n\n\n/* ==================================================== */\n/* HIGHLIGHTED STATE CONTROL FOR DETACHED MOBILE BADGE  */\n/* ==================================================== */\n\n/* Clear parent nesting dependencies. Target the highlight directly on the badge class */\n[data-testid=\"plan-card-badge\"].optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important;\n  color: #ffffff !important;\n}\n\n/* Force all text tags inside the highlighted badge to turn white */\n[data-testid=\"plan-card-badge\"].optly-highlighted * {\n  color: #ffffff !important;\n}\n\n/* Targets the badge element safely inside your highlighted Pro plans */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important; /* Clears any existing colored outlines */\n}\n\n/* Forces the text color inside the black badge to turn crisp white */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  color: #ffffff !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted\n {\n  background-color: #000000 !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"] {\n  color: #ffffff !important;\n}\n\n\n/* ==================================================== */\n/* MOBILE VERTICAL TOGGLE STACK CONTROLS (< 768px)      */\n/* ==================================================== */\n@media screen and (max-width: 767px) {\n  \n  /* 1. Set gap to 0 to join the top and bottom button blocks */\n  .plans-toggle-container {\n    display: flex !important;\n    flex-direction: column !important;\n    align-items: stretch !important;\n    width: 100% !important;\n    max-width: 480px; \n    margin: 0 auto !important;\n    position: relative !important; \n    border-radius: 8px !important;\n    overflow: hidden !important; \n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;\n    border: 1px solid #e0e0e0 !important;\n    box-sizing: border-box !important;\n    gap: 0px !important; /* FIXED: Closed vertical whitespace gap */\n  }\n\n  /* 2. Style layout buttons to expand to full container width */\n  .plans-toggle-container button.plan-tab {\n    width: 100% !important;\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    text-align: left !important;\n    padding: 20px 18px !important;\n    border: none !important;\n    box-sizing: border-box !important;\n    margin: 0 !important; /* FIXED: Clears any leftover framework spacing */\n    background-color: #ffffff !important; \n    color: #111111 !important;\n  }\n\n  /* 3. Style properties for your 'Basic plans' layout tab */\n  .plans-toggle-container #btn-basic {\n    background-color: #ffffff !important;\n    color: #111111 !important;\n  }\n  .plans-toggle-container #btn-basic .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #111111 !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-basic .plan-desc {\n    font-size: 13px !important;\n    color: #555555 !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n  .plans-toggle-container #btn-basic .plan-icon {\n    color: #111111 !important;\n    margin-right: 16px !important;\n    display: flex !important;\n    align-items: center !important;\n  }\n\n  /* 4. Style properties for your 'Max Plans' dark mode style */\n  .plans-toggle-container #btn-pro {\n    background-color: #212529 !important; /* Matte charcoal dark background */\n    color: #ffffff !important;\n  }\n  .plans-toggle-container #btn-pro .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #ffffff !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-pro .plan-desc {\n    font-size: 13px !important;\n    color: #cccccc !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n\n  /* 5. Custom layout adjustments for your Max plan icon circle component */\n  .plans-toggle-container .plan-icon-circle {\n    width: 42px !important;\n    height: 42px !important;\n    min-width: 42px !important;\n    border: 2px solid #ffffff !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    margin-right: 16px !important;\n    font-size: 13px !important;\n    font-weight: 700 !important;\n    text-transform: lowercase !important;\n    color: #ffffff !important;\n    box-sizing: border-box !important;\n  }\n\n  /* 6. Absolute overlay configuration for your middle 'or' text component */\n  .plans-toggle-container .divider-text {\n    position: absolute !important;\n    top: 50% !important;\n    left: 50% !important;\n    transform: translate(-50%, -50%) !important; \n    z-index: 5 !important;\n    background-color: #ffffff !important;\n    color: #777777 !important;\n    font-size: 12px !important;\n    width: 30px !important;\n    height: 30px !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    border: 1px solid #dcdcdc !important;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;\n    pointer-events: none !important; \n  }\n}</style>"
+                  },
+                  {
+                    "operator": "before",
+                    "isOpalManaged": false,
+                    "dependencies": [],
+                    "name": "",
+                    "value": "<div class=\"plans-toggle-container\">\r\n  \r\n  <!-- Basic Button Layout Tab (Active State Default) -->\r\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\">\r\n    <!-- Corrected Inline SVG Vector Asset -->\r\n    <div class=\"plan-icon\">\r\n      <svg xmlns=\"http://w3.org\" width=\"24\" height=\"24\" viewBox=\"0 -960 960 960\" fill=\"currentColor\">\r\n        <path d=\"M720-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-360-160q-66 0-113-47t-47-113q0-66 47-113t113-47h40v320h-40Zm120 0v-320h120l160 160-160 160H480Zm0-400v-80q0-33 23.5-56.5T560-800h40v80h-40v320h-40Zm-280 80H120q-17 0-28.5-11.5T80-640q0-17 11.5-28.5T120-680h40v160Z\"/>\r\n      </svg>\r\n    </div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Basic plans</span>\r\n      <span class=\"plan-desc\">Classic, unbeatable value nbn&reg; plans for small business.</span>\r\n    </div>\r\n  </button>\r\n\r\n  <span class=\"divider-text\">or</span>\r\n\r\n  <!-- Pro Button Layout Tab -->\r\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\">\r\n    <div class=\"plan-icon-circle\">pro</div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Pro plans</span>\r\n      <span class=\"plan-desc\">Boosted upload speeds and priority fault restoration.</span>\r\n    </div>\r\n  </button>\r\n  \r\n</div>\r\n<style>\r\n    /* Outer Grid Container Structural Parent */\r\n.plans-toggle-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100%;\r\n  max-width: 1140px;\r\n  margin: 24px auto;\r\n  gap: 16px;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Base Common Tab Buttons Layout Blueprint */\r\n.plan-tab {\r\n  flex: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 14px;\r\n  padding: 16px 24px;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n  text-align: left;\r\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Interior Typography Flex Containers */\r\n.plan-info {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 4px;\r\n}\r\n\r\n.plan-title {\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n  letter-spacing: -0.2px;\r\n}\r\n\r\n.plan-desc {\r\n  font-size: 12px;\r\n  line-height: 1.4;\r\n}\r\n\r\n/* Middle Layout Text Label \"or\" Spacer */\r\n.divider-text {\r\n  color: #71717a;\r\n  font-size: 14px;\r\n  font-weight: 400;\r\n  user-select: none;\r\n  padding: 0 4px;\r\n}\r\n\r\n/* ==================================================== */\r\n/* VARIANT CONFIGURATION DESIGN                         */\r\n/* ==================================================== */\r\n\r\n/* --- Basic Option (White Canvas Theme) --- */\r\n#btn-basic {\r\n  background-color: #ffffff;\r\n  border: 1px solid #e4e4e7;\r\n  color: #18181b;\r\n}\r\n\r\n#btn-basic .plan-desc {\r\n  color: #71717a;\r\n}\r\n\r\n#btn-basic .plan-icon {\r\n  color: #52525b;\r\n  display: flex;\r\n  align-items: center;\r\n  flex-shrink: 0;\r\n}\r\n\r\n/* Basic Highlighting Selector Class Override */\r\n#btn-basic.active {\r\n  border: 2px solid #18181b !important;\r\n  box-shadow: 0 4px 12px rgba(24, 24, 27, 0.06);\r\n}\r\n\r\n\r\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\r\n#btn-pro {\r\n  background-color: #27272a;\r\n  border: 1px solid transparent;\r\n  color: #ffffff;\r\n}\r\n\r\n#btn-pro .plan-desc {\r\n  color: #a1a1aa;\r\n}\r\n\r\n/* Circular \"pro\" Text Vector Asset Badge */\r\n.plan-icon-circle {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 28px;\r\n  height: 28px;\r\n  border-radius: 50%;\r\n  border: 1.5px solid #ffffff;\r\n  font-size: 10px;\r\n  font-weight: 700;\r\n  text-transform: lowercase;\r\n  flex-shrink: 0;\r\n  user-select: none;\r\n}\r\n\r\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\r\n#btn-pro.active {\r\n  border: 2px solid #E60000 !important;\r\n  box-shadow: 0 4px 16px rgba(230, 0, 0, 0.18);\r\n}\r\n\r\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\r\n.plan-tab:not(.active):hover {\r\n  transform: translateY(-1px);\r\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\r\n}\r\n\r\n</style>",
+                    "type": "append",
+                    "id": "57C0A1E4-F0C0-48C2-8FFB-B6376F036447",
+                    "selector": ".iGBhDJ"
+                  },
+                  {
+                    "css": {},
+                    "isOpalManaged": false,
+                    "dependencies": [],
+                    "name": "",
+                    "attributes": {
+                      "html": "<div><p>All plans come with next gen Wi-Fi 7 modem + first Mesh, a static IP address and <a href=\"https://www.vodafone.com.au/business/fibre-upgrade\" >$0 upgrade to FTTP fibre if eligible.</a>\n  </p>\n  <p>Unsure which plan best suits your business? Here’s the difference:\n  </p>\n  </div>\n\n<div class=\"plans-toggle-container\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <img alt=\"\" src=\"https://www.vodafone.com.au/images/icon/system/red/cable-fibre.svg\" class=\"sc-6295c191-3 jSpdYF\">\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Core plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n       Reliable, everyday speeds.\n      </span>\n    </div>\n  </button>\n  <span class=\"divider-text\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    or\n  </span>\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon-circle\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      Max\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Max plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Faster uploads and priority support.\n      </span>\n    </div>\n  </button>\n</div>\n<style data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  /* Outer Grid Container Structural Parent */\n.plans-toggle-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  max-width: 1140px;\n  margin: 24px auto;\n  gap: 16px;\n  font-family: Arial, Helvetica, sans-serif;\n  box-sizing: border-box;\n}\n\n/* Base Common Tab Buttons Layout Blueprint */\n.plan-tab {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 16px 24px;\n  border-radius: 8px;\n  cursor: pointer;\n  text-align: left;\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  box-sizing: border-box;\n}\n\n/* Interior Typography Flex Containers */\n.plan-info {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.plan-title {\n  font-size: 16px;\n  font-weight: 700;\n  letter-spacing: -0.2px;\n}\n\n.plan-desc {\n  font-size: 12px;\n  line-height: 1.4;\n}\n\n/* Middle Layout Text Label \"or\" Spacer */\n.divider-text {\n  color: #71717a;\n  font-size: 14px;\n  font-weight: 400;\n  user-select: none;\n  padding: 0 4px;\n}\n\n/* ==================================================== */\n/* VARIANT CONFIGURATION DESIGN                         */\n/* ==================================================== */\n\n/* --- Basic Option (White Canvas Theme) --- */\n#btn-basic {\n  background-color: #ffffff;\n  border: 1px solid #e4e4e7;\n  color: #18181b;\n}\n\n#btn-basic .plan-desc {\n  color: #71717a;\n}\n\n#btn-basic .plan-icon {\n  color: #52525b;\n  display: flex;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n/* Basic Highlighting Selector Class Override */\n#btn-basic.active {\n \n}\n\n\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\n#btn-pro {\n  background-color: #27272a;\n  border: 1px solid transparent;\n  color: #ffffff;\n}\n\n#btn-pro .plan-desc {\n  color: #a1a1aa;\n}\n\n/* Circular \"pro\" Text Vector Asset Badge */\n.plan-icon-circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  border: 1.5px solid #ffffff;\n  font-size: 10px;\n  font-weight: 700;\n  text-transform: lowercase;\n  flex-shrink: 0;\n  user-select: none;\n}\n\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\n#btn-pro.active {\n \n}\n\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\n.plan-tab:not(.active):hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\n}\n</style>\n<div aria-live=\"polite\" font-size=\"[object Object]\" class=\"sc-cead3999-0 iGBhDJ\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  Showing\n  <b data-testid=\"filtered-items\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    5\n  </b>\n  Internet Plans\n</div>"
+                    },
+                    "type": "attribute",
+                    "id": "7333102A-AB83-4097-86DF-3D9DE94B5F8A",
+                    "selector": ".fvargx"
+                  }
+                ],
+                "pageId": "5210171411005440"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "4747571281788928"
+        },
+        "deployed": false,
+        "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+      },
+      "4826623281725440": {
+        "audienceIds": [
+          "and",
+          "5747059051986944"
+        ],
+        "audienceName": "experiment-eligible group",
+        "changes": [],
+        "id": "4826623281725440",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "5415022778646528",
+            "name": "DCP-18608-Apple-PDP-iPhone Duo",
+            "actions": [
+              {
+                "viewId": "6572079468773376",
+                "changes": [
+                  {
+                    "id": "efa2246bea194ce48ac6482551ddaa05",
+                    "type": "custom_code",
+                    "dependencies": []
+                  },
+                  {
+                    "id": "db3f58d385f94b2ba878d63590adf594",
+                    "type": "widget",
+                    "dependencies": [],
+                    "name": "EXT-Presentation-PDP Offer Module - v2",
+                    "widget_id": "5826385361502208",
+                    "config": {
+                      "extensionID": "ExtPresoPDPOfferModal",
+                      "offerImgURL": "https://www.vodafone.com.au/images/icon/mid/light/upgrade-and-protect.svg",
+                      "offerHeadingText": "Upgrade & Protect Plus included",
+                      "offerSubheadingText": "See how it works",
+                      "offerBannerBackground": "rgba(255, 255, 255, 1)",
+                      "offerBannerBorder": "rgba(204, 204, 204, 1)",
+                      "offerModalHTML": "<div class=\"pdp-offer-modal-header\">\n                        <h2 class=\"pdp-offer-modal-title\" id=\"pdp-pdp-offer-modal-title\">Here’s how it works</h2>\n                        \n                    </div>\n<ol class=\"pdp-offer-modal-steps\" aria-label=\"Steps to add a offer\">\n                        <li class=\"pdp-offer-modal-step\">Select an iPhone 17, iPhone 17 Pro or iPhone 17 Pro Max over 36 months</li>\n                        <li class=\"pdp-offer-modal-step\">Add our $79 Extra Large Plan and stay connected for 36 months. Min cost $3,643 (based on 256GB model).</li>\n  \n  <li class=\"pdp-offer-modal-step\">A $1,200 credit will automatically be applied to your bill  as $33.34/mth over 36 months.</li>\n                    </ol>\n<div class=\"pdp-offer-modal-cta-row\">\n<button class=\"pdp-offer-modal-cta\">Ok, got it</button></div>\n                    <p class=\"step-text-mobile\">Terms and conditions</p>\n\n                    <p class=\"pdp-offer-modal-disclaimer\">If you cancel before 36 months, any remaining credit won't apply and undiscounted remaining device instalments will be charged on your final bill. Ends 30/06. T&C apply.</p>",
+                      "subscriber": "PDPPlanOfferModuleEmitter"
+                    }
+                  },
+                  {
+                    "id": "da2e33179821416a9ca7db09f0438f04",
+                    "type": "widget",
+                    "dependencies": [],
+                    "name": "Ext-logic-SelectorMatch",
+                    "widget_id": "6024735675383808",
+                    "config": {
+                      "targetURLs": "[\"/mobile/mobile-phones/apple/iphone-duo\"]",
+                      "selectorRules": "[\n  {\n      \"el\":\"[data-testid='plan-card-title-AU13066'] > span:first-of-type\",\n      \"injectType\":\"after\"\n  },\n  {\n      \"el\":\"[data-testid='plan-card-title-AU13065'] > span:first-of-type\",\n      \"injectType\":\"after\"\n  }\n]",
+                      "emitter": "PDPPlanOfferModuleEmitter"
+                    }
+                  },
+                  {
+                    "id": "61b07542d76140cdb1c9bc01373918ec",
+                    "type": "widget",
+                    "dependencies": [],
+                    "name": "MOD-Ext-Presentation-Offer",
+                    "widget_id": "6102051602563072",
+                    "config": {
+                      "eyebrow": "Launch offer",
+                      "mainTitle": "Save up to $1900 with an iPhone Duo",
+                      "offerList": "icon=https://www.vodafone.com.au/images/icons/pdp-offer-price-tag.svg\n                       title=Save $216 over 12 months with our Medium Upgrade & Protect Plan\n                       subtitle=When you choose an iPhone Duo over 24, 36, or 48 months with our Medium Upgrade & Protect Plan.\n                       bodyTitle=Upgrade & Protect Plus included\n                       body=When you stay connected for 24, 36 or 48 months. That’s $359, $539, or $719 in value. Upgrade early to a new phone after 12 months, get an exchange or replace your screen.\n                        |\n                        icon=https://www.vodafone.com.au/images/icons/pdp-offer-trade-in.svg\n                        title=Save up to $1684\n                        subtitle=When you trade in your iPhone 17 Pro Max 1TB or above in Good Working Order.\n                        bodyTitle=Up to $1384 residual value on your iPhone 17 Pro Max 1TB\n                        bodyLink=Check your trade-in estimate\n                        bodyTitle2=$300 bonus credit on top of your residual value\n                        offerFooter=Applied as a monthly credit to your bill, when you stay connected for 24, 36, or 48 months. T&C apply.",
+                      "tcButton": "T&Cs apply",
+                      "modalTitle": "Terms & Conditions",
+                      "modalContent": "Offer available on eligible iPhone 18 models on a 36-month plan. Save $1800 comprises the applicable monthly plan discount and Upgrade and Protect value.\\nTrade-in credit applies to eligible devices in Good Working Order. Offer available for a limited time only.\\nUpgrade and Protect is a separately provided service. All prices include GST. See full terms and conditions at vodafone.com.au.",
+                      "subscriber": "iPhoneNPIEmitter",
+                      "extensionID": "DCP18608appleiphoneduopdp"
+                    }
+                  },
+                  {
+                    "id": "01B9B918-A93D-4E12-ABA7-334C96233CD9",
+                    "type": "widget",
+                    "dependencies": [],
+                    "name": "MOD-Ext-Logic-Offer",
+                    "widget_id": "6638738485280768",
+                    "config": {
+                      "emitter": "iPhoneNPIEmitter"
+                    }
+                  }
+                ],
+                "pageId": "6572079468773376"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "DCP-18608-Apple-PDP-iPhone Duo",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "6700766973394944"
+        },
+        "deployed": false,
+        "campaignName": "DCP-18608-Apple-PDP-iPhone Duo"
+      }
+    },
+    "variations": {
+      "5914836454866944": {
+        "id": "5914836454866944",
+        "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+        "actions": [
+          {
+            "viewId": "4745572075175936",
+            "changes": [
+              {
+                "css": {},
+                "isOpalManaged": false,
+                "dependencies": [],
+                "name": "",
+                "attributes": {
+                  "html": "<p class=\"desktop-text\" data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  Call us on 1300 111 111\n</p>\n<vha-button class=\"primaryCTA cta-button\" href=\"tel:1300111111\" target=\"_self\" type=\"tertiary\" dlkey=\"dataLayer\" dleventname=\"eventTrack\" dlpath=\"vca/business/eofy\" dleventdata=\"{\" pageeventname\":\"vca=\"\" eofy\",\"pageeventtype\":\"hero-banner\",\"pageeventvalue\":\"click\",\"pageeventattributetwo\":\"call=\"\" us=\"\" on=\"\" 1300=\"\" 111=\"\" 111\"}\"=\"\" dldisable=\"false\" dldebug=\"false\" custompageeventtype=\"hero-banner\" data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  Call us on 1300 111 111\n</vha-button>\n<style data-optly-5d56574d-cfe4-49e7-929e-55601626ed09=\"\">\n  .cta-button {\n  display: none;\n}\n#tnceofy{\n--rui-button__background-color-hover: #ffff;\n--rui-button__text-decoration-hover: #990000;\nfont-size: 24px;\n  \n  \n\n }\n.desktop-text {\n  display: block;\n  font-size: 24px;\n}\n \n/* Mobile */\n@media screen and (max-width: 768px) {\n  .cta-button {\n    display: block !important;\n    --rui-button__color: #FFFFFF;\n    --rui-button__background-color:#E60000;\n    \n  }\n   \n  .desktop-text {\n    display: none !important;\n  }\n}\n@media (min-width: 768px) and (orientation: portrait) { \n   .cta-button {\n    display: block !important;\n   --rui-button__color: #FFFFFF;\n   --rui-button__background-color:#E60000;\n    \n  }\n \n  .desktop-text {\n    display: none !important;\n  }\n}\n</style>"
+                },
+                "type": "attribute",
+                "id": "5D56574D-CFE4-49E7-929E-55601626ED09",
+                "selector": ".cta-container"
+              }
+            ],
+            "pageId": "4745572075175936"
+          }
+        ]
+      },
+      "6088373836709888": {
+        "id": "6088373836709888",
+        "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "actions": [
+          {
+            "viewId": "5210171411005440",
+            "changes": [
+              {
+                "id": "187310FF-EDCD-4065-8BF2-3A752DD53152",
+                "type": "custom_code",
+                "dependencies": []
+              },
+              {
+                "id": "1DD77F69-A306-4D6F-84C2-BFFB175F80B4",
+                "type": "append",
+                "dependencies": [],
+                "name": "",
+                "isOpalManaged": false,
+                "selector": "head",
+                "value": "<style>[data-testid=\"plan-card-AU13007\"].optly-highlighted,\n[data-testid=\"plan-card-AU13008\"].optly-highlighted,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted {\n \n  background-color: #000000 !important;\n  border-bottom: none !important;\n}\n\n.plan-icon img[src*=\"cable-fibre.svg\"] {\n  filter: brightness(0) !important;\n}\n\n\n/*/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT BACKGROUND CONTROLS       */\n/* ==================================================== */\n\n/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT CONTROLS (EXACT DOM MATCH)*/\n/* ==================================================== */\n\n/* 1. Turns the inner container background solid black when highlighted */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: transparent !important;\n}\n\n/* 2. Forces all nested text inside the black banner (including the superscript R) to white */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted *,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted * {\n  color: #ffffff !important;\n}\n\n\n\n/* ==================================================== */\n/* HIGHLIGHTED STATE CONTROL FOR DETACHED MOBILE BADGE  */\n/* ==================================================== */\n\n/* Clear parent nesting dependencies. Target the highlight directly on the badge class */\n[data-testid=\"plan-card-badge\"].optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important;\n  color: #ffffff !important;\n}\n\n/* Force all text tags inside the highlighted badge to turn white */\n[data-testid=\"plan-card-badge\"].optly-highlighted * {\n  color: #ffffff !important;\n}\n\n/* Targets the badge element safely inside your highlighted Pro plans */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important; /* Clears any existing colored outlines */\n}\n\n/* Forces the text color inside the black badge to turn crisp white */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  color: #ffffff !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted\n {\n  background-color: #000000 !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"] {\n  color: #ffffff !important;\n}\n\n\n/* ==================================================== */\n/* MOBILE VERTICAL TOGGLE STACK CONTROLS (< 768px)      */\n/* ==================================================== */\n@media screen and (max-width: 767px) {\n  \n  /* 1. Set gap to 0 to join the top and bottom button blocks */\n  .plans-toggle-container {\n    display: flex !important;\n    flex-direction: column !important;\n    align-items: stretch !important;\n    width: 100% !important;\n    max-width: 480px; \n    margin: 0 auto !important;\n    position: relative !important; \n    border-radius: 8px !important;\n    overflow: hidden !important; \n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;\n    border: 1px solid #e0e0e0 !important;\n    box-sizing: border-box !important;\n    gap: 0px !important; /* FIXED: Closed vertical whitespace gap */\n  }\n\n  /* 2. Style layout buttons to expand to full container width */\n  .plans-toggle-container button.plan-tab {\n    width: 100% !important;\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    text-align: left !important;\n    padding: 20px 18px !important;\n    border: none !important;\n    box-sizing: border-box !important;\n    margin: 0 !important; /* FIXED: Clears any leftover framework spacing */\n    background-color: #ffffff !important; \n    color: #111111 !important;\n  }\n\n  /* 3. Style properties for your 'Basic plans' layout tab */\n  .plans-toggle-container #btn-basic {\n    background-color: #ffffff !important;\n    color: #111111 !important;\n  }\n  .plans-toggle-container #btn-basic .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #111111 !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-basic .plan-desc {\n    font-size: 13px !important;\n    color: #555555 !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n  .plans-toggle-container #btn-basic .plan-icon {\n    color: #111111 !important;\n    margin-right: 16px !important;\n    display: flex !important;\n    align-items: center !important;\n  }\n\n  /* 4. Style properties for your 'Max Plans' dark mode style */\n  .plans-toggle-container #btn-pro {\n    background-color: #212529 !important; /* Matte charcoal dark background */\n    color: #ffffff !important;\n  }\n  .plans-toggle-container #btn-pro .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #ffffff !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-pro .plan-desc {\n    font-size: 13px !important;\n    color: #cccccc !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n\n  /* 5. Custom layout adjustments for your Max plan icon circle component */\n  .plans-toggle-container .plan-icon-circle {\n    width: 42px !important;\n    height: 42px !important;\n    min-width: 42px !important;\n    border: 2px solid #ffffff !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    margin-right: 16px !important;\n    font-size: 13px !important;\n    font-weight: 700 !important;\n    text-transform: lowercase !important;\n    color: #ffffff !important;\n    box-sizing: border-box !important;\n  }\n\n  /* 6. Absolute overlay configuration for your middle 'or' text component */\n  .plans-toggle-container .divider-text {\n    position: absolute !important;\n    top: 50% !important;\n    left: 50% !important;\n    transform: translate(-50%, -50%) !important; \n    z-index: 5 !important;\n    background-color: #ffffff !important;\n    color: #777777 !important;\n    font-size: 12px !important;\n    width: 30px !important;\n    height: 30px !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    border: 1px solid #dcdcdc !important;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;\n    pointer-events: none !important; \n  }\n}</style>"
+              },
+              {
+                "operator": "before",
+                "isOpalManaged": false,
+                "dependencies": [],
+                "name": "",
+                "value": "<div class=\"plans-toggle-container\">\r\n  \r\n  <!-- Basic Button Layout Tab (Active State Default) -->\r\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\">\r\n    <!-- Corrected Inline SVG Vector Asset -->\r\n    <div class=\"plan-icon\">\r\n      <svg xmlns=\"http://w3.org\" width=\"24\" height=\"24\" viewBox=\"0 -960 960 960\" fill=\"currentColor\">\r\n        <path d=\"M720-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-360-160q-66 0-113-47t-47-113q0-66 47-113t113-47h40v320h-40Zm120 0v-320h120l160 160-160 160H480Zm0-400v-80q0-33 23.5-56.5T560-800h40v80h-40v320h-40Zm-280 80H120q-17 0-28.5-11.5T80-640q0-17 11.5-28.5T120-680h40v160Z\"/>\r\n      </svg>\r\n    </div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Basic plans</span>\r\n      <span class=\"plan-desc\">Classic, unbeatable value nbn&reg; plans for small business.</span>\r\n    </div>\r\n  </button>\r\n\r\n  <span class=\"divider-text\">or</span>\r\n\r\n  <!-- Pro Button Layout Tab -->\r\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\">\r\n    <div class=\"plan-icon-circle\">pro</div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Pro plans</span>\r\n      <span class=\"plan-desc\">Boosted upload speeds and priority fault restoration.</span>\r\n    </div>\r\n  </button>\r\n  \r\n</div>\r\n<style>\r\n    /* Outer Grid Container Structural Parent */\r\n.plans-toggle-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100%;\r\n  max-width: 1140px;\r\n  margin: 24px auto;\r\n  gap: 16px;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Base Common Tab Buttons Layout Blueprint */\r\n.plan-tab {\r\n  flex: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 14px;\r\n  padding: 16px 24px;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n  text-align: left;\r\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Interior Typography Flex Containers */\r\n.plan-info {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 4px;\r\n}\r\n\r\n.plan-title {\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n  letter-spacing: -0.2px;\r\n}\r\n\r\n.plan-desc {\r\n  font-size: 12px;\r\n  line-height: 1.4;\r\n}\r\n\r\n/* Middle Layout Text Label \"or\" Spacer */\r\n.divider-text {\r\n  color: #71717a;\r\n  font-size: 14px;\r\n  font-weight: 400;\r\n  user-select: none;\r\n  padding: 0 4px;\r\n}\r\n\r\n/* ==================================================== */\r\n/* VARIANT CONFIGURATION DESIGN                         */\r\n/* ==================================================== */\r\n\r\n/* --- Basic Option (White Canvas Theme) --- */\r\n#btn-basic {\r\n  background-color: #ffffff;\r\n  border: 1px solid #e4e4e7;\r\n  color: #18181b;\r\n}\r\n\r\n#btn-basic .plan-desc {\r\n  color: #71717a;\r\n}\r\n\r\n#btn-basic .plan-icon {\r\n  color: #52525b;\r\n  display: flex;\r\n  align-items: center;\r\n  flex-shrink: 0;\r\n}\r\n\r\n/* Basic Highlighting Selector Class Override */\r\n#btn-basic.active {\r\n  border: 2px solid #18181b !important;\r\n  box-shadow: 0 4px 12px rgba(24, 24, 27, 0.06);\r\n}\r\n\r\n\r\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\r\n#btn-pro {\r\n  background-color: #27272a;\r\n  border: 1px solid transparent;\r\n  color: #ffffff;\r\n}\r\n\r\n#btn-pro .plan-desc {\r\n  color: #a1a1aa;\r\n}\r\n\r\n/* Circular \"pro\" Text Vector Asset Badge */\r\n.plan-icon-circle {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 28px;\r\n  height: 28px;\r\n  border-radius: 50%;\r\n  border: 1.5px solid #ffffff;\r\n  font-size: 10px;\r\n  font-weight: 700;\r\n  text-transform: lowercase;\r\n  flex-shrink: 0;\r\n  user-select: none;\r\n}\r\n\r\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\r\n#btn-pro.active {\r\n  border: 2px solid #E60000 !important;\r\n  box-shadow: 0 4px 16px rgba(230, 0, 0, 0.18);\r\n}\r\n\r\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\r\n.plan-tab:not(.active):hover {\r\n  transform: translateY(-1px);\r\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\r\n}\r\n\r\n</style>",
+                "type": "append",
+                "id": "57C0A1E4-F0C0-48C2-8FFB-B6376F036447",
+                "selector": ".iGBhDJ"
+              },
+              {
+                "css": {},
+                "isOpalManaged": false,
+                "dependencies": [],
+                "name": "",
+                "attributes": {
+                  "html": "<div><p>All plans come with next gen Wi-Fi 7 modem + first Mesh, a static IP address and <a href=\"https://www.vodafone.com.au/business/fibre-upgrade\" >$0 upgrade to FTTP fibre if eligible.</a>\n  </p>\n  <p>Unsure which plan best suits your business? Here’s the difference:\n  </p>\n  </div>\n\n<div class=\"plans-toggle-container\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <img alt=\"\" src=\"https://www.vodafone.com.au/images/icon/system/red/cable-fibre.svg\" class=\"sc-6295c191-3 jSpdYF\">\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Core plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n       Reliable, everyday speeds.\n      </span>\n    </div>\n  </button>\n  <span class=\"divider-text\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    or\n  </span>\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon-circle\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      Max\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Max plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Faster uploads and priority support.\n      </span>\n    </div>\n  </button>\n</div>\n<style data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  /* Outer Grid Container Structural Parent */\n.plans-toggle-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  max-width: 1140px;\n  margin: 24px auto;\n  gap: 16px;\n  font-family: Arial, Helvetica, sans-serif;\n  box-sizing: border-box;\n}\n\n/* Base Common Tab Buttons Layout Blueprint */\n.plan-tab {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 16px 24px;\n  border-radius: 8px;\n  cursor: pointer;\n  text-align: left;\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  box-sizing: border-box;\n}\n\n/* Interior Typography Flex Containers */\n.plan-info {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.plan-title {\n  font-size: 16px;\n  font-weight: 700;\n  letter-spacing: -0.2px;\n}\n\n.plan-desc {\n  font-size: 12px;\n  line-height: 1.4;\n}\n\n/* Middle Layout Text Label \"or\" Spacer */\n.divider-text {\n  color: #71717a;\n  font-size: 14px;\n  font-weight: 400;\n  user-select: none;\n  padding: 0 4px;\n}\n\n/* ==================================================== */\n/* VARIANT CONFIGURATION DESIGN                         */\n/* ==================================================== */\n\n/* --- Basic Option (White Canvas Theme) --- */\n#btn-basic {\n  background-color: #ffffff;\n  border: 1px solid #e4e4e7;\n  color: #18181b;\n}\n\n#btn-basic .plan-desc {\n  color: #71717a;\n}\n\n#btn-basic .plan-icon {\n  color: #52525b;\n  display: flex;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n/* Basic Highlighting Selector Class Override */\n#btn-basic.active {\n \n}\n\n\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\n#btn-pro {\n  background-color: #27272a;\n  border: 1px solid transparent;\n  color: #ffffff;\n}\n\n#btn-pro .plan-desc {\n  color: #a1a1aa;\n}\n\n/* Circular \"pro\" Text Vector Asset Badge */\n.plan-icon-circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  border: 1.5px solid #ffffff;\n  font-size: 10px;\n  font-weight: 700;\n  text-transform: lowercase;\n  flex-shrink: 0;\n  user-select: none;\n}\n\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\n#btn-pro.active {\n \n}\n\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\n.plan-tab:not(.active):hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\n}\n</style>\n<div aria-live=\"polite\" font-size=\"[object Object]\" class=\"sc-cead3999-0 iGBhDJ\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  Showing\n  <b data-testid=\"filtered-items\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    5\n  </b>\n  Internet Plans\n</div>"
+                },
+                "type": "attribute",
+                "id": "7333102A-AB83-4097-86DF-3D9DE94B5F8A",
+                "selector": ".fvargx"
+              }
+            ],
+            "pageId": "5210171411005440"
+          }
+        ]
+      },
+      "5415022778646528": {
+        "id": "5415022778646528",
+        "name": "DCP-18608-Apple-PDP-iPhone Duo",
+        "actions": [
+          {
+            "viewId": "6572079468773376",
+            "changes": [
+              {
+                "id": "efa2246bea194ce48ac6482551ddaa05",
+                "type": "custom_code",
+                "dependencies": []
+              },
+              {
+                "id": "db3f58d385f94b2ba878d63590adf594",
+                "type": "widget",
+                "dependencies": [],
+                "name": "EXT-Presentation-PDP Offer Module - v2",
+                "widget_id": "5826385361502208",
+                "config": {
+                  "extensionID": "ExtPresoPDPOfferModal",
+                  "offerImgURL": "https://www.vodafone.com.au/images/icon/mid/light/upgrade-and-protect.svg",
+                  "offerHeadingText": "Upgrade & Protect Plus included",
+                  "offerSubheadingText": "See how it works",
+                  "offerBannerBackground": "rgba(255, 255, 255, 1)",
+                  "offerBannerBorder": "rgba(204, 204, 204, 1)",
+                  "offerModalHTML": "<div class=\"pdp-offer-modal-header\">\n                        <h2 class=\"pdp-offer-modal-title\" id=\"pdp-pdp-offer-modal-title\">Here’s how it works</h2>\n                        \n                    </div>\n<ol class=\"pdp-offer-modal-steps\" aria-label=\"Steps to add a offer\">\n                        <li class=\"pdp-offer-modal-step\">Select an iPhone 17, iPhone 17 Pro or iPhone 17 Pro Max over 36 months</li>\n                        <li class=\"pdp-offer-modal-step\">Add our $79 Extra Large Plan and stay connected for 36 months. Min cost $3,643 (based on 256GB model).</li>\n  \n  <li class=\"pdp-offer-modal-step\">A $1,200 credit will automatically be applied to your bill  as $33.34/mth over 36 months.</li>\n                    </ol>\n<div class=\"pdp-offer-modal-cta-row\">\n<button class=\"pdp-offer-modal-cta\">Ok, got it</button></div>\n                    <p class=\"step-text-mobile\">Terms and conditions</p>\n\n                    <p class=\"pdp-offer-modal-disclaimer\">If you cancel before 36 months, any remaining credit won't apply and undiscounted remaining device instalments will be charged on your final bill. Ends 30/06. T&C apply.</p>",
+                  "subscriber": "PDPPlanOfferModuleEmitter"
+                }
+              },
+              {
+                "id": "da2e33179821416a9ca7db09f0438f04",
+                "type": "widget",
+                "dependencies": [],
+                "name": "Ext-logic-SelectorMatch",
+                "widget_id": "6024735675383808",
+                "config": {
+                  "targetURLs": "[\"/mobile/mobile-phones/apple/iphone-duo\"]",
+                  "selectorRules": "[\n  {\n      \"el\":\"[data-testid='plan-card-title-AU13066'] > span:first-of-type\",\n      \"injectType\":\"after\"\n  },\n  {\n      \"el\":\"[data-testid='plan-card-title-AU13065'] > span:first-of-type\",\n      \"injectType\":\"after\"\n  }\n]",
+                  "emitter": "PDPPlanOfferModuleEmitter"
+                }
+              },
+              {
+                "id": "61b07542d76140cdb1c9bc01373918ec",
+                "type": "widget",
+                "dependencies": [],
+                "name": "MOD-Ext-Presentation-Offer",
+                "widget_id": "6102051602563072",
+                "config": {
+                  "eyebrow": "Launch offer",
+                  "mainTitle": "Save up to $1900 with an iPhone Duo",
+                  "offerList": "icon=https://www.vodafone.com.au/images/icons/pdp-offer-price-tag.svg\n                       title=Save $216 over 12 months with our Medium Upgrade & Protect Plan\n                       subtitle=When you choose an iPhone Duo over 24, 36, or 48 months with our Medium Upgrade & Protect Plan.\n                       bodyTitle=Upgrade & Protect Plus included\n                       body=When you stay connected for 24, 36 or 48 months. That’s $359, $539, or $719 in value. Upgrade early to a new phone after 12 months, get an exchange or replace your screen.\n                        |\n                        icon=https://www.vodafone.com.au/images/icons/pdp-offer-trade-in.svg\n                        title=Save up to $1684\n                        subtitle=When you trade in your iPhone 17 Pro Max 1TB or above in Good Working Order.\n                        bodyTitle=Up to $1384 residual value on your iPhone 17 Pro Max 1TB\n                        bodyLink=Check your trade-in estimate\n                        bodyTitle2=$300 bonus credit on top of your residual value\n                        offerFooter=Applied as a monthly credit to your bill, when you stay connected for 24, 36, or 48 months. T&C apply.",
+                  "tcButton": "T&Cs apply",
+                  "modalTitle": "Terms & Conditions",
+                  "modalContent": "Offer available on eligible iPhone 18 models on a 36-month plan. Save $1800 comprises the applicable monthly plan discount and Upgrade and Protect value.\\nTrade-in credit applies to eligible devices in Good Working Order. Offer available for a limited time only.\\nUpgrade and Protect is a separately provided service. All prices include GST. See full terms and conditions at vodafone.com.au.",
+                  "subscriber": "iPhoneNPIEmitter",
+                  "extensionID": "DCP18608appleiphoneduopdp"
+                }
+              },
+              {
+                "id": "01B9B918-A93D-4E12-ABA7-334C96233CD9",
+                "type": "widget",
+                "dependencies": [],
+                "name": "MOD-Ext-Logic-Offer",
+                "widget_id": "6638738485280768",
+                "config": {
+                  "emitter": "iPhoneNPIEmitter"
+                }
+              }
+            ],
+            "pageId": "6572079468773376"
+          }
+        ]
+      }
+    }
+
+  },
+  "poc": {
+    "campaigns": {
+      "5696875544707072": {
+        "changes": [],
+        "id": "5696875544707072",
+        "name": "EGW|DCP-Personalized-Salesforce-POC",
+        "commitId": "5126478386429952",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "4551907191029760",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "5133925591285760",
+                "name": "EGW|DCP-Personalized-Salesforce-POC",
+                "actions": [
+                  {
+                    "viewId": "5714965946957824",
+                    "changes": [
+                      {
+                        "id": "5923d6b0d33440eeaf1be723aeb6da02",
+                        "type": "append",
+                        "selector": "head",
+                        "value": "<style>.desktop {\r\n  object-fit: none !important;\r\n}\r\n#v08376c9f7ab8da981bdbb9338334ad559f0d85f957af58d782a8a9241f818099 div > vha-hero-banner div > div > img.desktop {\r\n  object-fit: none !important;\r\n}</style>",
+                        "dependencies": []
+                      },
+                      {
+                        "id": "35096f47cc8548e78e4e97217f9817f5",
+                        "type": "custom_code",
+                        "dependencies": []
+                      }
+                    ],
+                    "pageId": "5714965946957824"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "EGW|DCP-Personalized-Salesforce-POC",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "5696875544707072"
+            },
+            "deployed": false,
+            "campaignName": "EGW|DCP-Personalized-Salesforce-POC"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "5714965946957824"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "4551907191029760",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "5714965946957824"
+        ]
+      }
+    },
+    "pages": {
+      "5714965946957824": {
+        "id": "5714965946957824",
+        "category": "other",
+        "apiName": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+        "name": "URL Targeting for EGW|DCP-Personalized-Salesforce-POC",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "substring",
+              "type": "url",
+              "value": "/index-optimizely.html"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "deactivationEnabled": false,
+        "undoOnDeactivation": false,
+        "tags": [],
+        "activationType": "url_changed"
+      }
+    },
+    "experiments": {
+      "4551907191029760": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "4551907191029760",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "5133925591285760",
+            "name": "EGW|DCP-Personalized-Salesforce-POC",
+            "actions": [
+              {
+                "viewId": "5714965946957824",
+                "changes": [
+                  {
+                    "id": "5923d6b0d33440eeaf1be723aeb6da02",
+                    "type": "append",
+                    "selector": "head",
+                    "value": "<style>.desktop {\r\n  object-fit: none !important;\r\n}\r\n#v08376c9f7ab8da981bdbb9338334ad559f0d85f957af58d782a8a9241f818099 div > vha-hero-banner div > div > img.desktop {\r\n  object-fit: none !important;\r\n}</style>",
+                    "dependencies": []
+                  },
+                  {
+                    "id": "35096f47cc8548e78e4e97217f9817f5",
+                    "type": "custom_code",
+                    "dependencies": []
+                  }
+                ],
+                "pageId": "5714965946957824"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "EGW|DCP-Personalized-Salesforce-POC",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "5696875544707072"
+        },
+        "deployed": false,
+        "campaignName": "EGW|DCP-Personalized-Salesforce-POC"
+      }
+    },
+    "variations": {
+      "5133925591285760": {
+        "id": "5133925591285760",
+        "name": "EGW|DCP-Personalized-Salesforce-POC",
+        "actions": [
+          {
+            "viewId": "5714965946957824",
+            "changes": [
+              {
+                "id": "5923d6b0d33440eeaf1be723aeb6da02",
+                "type": "append",
+                "selector": "head",
+                "value": "<style>.desktop {\r\n  object-fit: none !important;\r\n}\r\n#v08376c9f7ab8da981bdbb9338334ad559f0d85f957af58d782a8a9241f818099 div > vha-hero-banner div > div > img.desktop {\r\n  object-fit: none !important;\r\n}</style>",
+                "dependencies": []
+              },
+              {
+                "id": "35096f47cc8548e78e4e97217f9817f5",
+                "type": "custom_code",
+                "dependencies": []
+              }
+            ],
+            "pageId": "5714965946957824"
+          }
+        ]
+      }
+    }
+  }
+}

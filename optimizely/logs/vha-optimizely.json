@@ -1,0 +1,38 @@
+{
+  "data": [
+    "stores/audience_data",
+    "stores/client_metadata",
+    "stores/event_data",
+    "stores/layer_data",
+    "stores/view_data",
+    "stores/group_data",
+    "stores/interest_group",
+    "stores/tag_group",
+    "stores/global",
+    null
+  ],
+  "visitor": [
+    "stores/visitor",
+    null
+  ],
+  "visitor_id": [
+    "stores/visitor_id",
+    null
+  ],
+  "state": [
+    "stores/audience_data",
+    "stores/layer_data",
+    "stores/layer",
+    "stores/view_data",
+    "stores/view",
+    "stores/global",
+    "stores/observed_redirect",
+    null
+  ],
+  "utils": {},
+  "jquery": [
+    "env/jquery",
+    null
+  ],
+  "event_emitter": {}
+}

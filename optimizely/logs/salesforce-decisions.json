@@ -1,0 +1,50 @@
+[
+  {
+    "personalizationId": "c341d013-e292-49ac-920f-c2bce61f4efb",
+    "personalizationPointId": "9pp9p000000017NAAQ",
+    "personalizationPointName": "SECTION_HERO_V1",
+    "decisionId": "9pb9p00000001XBAAY",
+    "data": [],
+    "attributes": {
+      "contentPath": "/banner/business/team-plan/master",
+      "experienceKey": "DEFAULT"
+    },
+    "metadata": {},
+    "contentZone": {
+      "name": "SECTION_HERO_V1",
+      "selector": "#section-hero"
+    }
+  },
+  {
+    "personalizationId": "d00310ca-7aaf-49da-b318-4bd4be93f26c",
+    "personalizationPointId": "9pp9p000000018zAAA",
+    "personalizationPointName": "SECTION_FAQ_V1",
+    "decisionId": "9pb9p00000001VZAAY",
+    "data": [],
+    "attributes": {
+      "contentPath": "/banner/business/team-plan/master",
+      "experienceKey": "DEFAULT"
+    },
+    "metadata": {},
+    "contentZone": {
+      "name": "SECTION_FAQ_V1",
+      "selector": "#section-faq"
+    }
+  },
+  {
+    "personalizationId": "a9bf85c3-bd3b-4485-9549-5ef3fdd61baf",
+    "personalizationPointId": "9pp9p00000001AbAAI",
+    "personalizationPointName": "SECTION_FEATURES_V1",
+    "decisionId": "9pb9p00000001SLAAY",
+    "data": [],
+    "attributes": {
+      "contentPath": "/banner/business/iphone-duo/master",
+      "experienceKey": "DEFAULT"
+    },
+    "metadata": {},
+    "contentZone": {
+      "name": "SECTION_FEATURES_V1",
+      "selector": "#section-features"
+    }
+  }
+]

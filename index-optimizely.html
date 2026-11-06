@@ -34,8 +34,8 @@
   <link rel="stylesheet" href="style.css" />
   <style>
       main .section-content { flex-direction: column; gap: 16px; }
-      .section-content details { width: 100%; }
-      .section-content pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 400px; overflow: auto; }
+      main section details { width: 100%; }
+      main section pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 400px; overflow: auto; }
   </style>
 </head>
 <body>
@@ -59,13 +59,6 @@
   <section id="section-hero">
     <div class="page-section hero-default">
       <div class="section-content">
-        <h1>SECTION_HERO_V1</h1>
-        <p data-personalization-content-path aria-live="polite">Content path: Waiting for a decision.</p>
-        <details>
-          <summary>Show AEM JSON response</summary>
-          <pre data-personalization-json aria-live="polite">Waiting for a decision.</pre>
-        </details>
-        <button type="button" class="log-decision">Log decision</button>
       </div>
     </div>
   </section>
@@ -73,13 +66,6 @@
   <section id="section-faq">
     <div class="page-section faq">
       <div class="section-content">
-        <h1>SECTION_FAQ_V1</h1>
-        <p data-personalization-content-path aria-live="polite">Content path: Waiting for a decision.</p>
-        <details>
-          <summary>Show AEM JSON response</summary>
-          <pre data-personalization-json aria-live="polite">Waiting for a decision.</pre>
-        </details>
-        <button type="button" class="log-decision">Log decision</button>
       </div>
     </div>
   </section>
@@ -87,25 +73,14 @@
   <section id="section-features">
     <div class="page-section features">
       <div class="section-content">
-        <h1>SECTION_FEATURES_V1</h1>
-        <p data-personalization-content-path aria-live="polite">Content path: Waiting for a decision.</p>
-        <details>
-          <summary>Show AEM JSON response</summary>
-          <pre data-personalization-json aria-live="polite">Waiting for a decision.</pre>
-        </details>
-        <button type="button" class="log-decision">Log decision</button>
       </div>
     </div>
   </section>
 </main>
 
+<script src="./personalization-salesforce-optimizely.js"></script>
 <script type="module">
-  import { applyPersonalizationFromOptimizely, connectToDecisions, debugOptimizely } from './personalization-optimizely.js';
   import { connectDecisionDebug } from './debug.js';
-
-  debugOptimizely();
-
-  connectToDecisions(applyPersonalizationFromOptimizely, 'main');
 
   connectDecisionDebug('main');
 </script>
