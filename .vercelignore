@@ -1,0 +1,11 @@
+# Deploy only the static site and the JSON fragments it uses.
+/*
+!vercel.json
+!index.html
+!index-gtm.html
+!index-optimizely.html
+!style.css
+!debug.js
+!personalization.js
+!personalization-optimizely.js
+!vha
