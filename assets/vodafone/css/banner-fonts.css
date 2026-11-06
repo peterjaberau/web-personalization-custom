@@ -1,0 +1,15 @@
+@font-face {
+  font-family: VodafoneLight;
+  src: url("../fonts/vodafone-light.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: VodafoneRegular;
+  src: url("../fonts/vodafone-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: VodafoneRegularBold;
+  src: url("../fonts/vodafone-bold.woff") format("woff");
+  font-display: swap;
+}

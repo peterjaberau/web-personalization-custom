@@ -11,8 +11,8 @@ const host = process.env.HOST || '127.0.0.1';
 const publicFiles = new Set([
   '/index-optimizely.html', '/personalization-optimizely.js', '/debug.js', '/style.css',
 ]);
-const assetTypes = new Set(['.json', '.js', '.webp', '.png', '.jpg', '.jpeg', '.svg', '.css']);
-const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml' };
+const assetTypes = new Set(['.json', '.js', '.webp', '.png', '.jpg', '.jpeg', '.svg', '.css', '.woff']);
+const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml', '.woff': 'font/woff' };
 
 createServer(async (req, res) => {
   if (req.method !== 'GET') {

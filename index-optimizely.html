@@ -23,7 +23,9 @@
     a.parentNode.insertBefore(b, a)})();</script>
 
   <!-- End Optimizely Script -->
-  <!-- Registers the Vodafone custom element used by the AEM banner fragments. -->
+  <!-- The Vodafone banner depends on the shared library and fonts. -->
+  <link rel="stylesheet" href="./assets/vodafone/css/banner-fonts.css" />
+  <script defer src="./assets/vodafone/js/clientlib-base.js"></script>
   <script defer src="./assets/vodafone/js/hero-banner.min.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
