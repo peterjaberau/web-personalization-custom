@@ -1,14 +1,21 @@
 // Change these values to select the content source; Salesforce contentPath stays unchanged.
-export const contentSource = {
-  baseURL: '', // Empty uses the current page origin (localhost or Codespaces).
-  basePath: '/vha/experience_fragment', // Can be empty.
-  suffix: '/index.json', // Use an empty string for the live AEM endpoint.
-};
+// export const contentSource = {
+//   baseURL: '', // Empty uses the current page origin (localhost or Codespaces).
+//   basePath: '/vha/experience_fragment', // Can be empty.
+//   suffix: '/index.json', // Use an empty string for the live AEM endpoint.
+// };
 
 // Live AEM example:
 // baseURL: 'https://www.vodafone.com.au',
 // basePath: '/rest/experienceFragments?path=/content/experience-fragments/vha/experience_fragment',
 // suffix: '',
+
+
+export const contentSource = {
+  baseURL: '', // Empty uses the current page origin (localhost or Codespaces).
+  basePath: '/vha/experience_fragment', // Can be empty.
+  suffix: '/index.json', // Use an empty string for the live AEM endpoint.
+};
 
 let optimizelyCheck;
 
