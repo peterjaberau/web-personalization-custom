@@ -46,6 +46,8 @@ SI.init({
         // Replace these example selectors with stable targets on the actual page.
         contentZones: [
           { name: "SECTION_HERO_V1", selector: "#section-hero" },
+          { name: "SECTION_FAQ_V1", selector: "#section-faq" },
+          { name: "SECTION_FEATURES_V1", selector: "#section-features" },
         ],
         interaction: {
           name: "Page View - Home",
