@@ -13,6 +13,13 @@ const allowedPaths = new Set([
   'banner/business/iphone18promax/master',
   'banner/business/iphone-duo/master',
 ]);
+// Only demo assets are served; repository metadata and unrelated files stay private.
+const publicFiles = new Set([
+  '/index-optimizely.html', '/personalization-optimizely.js', '/debug.js', '/style.css',
+  '/assets/vodafone/js/hero-banner.min.js',
+  '/assets/vodafone/images/VF-HP-desktop-offer-Teams-4000-920.webp',
+  '/assets/vodafone/images/VF-HP-MOB-TEAMS.webp',
+]);
 const contentRoot = '/content/experience-fragments/vha/experience_fragment/';
 const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp' };
 
@@ -41,6 +48,10 @@ createServer(async (req, res) => {
       return;
     }
     const name = url.pathname === '/' ? '/index-optimizely.html' : decodeURIComponent(url.pathname);
+    if (!publicFiles.has(name)) {
+      res.writeHead(404).end('Not found');
+      return;
+    }
     const file = resolve(root, `.${name}`);
     if (!file.startsWith(root.endsWith(sep) ? root : root + sep)) {
       res.writeHead(403).end('Forbidden');

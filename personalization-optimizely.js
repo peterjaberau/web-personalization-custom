@@ -60,8 +60,8 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
 
     const request = Symbol('fragment request');
     latestRequests.set(zone, request);
-    // The local demo server proxies the five configured fragments to avoid browser CORS.
-    const useLocalProxy = window.location.hostname === '127.0.0.1' && window.location.port === '8765';
+    // The demo page enables its same-origin proxy locally or in Codespaces.
+    const useLocalProxy = container.ownerDocument.querySelector('meta[name="aem-fragment-proxy"][content="enabled"]') !== null;
     const url = useLocalProxy
       ? new URL('/__aem-fragment', window.location.origin)
       : new URL(aemBaseURL);
