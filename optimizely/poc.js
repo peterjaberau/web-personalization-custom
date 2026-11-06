@@ -35,61 +35,62 @@ export function connectToDecisions(apply, containerSelector = "body", host = win
 
 /** Fetch the AEM JSON selected by each decision and show it in its content zone. */
 export async function applyPersonalizationFromOptimizely(container, decisions = []) {
-  await Promise.all(decisions.map(async (decision) => {
-    const selector = decision?.contentZone?.selector;
-    const contentPath = decision?.attributes?.contentPath;
-    if (typeof selector !== 'string' || !selector.trim()
-      || typeof contentPath !== 'string' || !contentPath.trim()) return;
+    await Promise.all(decisions.map(async (decision) => {
+        const selector = decision?.contentZone?.selector;
+        const contentPath = decision?.attributes?.contentPath;
+        if (typeof selector !== 'string' || !selector.trim()
+            || typeof contentPath !== 'string' || !contentPath.trim()) return;
 
-    let zone;
-    try {
-      zone = container.querySelector(selector);
-    } catch (error) {
-      console.warn('[optimizely Personalization]: Invalid content zone selector:', selector, error);
-      return;
-    }
-    if (!zone) return;
+        let zone;
+        try {
+            zone = container.querySelector(selector);
+        } catch (error) {
+            console.warn('[optimizely Personalization]: Invalid content zone selector:', selector, error);
+            return;
+        }
+        if (!zone) return;
 
-    // Only relative fragment paths under the configured AEM root are supported.
-    const path = contentPath.trim().replace(/^\/+/, '');
-    if (!path || path.split('/').some((segment) => !segment || segment === '.' || segment === '..')
-      || /[?#\\%]/.test(path)) {
-      console.warn('[optimizely Personalization]: Invalid AEM content path:', contentPath);
-      return;
-    }
+        // Only relative fragment paths under the configured AEM root are supported.
+        const path = contentPath.trim().replace(/^\/+/, '');
+        if (!path || path.split('/').some((segment) => !segment || segment === '.' || segment === '..')
+            || /[?#\\%]/.test(path)) {
+            console.warn('[optimizely Personalization]: Invalid AEM content path:', contentPath);
+            return;
+        }
 
-    // Show the selected path even when a zone does not have a JSON panel.
-    const pathLabel = zone.querySelector('[data-personalization-content-path]');
-    if (pathLabel) pathLabel.textContent = `Content path: ${contentPath.trim()}`;
-    const output = zone.querySelector('[data-personalization-json]');
-    if (!output) return;
+        // Show the selected path even when a zone does not have a JSON panel.
+        const pathLabel = zone.querySelector('[data-personalization-content-path]');
+        if (pathLabel) pathLabel.textContent = `Content path: ${contentPath.trim()}`;
+        const output = zone.querySelector('[data-personalization-json]');
+        if (!output) return;
 
-    const request = Symbol('fragment request');
-    latestRequests.set(zone, request);
-    output.textContent = 'Loading JSON response...';
-    try {
-      // The base path may include a query string, as in the live AEM endpoint.
-      const base = contentSource.baseURL || new URL(container.ownerDocument.baseURI).origin;
-      const prefix = contentSource.basePath.replace(/\/+$/, '');
-    //   const url = new URL(`${prefix}/${path}${contentSource.suffix}`, `${base.replace(/\/+$/, '')}/`);
-     const url = new URL(`${prefix}/${path}`, `${base.replace(/\/+$/, '')}/`);  
-    
-    const response = await fetch(url.toString());
-      if (!response.ok) throw new Error(`AEM request failed (${response.status})`);
-      const fragment = await response.json();
-      if (typeof fragment.html !== 'string') throw new Error('AEM response does not contain HTML');
+        const request = Symbol('fragment request');
+        latestRequests.set(zone, request);
+        output.textContent = 'Loading JSON response...';
+        try {
+            // The base path may include a query string, as in the live AEM endpoint.
+            const base = contentSource.baseURL || new URL(container.ownerDocument.baseURI).origin;
+            const prefix = contentSource.basePath.replace(/\/+$/, '');
+            //   const url = new URL(`${prefix}/${path}${contentSource.suffix}`, `${base.replace(/\/+$/, '')}/`);
+            const url = new URL(`${prefix}/${path}`, `${base.replace(/\/+$/, '')}/`);
 
-      // Show the complete response as text; never execute the returned HTML.
-      if (latestRequests.get(zone) === request) {
-        output.textContent = JSON.stringify(fragment, null, 2);
-      }
-    } catch (error) {
-      if (latestRequests.get(zone) === request) {
-        output.textContent = 'Unable to load the JSON response.';
-        console.warn('[optimizely Personalization]: Unable to render AEM fragment:', contentPath, error);
-      }
-    }
-  }));
+            const response = await fetch(url.toString());
+            if (!response.ok) throw new Error(`AEM request failed (${response.status})`);
+            const fragment = await response.json();
+            if (typeof fragment.html !== 'string') throw new Error('AEM response does not contain HTML');
+
+            // Show the complete response as text; never execute the returned HTML.
+            if (latestRequests.get(zone) === request) {
+                output.textContent = JSON.stringify(fragment, null, 2);
+            }
+        } catch (error) {
+            if (latestRequests.get(zone) === request) {
+                output.textContent = 'Unable to load the JSON response.';
+                console.warn('[optimizely Personalization]: Unable to render AEM fragment:', contentPath, error);
+            }
+        }
+    }));
+}
 
 
 
