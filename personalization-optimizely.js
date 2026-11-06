@@ -29,8 +29,7 @@ export function debugOptimizely() {
 }
 
 
-const aemBaseURL = 'https://www.vodafone.com.au/rest/experienceFragments';
-const fragmentRoot = '/content/experience-fragments/vha/experience_fragment';
+const aemBaseURL = '/__aem-fragment';
 const latestRequests = new WeakMap();
 
 /** Fetch and render each Salesforce decision's AEM fragment in its content zone. */
@@ -60,12 +59,9 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
 
     const request = Symbol('fragment request');
     latestRequests.set(zone, request);
-    // The demo page enables its same-origin proxy locally or in Codespaces.
-    const useLocalProxy = container.ownerDocument.querySelector('meta[name="aem-fragment-proxy"][content="enabled"]') !== null;
-    const url = useLocalProxy
-      ? new URL('/__aem-fragment', window.location.origin)
-      : new URL(aemBaseURL);
-    url.searchParams.set('path', useLocalProxy ? path : `${fragmentRoot}/${path}`);
+    // Keep the Salesforce contentPath and request its snapshot from this page's server.
+    const url = new URL(aemBaseURL, container.ownerDocument.baseURI);
+    url.searchParams.set('path', contentPath.trim());
 
     try {
       const response = await fetch(url.toString());
@@ -76,20 +72,7 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
       // JSON parsing resolves Unicode escapes; decode the outer HTML entities once.
       const decoder = container.ownerDocument.createElement('textarea');
       decoder.innerHTML = fragment.html;
-      // Use the locally downloaded team-plan images when the demo runs locally.
-      let html = decoder.value;
-      if (useLocalProxy) {
-        const images = [
-          'VF-HP-desktop-offer-Teams-4000-920.webp',
-          'VF-HP-MOB-TEAMS.webp',
-        ];
-        images.forEach((image) => {
-          const remote = `https://www.vodafone.com.au/images/business/${image}`;
-          const local = new URL(`./assets/vodafone/images/${image}`, container.ownerDocument.baseURI).href;
-          html = html.replaceAll(remote, local);
-        });
-      }
-      if (latestRequests.get(zone) === request) zone.innerHTML = html;
+      if (latestRequests.get(zone) === request) zone.innerHTML = decoder.value;
     } catch (error) {
       if (latestRequests.get(zone) === request) {
         console.warn('[optimizely Personalization]: Unable to render AEM fragment:', contentPath, error);
