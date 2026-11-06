@@ -1,8 +1,8 @@
 // Change these values to select the content source; Salesforce contentPath stays unchanged.
 export const contentSource = {
   baseURL: '', // Empty uses the current page origin (localhost or Codespaces).
-  basePath: '/assets/vodafone/fragments', // Can be empty.
-  suffix: '.json', // Saved snapshots use .json; use an empty string for the AEM endpoint.
+  basePath: '/vha/experience_fragment', // Can be empty.
+  suffix: '/index.json', // Use an empty string for the live AEM endpoint.
 };
 
 // Live AEM example:
@@ -43,7 +43,7 @@ export function debugOptimizely() {
 
 const latestRequests = new WeakMap();
 
-/** Fetch and render each Salesforce decision's AEM fragment in its content zone. */
+/** Fetch the AEM JSON selected by each decision and show it in its content zone. */
 export async function applyPersonalizationFromOptimizely(container, decisions = []) {
   await Promise.all(decisions.map(async (decision) => {
     const selector = decision?.contentZone?.selector;
@@ -58,7 +58,8 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
       console.warn('[optimizely Personalization]: Invalid content zone selector:', selector, error);
       return;
     }
-    if (!zone) return;
+    const output = zone?.querySelector('[data-personalization-json]');
+    if (!output) return;
 
     // Only relative fragment paths under the configured AEM root are supported.
     const path = contentPath.trim().replace(/^\/+/, '');
@@ -80,10 +81,10 @@ export async function applyPersonalizationFromOptimizely(container, decisions = 
       const fragment = await response.json();
       if (typeof fragment.html !== 'string') throw new Error('AEM response does not contain HTML');
 
-      // JSON parsing resolves Unicode escapes; decode the outer HTML entities once.
-      const decoder = container.ownerDocument.createElement('textarea');
-      decoder.innerHTML = fragment.html;
-      if (latestRequests.get(zone) === request) zone.innerHTML = decoder.value;
+      // Show the complete response as text; never execute the returned HTML.
+      if (latestRequests.get(zone) === request) {
+        output.textContent = JSON.stringify(fragment, null, 2);
+      }
     } catch (error) {
       if (latestRequests.get(zone) === request) {
         console.warn('[optimizely Personalization]: Unable to render AEM fragment:', contentPath, error);

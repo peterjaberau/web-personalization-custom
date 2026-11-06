@@ -7,11 +7,10 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('./', import.meta.url));
 const port = Number(process.env.PORT || 8765);
 const host = process.env.HOST || '127.0.0.1';
-// Only demo files and assets are served; repository metadata stays private.
+// Only demo files and fragment JSON are served; repository metadata stays private.
 const publicFiles = new Set([
   '/index-optimizely.html', '/personalization-optimizely.js', '/debug.js', '/style.css',
 ]);
-const assetTypes = new Set(['.json', '.js', '.webp', '.png', '.jpg', '.jpeg', '.svg', '.css', '.woff']);
 const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml', '.woff': 'font/woff' };
 
 createServer(async (req, res) => {
@@ -23,9 +22,9 @@ createServer(async (req, res) => {
     const url = new URL(req.url, 'http://localhost');
     const name = url.pathname === '/' ? '/index-optimizely.html' : decodeURIComponent(url.pathname);
     const parts = name.split('/');
-    const isAsset = name.startsWith('/assets/') && assetTypes.has(extname(name).toLowerCase())
+    const isFragment = name.startsWith('/vha/experience_fragment/') && extname(name).toLowerCase() === '.json'
       && parts.every((part) => part !== '.' && part !== '..' && !part.startsWith('.'));
-    if (!publicFiles.has(name) && !isAsset) {
+    if (!publicFiles.has(name) && !isFragment) {
       res.writeHead(404).end('Not found');
       return;
     }

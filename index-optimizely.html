@@ -10,29 +10,14 @@
     })(window,document,'script','dataLayer','GTM-MMB8X5HR');
   </script>
   <!-- End Google Tag Manager -->
-  <!-- Optimizely Script -->
-
-  <script>(function() {
-    var a = 24176680311
-      , c = "https:" == document.location.protocol ? "https://" : "http://"
-      , b = document.createElement("script");
-    b.type = "text/javascript";
-    b.async = !!0;
-    b.src = c + "www.vodafone.com.au/js/" + a + ".js";
-    a = document.getElementsByTagName("script")[0];
-    a.parentNode.insertBefore(b, a)})();</script>
-
-  <!-- End Optimizely Script -->
-  <!-- The Vodafone banner depends on the shared library and fonts. -->
-  <link rel="stylesheet" href="./assets/vodafone/css/banner-fonts.css" />
-  <script defer src="./assets/vodafone/js/clientlib-base.js"></script>
-  <script defer src="./assets/vodafone/js/hero-banner.min.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
   <link rel="stylesheet" href="style.css" />
   <style>
       main .section-content { flex-direction: column; gap: 16px; }
+      .section-content details { width: 100%; }
+      .section-content pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 400px; overflow: auto; }
   </style>
 </head>
 <body>
@@ -56,7 +41,11 @@
   <section id="section-hero">
     <div class="page-section hero-default">
       <div class="section-content">
-        <h1>SECTION_HERO_V1: Waiting for a decision</h1>
+        <h1>SECTION_HERO_V1</h1>
+        <details>
+          <summary>Show AEM JSON response</summary>
+          <pre data-personalization-json aria-live="polite">Waiting for a decision.</pre>
+        </details>
         <button type="button" class="log-decision">Log decision</button>
       </div>
     </div>
