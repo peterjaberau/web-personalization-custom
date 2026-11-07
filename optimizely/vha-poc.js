@@ -1,5 +1,5 @@
 /*
- * Vodafone Team Plans Salesforce -> Optimizely attribute POC.
+ * Salesforce -> Optimizely attribute POC for the matched sitemap page.
  * Run as a Chrome DevTools snippet after loading the Salesforce sitemap.
  * It requests decisions for the SDK's matched page; it does not request content,
  * change the page, activate campaigns, or reload Optimizely.
@@ -22,17 +22,12 @@
   'use strict';
 
   var prefix = '[VHA Salesforce Optimizely POC]';
-  var targetPath = '/business/team-plans';
   var previousKeys = [];
   var requestGeneration = 0;
   var lastPayload = null;
 
   // Invalidate a request from an earlier execution of the snippet.
   if (host.vhaPoc && typeof host.vhaPoc.stop === 'function') host.vhaPoc.stop();
-
-  function onTargetPage() {
-    return host.location.hostname === 'www.vodafone.com.au' && host.location.pathname.replace(/\/$/, '') === targetPath;
-  }
 
   function readOptimizely(key) {
     if (!host.optimizely || typeof host.optimizely.get !== 'function') return undefined;
@@ -200,9 +195,7 @@
   function getMatchedZones(sdk) {
     var result = sdk.getSitemapResult();
     var page = result && result.matchedConfig;
-    if (!page || page.name !== 'Business Team Plans page') {
-      throw new Error('Salesforce has not matched the Business Team Plans page. Check the sitemap and run vhaPoc.run() again.');
-    }
+    if (!page) throw new Error('Salesforce has not matched a page. Check the sitemap and run vhaPoc.run() again.');
     if (!Array.isArray(page.contentZones)) throw new Error('The matched page has no content zones.');
     var zones = new Map();
     page.contentZones.forEach(function (zone) {
@@ -228,18 +221,13 @@
   async function run() {
     var generation = ++requestGeneration;
     try {
-      if (!onTargetPage()) throw new Error('Open https://www.vodafone.com.au/business/team-plans before running the POC.');
+      var requestedUrl = host.location.href;
       var sdk = getSalesforceSdk();
       var zones = getMatchedZones(sdk);
       var decisions = await fetchDecisions(sdk, zones);
-      if (generation !== requestGeneration || !onTargetPage()) {
+      if (generation !== requestGeneration || host.location.href !== requestedUrl) {
         console.warn(prefix, 'Ignoring an outdated decision request.');
         return;
-      }
-      // Do not publish if the sitemap changed while the request was pending.
-      var currentZones = getMatchedZones(sdk);
-      if (JSON.stringify(Array.from(zones.entries())) !== JSON.stringify(Array.from(currentZones.entries()))) {
-        throw new Error('The matched content zones changed while fetching. Run vhaPoc.run() again.');
       }
       publish(buildAttributes(decisions));
     } catch (error) {

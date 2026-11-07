@@ -1,0 +1,20 @@
+{
+  "salesforce": {
+    "personalizationPointName": "SECTION_HERO_V1",
+    "experienceKey": "NBN_BASIC_PRO"
+  },
+  "optimizely": {
+    "campaignId": "4747571281788928",
+    "experience": {
+      "id": "5873471188631552",
+      "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+      "statePath": "[\"get.state\"].getCampaignStates[\"4747571281788928\"].experiment",
+      "dataPath": "[\"get.data\"].experiments[\"5873471188631552\"]"
+    },
+    "variation": {
+      "id": "6088373836709888",
+      "statePath": "[\"get.state\"].getCampaignStates[\"4747571281788928\"].variation",
+      "dataPath": "[\"get.data\"].variations[\"6088373836709888\"]"
+    }
+  }
+}

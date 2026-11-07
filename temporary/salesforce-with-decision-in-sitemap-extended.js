@@ -95,6 +95,20 @@ SI.init({
           eventType: "userEngagement",
         },
       },
+      {
+        name: "Business NBN page",
+        isMatch: () => window.location.pathname === "/business/nbn-plans",
+        contentZones: [
+          { name: "SECTION_HERO_V1", selector: "#section-hero" },
+          { name: "SECTION_FAQ_V1", selector: "#section-faq" },
+          { name: "SECTION_FEATURES_V1", selector: "#section-features" },
+        ],
+        interaction: {
+          name: "Page View - Business NBN",
+          eventType: "userEngagement",
+        },
+      },
+
     ],
   }
 
