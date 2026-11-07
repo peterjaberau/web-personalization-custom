@@ -82,6 +82,19 @@ SI.init({
           eventType: "userEngagement",
         },
       },
+      {
+        name: "Business Team Plans page",
+        isMatch: () => window.location.pathname === "/business/team-plans",
+        contentZones: [
+          { name: "SECTION_HERO_V1", selector: "#section-hero" },
+          { name: "SECTION_FAQ_V1", selector: "#section-faq" },
+          { name: "SECTION_FEATURES_V1", selector: "#section-features" },
+        ],
+        interaction: {
+          name: "Page View - Business Team Plans",
+          eventType: "userEngagement",
+        },
+      },
     ],
   }
 

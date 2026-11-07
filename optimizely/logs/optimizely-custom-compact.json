@@ -1761,6 +1761,193 @@
         "SECTION_FEATURES_V1_isSalesforceDecision": "true"
       }
     },
+    "get.visitor": {
+      "visitorId": "oeu1793934562361r0.04726138995550011",
+      "customBehavior": { },
+      "first_session": false,
+      "browserId": "gc",
+      "browserVersion": "156.0.0.0",
+      "device": "desktop",
+      "device_type": "desktop_laptop",
+      "referrer": null,
+      "source_type": "campaign",
+      "custom": {
+        "decisions": {
+          "value": "[{\"contentZone\":{\"name\":\"SECTION_HERO_V1\",\"selector\":\"#section-hero\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"contentZone\":{\"name\":\"SECTION_FAQ_V1\",\"selector\":\"#section-faq\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"contentZone\":{\"name\":\"SECTION_FEATURES_V1\",\"selector\":\"#section-features\"},\"contentPath\":\"/banner/business/iphone-duo/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"}]"
+        },
+        "SECTION_HERO_V1_contentZoneName": {
+          "value": "SECTION_HERO_V1"
+        },
+        "SECTION_HERO_V1_contentZoneSelector": {
+          "value": "#section-hero"
+        },
+        "SECTION_HERO_V1_contentPath": {
+          "value": "/banner/business/team-plan/master"
+        },
+        "SECTION_HERO_V1_experienceKey": {
+          "value": "DEFAULT"
+        },
+        "SECTION_HERO_V1_isSalesforceDecision": {
+          "value": "true"
+        },
+        "SECTION_FAQ_V1_contentZoneName": {
+          "value": "SECTION_FAQ_V1"
+        },
+        "SECTION_FAQ_V1_contentZoneSelector": {
+          "value": "#section-faq"
+        },
+        "SECTION_FAQ_V1_contentPath": {
+          "value": "/banner/business/team-plan/master"
+        },
+        "SECTION_FAQ_V1_experienceKey": {
+          "value": "DEFAULT"
+        },
+        "SECTION_FAQ_V1_isSalesforceDecision": {
+          "value": "true"
+        },
+        "SECTION_FEATURES_V1_contentZoneName": {
+          "value": "SECTION_FEATURES_V1"
+        },
+        "SECTION_FEATURES_V1_contentZoneSelector": {
+          "value": "#section-features"
+        },
+        "SECTION_FEATURES_V1_contentPath": {
+          "value": "/banner/business/iphone-duo/master"
+        },
+        "SECTION_FEATURES_V1_experienceKey": {
+          "value": "DEFAULT"
+        },
+        "SECTION_FEATURES_V1_isSalesforceDecision": {
+          "value": "true"
+        }
+      },
+      "events": [
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793982208799,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793982355169,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793982407648,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793982603362,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793983005841,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793983022578,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793984276141,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1793984280045,
+          "s": 1793982208799,
+          "si": 1
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1794037831380,
+          "s": 1794037831380,
+          "si": 0
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1794037843998,
+          "s": 1794037831380,
+          "si": 0
+        },
+        {
+          "eventBase": {
+            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
+            "y": "pageview",
+            "c": "other",
+            "hash_": "6dfd104e"
+          },
+          "t": 1794039582205,
+          "s": 1794037831380,
+          "si": 0
+        }
+      ]
+    },
+    "get.visitor_id": {
+      "randomId": "oeu1793934562361r0.04726138995550011"
+    },
     "get.data": {
       "audiences": {
         "5388103595065344": {
@@ -2826,38 +3013,6 @@
       "accountId": "24176680311"
     },
     "get.state": {
-      "getActivationId": "1794042176314",
-      "getActiveExperimentIds": [ ],
-      "getCampaignStateLists": {
-        "5696875544707072": [
-          {
-            "id": "5696875544707072",
-            "campaignName": "EGW|DCP-Personalized-Salesforce-POC",
-            "experiment": null,
-            "audiences": [
-              {
-                "id": "5747059051986944",
-                "name": "experiment-eligible group"
-              }
-            ],
-            "allExperiments": [
-              {
-                "id": "4551907191029760",
-                "name": "EGW|DCP-Personalized-Salesforce-POC"
-              }
-            ],
-            "variation": null,
-            "reason": "No eligible experiment and variation found.",
-            "isActive": false,
-            "visitorRedirected": false,
-            "isInCampaignHoldback": false
-          }
-        ]
-      },
-      "getCampaignStates": { },
-      "getDecisionObject": { },
-      "getDecisionString": { },
-      "getExperimentStates": { },
       "getPageStates": {
         "4745572075175936": {
           "id": "4745572075175936",
@@ -3009,6 +3164,38 @@
           "metadata": { }
         }
       },
+      "getActivationId": "1794042176314",
+      "getActiveExperimentIds": [ ],
+      "getCampaignStateLists": {
+        "5696875544707072": [
+          {
+            "id": "5696875544707072",
+            "campaignName": "EGW|DCP-Personalized-Salesforce-POC",
+            "experiment": null,
+            "audiences": [
+              {
+                "id": "5747059051986944",
+                "name": "experiment-eligible group"
+              }
+            ],
+            "allExperiments": [
+              {
+                "id": "4551907191029760",
+                "name": "EGW|DCP-Personalized-Salesforce-POC"
+              }
+            ],
+            "variation": null,
+            "reason": "No eligible experiment and variation found.",
+            "isActive": false,
+            "visitorRedirected": false,
+            "isInCampaignHoldback": false
+          }
+        ]
+      },
+      "getCampaignStates": { },
+      "getDecisionObject": { },
+      "getDecisionString": { },
+      "getExperimentStates": { },
       "getRedirectInfo": { },
       "getTrafficExclusionStats": { },
       "getVariationMap": { },
@@ -3037,193 +3224,7 @@
         "visitorRedirected": false,
         "isInCampaignHoldback": false
       }
-    },
-    "get.visitor": {
-      "visitorId": "oeu1793934562361r0.04726138995550011",
-      "customBehavior": { },
-      "first_session": false,
-      "browserId": "gc",
-      "browserVersion": "156.0.0.0",
-      "device": "desktop",
-      "device_type": "desktop_laptop",
-      "referrer": null,
-      "source_type": "campaign",
-      "custom": {
-        "decisions": {
-          "value": "[{\"contentZone\":{\"name\":\"SECTION_HERO_V1\",\"selector\":\"#section-hero\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"contentZone\":{\"name\":\"SECTION_FAQ_V1\",\"selector\":\"#section-faq\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"contentZone\":{\"name\":\"SECTION_FEATURES_V1\",\"selector\":\"#section-features\"},\"contentPath\":\"/banner/business/iphone-duo/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"}]"
-        },
-        "SECTION_HERO_V1_contentZoneName": {
-          "value": "SECTION_HERO_V1"
-        },
-        "SECTION_HERO_V1_contentZoneSelector": {
-          "value": "#section-hero"
-        },
-        "SECTION_HERO_V1_contentPath": {
-          "value": "/banner/business/team-plan/master"
-        },
-        "SECTION_HERO_V1_experienceKey": {
-          "value": "DEFAULT"
-        },
-        "SECTION_HERO_V1_isSalesforceDecision": {
-          "value": "true"
-        },
-        "SECTION_FAQ_V1_contentZoneName": {
-          "value": "SECTION_FAQ_V1"
-        },
-        "SECTION_FAQ_V1_contentZoneSelector": {
-          "value": "#section-faq"
-        },
-        "SECTION_FAQ_V1_contentPath": {
-          "value": "/banner/business/team-plan/master"
-        },
-        "SECTION_FAQ_V1_experienceKey": {
-          "value": "DEFAULT"
-        },
-        "SECTION_FAQ_V1_isSalesforceDecision": {
-          "value": "true"
-        },
-        "SECTION_FEATURES_V1_contentZoneName": {
-          "value": "SECTION_FEATURES_V1"
-        },
-        "SECTION_FEATURES_V1_contentZoneSelector": {
-          "value": "#section-features"
-        },
-        "SECTION_FEATURES_V1_contentPath": {
-          "value": "/banner/business/iphone-duo/master"
-        },
-        "SECTION_FEATURES_V1_experienceKey": {
-          "value": "DEFAULT"
-        },
-        "SECTION_FEATURES_V1_isSalesforceDecision": {
-          "value": "true"
-        }
-      },
-      "events": [
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793982208799,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793982355169,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793982407648,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793982603362,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793983005841,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793983022578,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793984276141,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1793984280045,
-          "s": 1793982208799,
-          "si": 1
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1794037831380,
-          "s": 1794037831380,
-          "si": 0
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1794037843998,
-          "s": 1794037831380,
-          "si": 0
-        },
-        {
-          "eventBase": {
-            "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2",
-            "y": "pageview",
-            "c": "other",
-            "hash_": "6dfd104e"
-          },
-          "t": 1794039582205,
-          "s": 1794037831380,
-          "si": 0
-        }
-      ]
-    },
-    "get.visitor_id": {
-      "randomId": "oeu1793934562361r0.04726138995550011"
     }
+
   }
 }

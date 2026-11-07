@@ -1,0 +1,388 @@
+{
+  "getCampaignStates": {
+    "5753118594433024": {
+      "id": "5753118594433024",
+      "campaignName": "Clearance - save purple badge on popular module",
+      "experiment": {
+        "id": "5219993323831296",
+        "name": "DCP-18666-clearance-purple-save-values",
+        "campaignName": "Clearance - save purple badge on popular module"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "5219993323831296",
+          "name": "DCP-18666-clearance-purple-save-values"
+        }
+      ],
+      "variation": {
+        "id": "5945183072681984",
+        "name": "Variation #1"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "4761231834218496": {
+      "id": "4761231834218496",
+      "campaignName": "DCP-18106-888 Tiles Restyle",
+      "experiment": {
+        "id": "4942833856020480",
+        "name": "DCP-18106-888 Tiles Restyle",
+        "campaignName": "DCP-18106-888 Tiles Restyle"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "4942833856020480",
+          "name": "DCP-18106-888 Tiles Restyle"
+        }
+      ],
+      "variation": {
+        "id": "4926597604573184",
+        "name": "DCP-18106-888 Tiles Restyle"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "6055659093884928": {
+      "id": "6055659093884928",
+      "campaignName": "DCP-18198-Apple NPI: Previously Viewed Contextual Messaging",
+      "experiment": {
+        "id": "4552690066259968",
+        "name": "DCP-18198-AppleNPI-Contextual-Messaging",
+        "campaignName": "DCP-18198-Apple NPI: Previously Viewed Contextual Messaging"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "4552690066259968",
+          "name": "DCP-18198-AppleNPI-Contextual-Messaging"
+        }
+      ],
+      "variation": {
+        "id": "5867809572388864",
+        "name": "DCP-18198-Contextual Messaging"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "6070859945738240": {
+      "id": "6070859945738240",
+      "campaignName": "Quick links with Chevron",
+      "experiment": {
+        "id": "5514831046901760",
+        "name": "DCP-15294 Quick links with Chevron",
+        "campaignName": "Quick links with Chevron"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "5514831046901760",
+          "name": "DCP-15294 Quick links with Chevron"
+        }
+      ],
+      "variation": {
+        "id": "5674150644154368",
+        "name": "Variation #1"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "6084689180491776": {
+      "id": "6084689180491776",
+      "campaignName": "DCP-18209-48M MPP",
+      "experiment": {
+        "id": "6272862703583232",
+        "name": "DCP-18209-48M MPP",
+        "campaignName": "DCP-18209-48M MPP"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "6272862703583232",
+          "name": "DCP-18209-48M MPP"
+        }
+      ],
+      "variation": {
+        "id": "5991387726872576",
+        "name": "DCP-18209-48M MPP"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "6716805280956416": {
+      "id": "6716805280956416",
+      "campaignName": "Mega Nav Links",
+      "experiment": {
+        "id": "4874124976193536",
+        "name": "DCP-18197-Iphone18 Nav",
+        "campaignName": "Mega Nav Links"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "4874124976193536",
+          "name": "DCP-18197-Iphone18 Nav"
+        }
+      ],
+      "variation": {
+        "id": "5300127907184640",
+        "name": "DCP-18197-Iphone18 Nav"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "4968657497882624": {
+      "id": "4968657497882624",
+      "campaignName": "DCP-18199-Apple NPI Bento Banner",
+      "experiment": {
+        "id": "5379162586742784",
+        "name": "SIMO",
+        "campaignName": "DCP-18199-Apple NPI Bento Banner"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "5379162586742784",
+          "name": "SIMO"
+        }
+      ],
+      "variation": {
+        "id": "5714257176690688",
+        "name": "SIMO"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "4915369838641152": {
+      "id": "4915369838641152",
+      "campaignName": "EGW- DCP-business-48-home",
+      "experiment": {
+        "id": "6041269745483776",
+        "name": "EGW- DCP-business-48-home",
+        "campaignName": "EGW- DCP-business-48-home"
+      },
+      "audiences": [
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "6041269745483776",
+          "name": "EGW- DCP-business-48-home"
+        }
+      ],
+      "variation": {
+        "id": "5361704618426368",
+        "name": "EGW- DCP-business-48-home"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "6636850394169344": {
+      "id": "6636850394169344",
+      "campaignName": "EGW | DCP-personalized-business-Apple-Nav",
+      "experiment": {
+        "id": "6720080334028800",
+        "name": "EGW | DCP-personalized-Business-Apple",
+        "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+      },
+      "audiences": [
+        {
+          "id": "5388103595065344",
+          "name": "egw-campaign"
+        },
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "6720080334028800",
+          "name": "EGW | DCP-personalized-Business-Apple"
+        }
+      ],
+      "variation": {
+        "id": "6074198538321920",
+        "name": "EGW | DCP-personalized-Business-Apple"
+      },
+      "isActive": true,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "5710553163759616": {
+      "id": "5710553163759616",
+      "campaignName": "EGW | DCP-17039-personalised-business-simo",
+      "experiment": {
+        "id": "4930130561204224",
+        "name": "DCP-17039-personalised-business-simo-hide-banner",
+        "campaignName": "EGW | DCP-17039-personalised-business-simo"
+      },
+      "audiences": [
+        {
+          "id": "5388103595065344",
+          "name": "egw-campaign"
+        },
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "4930130561204224",
+          "name": "DCP-17039-personalised-business-simo-hide-banner"
+        }
+      ],
+      "variation": {
+        "id": "5428207248211968",
+        "name": "EGW|DCP-TEMP-Personalised-Business-SIMO"
+      },
+      "isActive": true,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "6187662548140032": {
+      "id": "6187662548140032",
+      "campaignName": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+      "experiment": {
+        "id": "5505477121933312",
+        "name": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+        "campaignName": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now"
+      },
+      "audiences": [
+        {
+          "id": "5388103595065344",
+          "name": "egw-campaign"
+        },
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "5505477121933312",
+          "name": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now"
+        }
+      ],
+      "variation": {
+        "id": "6445246433722368",
+        "name": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now"
+      },
+      "isActive": true,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "5058376931999744": {
+      "id": "5058376931999744",
+      "campaignName": "EGW | DCP-18151 - CRO | Team Plan layout",
+      "experiment": {
+        "id": "5585651746209792",
+        "name": "EGW | DCP-18151 - CRO | Team Plan layout",
+        "campaignName": "EGW | DCP-18151 - CRO | Team Plan layout"
+      },
+      "audiences": [
+        {
+          "id": "5388103595065344",
+          "name": "egw-campaign"
+        },
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "5585651746209792",
+          "name": "EGW | DCP-18151 - CRO | Team Plan layout"
+        }
+      ],
+      "variation": {
+        "id": "4703059320766464",
+        "name": "EGW | DCP-18151 - CRO | Team Plan layout"
+      },
+      "isActive": true,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    },
+    "5878008693653504": {
+      "id": "5878008693653504",
+      "campaignName": "EGW | DCP-18152- CRO | SIMO Plan layout",
+      "experiment": {
+        "id": "6039632842850304",
+        "name": "EGW | DCP-18152- CRO | SIMO Plan layout",
+        "campaignName": "EGW | DCP-18152- CRO | SIMO Plan layout"
+      },
+      "audiences": [
+        {
+          "id": "5388103595065344",
+          "name": "egw-campaign"
+        },
+        {
+          "id": "5747059051986944",
+          "name": "experiment-eligible group"
+        }
+      ],
+      "allExperiments": [
+        {
+          "id": "6039632842850304",
+          "name": "EGW | DCP-18152- CRO | SIMO Plan layout"
+        }
+      ],
+      "variation": {
+        "id": "6467830546169856",
+        "name": "EGW | DCP-18152- CRO | SIMO Plan layout"
+      },
+      "isActive": false,
+      "visitorRedirected": false,
+      "isInCampaignHoldback": false
+    }
+  }
+}
