@@ -55,6 +55,21 @@ SI.init({
         },
       },
       {
+        name: "Optimizely - Custom Attributes",
+        isMatch: () => window.location.pathname.includes("/index-optimizely-custom-attributes.html"),
+        // Zone names must match Salesforce personalization point API names.
+        // Replace these example selectors with stable targets on the actual page.
+        contentZones: [
+          { name: "SECTION_HERO_V1", selector: "#section-hero" },
+          { name: "SECTION_FAQ_V1", selector: "#section-faq" },
+          { name: "SECTION_FEATURES_V1", selector: "#section-features" },
+        ],
+        interaction: {
+          name: "Page View - Home",
+          eventType: "userEngagement",
+        },
+      },
+      {
         name: "Business SIM-only page",
         isMatch: () => window.location.pathname.includes("/business/sim-only"),
         contentZones: [
