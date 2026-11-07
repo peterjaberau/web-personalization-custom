@@ -4,9 +4,9 @@
   <!-- Google Tag Manager -->
   <script>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MMB8X5HR');
   </script>
 
@@ -33,9 +33,9 @@
   <title>Home</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-      main .section-content { flex-direction: column; gap: 16px; }
-      main section details { width: 100%; }
-      main section pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 400px; overflow: auto; }
+    main .section-content { flex-direction: column; gap: 16px; }
+    main section details { width: 100%; }
+    main section pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 400px; overflow: auto; }
   </style>
 </head>
 <body>
@@ -52,6 +52,7 @@
       <button type="button" data-debug-action="page">Matched Page</button>
       <button type="button" data-debug-action="zones">Content Zones</button>
       <button type="button" data-debug-action="status">Match Status</button>
+      <button type="button" data-optimizely-attribute-inspect>Inspect Optimizely Attributes</button>
     </div>
   </div>
 
@@ -78,7 +79,7 @@
   </section>
 </main>
 
-<script src="./personalization-salesforce-optimizely.js"></script>
+<script src="./personalization-optimizely-custom-attributes.js"></script>
 <script type="module">
   import { connectDecisionDebug } from './debug.js';
 
