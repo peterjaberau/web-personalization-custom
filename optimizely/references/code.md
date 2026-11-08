@@ -11,3 +11,8 @@ https://docs.optimizely.com/web-experimentation/docs/helper-functions#poll-for-e
 
 
 https://docs.optimizely.com/web-experimentation/docs/templates
+
+
+https://github.com/optimizely/fastly-compute-starter-kit/blob/main/src/index.js
+
+https://github.com/optimizely/upload-custom-code-action/tree/main
