@@ -20,3 +20,12 @@ https://github.com/optimizely/upload-custom-code-action/tree/main
 https://github.com/optimizely/javascript-sdk
 
 https://gist.github.com/joshuaonwezen/99ab19c78623c81c6e53fb11859ee0e1
+
+
+https://gist.github.com/joshuaonwezen/6aff7b48a68623d123fafb994a9a4fe1#file-experiment_info_into_attribute_project_js-js
+
+
+https://gist.github.com/joshuaonwezen/99ab19c78623c81c6e53fb11859ee0e1#file-rerender_waituntil-js
+
+
+https://gist.github.com/joshuaonwezen/8c22efa6aefda304a5fd3463aa5c3dea#file-async_attributes-js
