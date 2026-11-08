@@ -18,3 +18,5 @@ https://github.com/optimizely/fastly-compute-starter-kit/blob/main/src/index.js
 https://github.com/optimizely/upload-custom-code-action/tree/main
 
 https://github.com/optimizely/javascript-sdk
+
+https://gist.github.com/joshuaonwezen/99ab19c78623c81c6e53fb11859ee0e1
