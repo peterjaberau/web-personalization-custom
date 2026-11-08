@@ -1,0 +1,3564 @@
+{
+  "url": "https://www.vodafone.com.au/business/nbn-plans",
+  "lastSubmittedCommand": {
+    "type": "user",
+    "attributes": {
+      "base_point": "page_base_poc",
+      "base_decision": "9pb9p00000001ovAAA",
+      "base_experience_scope": "page",
+      "base_experience_tags": "",
+      "base_experience_value": "default",
+      "extended_point": "page_extended_poc",
+      "extended_decision": "9pb9p00000001ybAAA",
+      "extended_experience_scope": "nbn_plans",
+      "extended_experience_tags": "",
+      "extended_experience_value": "email",
+      "priority_point": "page_priority_poc",
+      "priority_decision": null,
+      "priority_experience_scope": null,
+      "priority_experience_tags": null,
+      "priority_experience_value": null
+    }
+  },
+  "get.visitor": {
+    "visitorId": "oeu1794125466236r0.1273906060363994",
+    "customBehavior": {},
+    "first_session": false,
+    "browserId": "gc",
+    "browserVersion": "156.0.0.0",
+    "device": "desktop",
+    "device_type": "desktop_laptop",
+    "referrer": null,
+    "source_type": "direct",
+    "custom": {
+      "base_point": {
+        "value": "page_base_poc"
+      },
+      "base_decision": {
+        "value": "9pb9p00000001ovAAA"
+      },
+      "base_experience_scope": {
+        "value": "page"
+      },
+      "base_experience_tags": {
+        "value": ""
+      },
+      "base_experience_value": {
+        "value": "default"
+      },
+      "extended_point": {
+        "value": "page_extended_poc"
+      },
+      "extended_decision": {
+        "value": "9pb9p00000001ybAAA"
+      },
+      "extended_experience_scope": {
+        "value": "nbn_plans"
+      },
+      "extended_experience_tags": {
+        "value": ""
+      },
+      "extended_experience_value": {
+        "value": "email"
+      },
+      "priority_point": {
+        "value": "page_priority_poc"
+      },
+      "priority_decision": {
+        "value": null
+      },
+      "priority_experience_scope": {
+        "value": null
+      },
+      "priority_experience_tags": {
+        "value": null
+      },
+      "priority_experience_value": {
+        "value": null
+      }
+    },
+    "events": [
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "755e85ba"
+        },
+        "t": 1794125467405,
+        "s": 1794125467405,
+        "si": 2
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "26357651"
+        },
+        "t": 1794125467407,
+        "s": 1794125467405,
+        "si": 2
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_every_page",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "cee01e6f"
+        },
+        "t": 1794125467408,
+        "s": 1794125467405,
+        "si": 2
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "129d4c7b"
+        },
+        "t": 1794125467409,
+        "s": 1794125467405,
+        "si": 2
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusiness",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "ca4569db"
+        },
+        "t": 1794134120092,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_every_page",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "cee01e6f"
+        },
+        "t": 1794134120094,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "129d4c7b"
+        },
+        "t": 1794134120095,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "26357651"
+        },
+        "t": 1794134121702,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_every_page",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "cee01e6f"
+        },
+        "t": 1794134121703,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "129d4c7b"
+        },
+        "t": 1794134121705,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "3b2ba051"
+        },
+        "t": 1794134121707,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_every_page",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "cee01e6f"
+        },
+        "t": 1794134122781,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "129d4c7b"
+        },
+        "t": 1794134122783,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "4ae82615"
+        },
+        "t": 1794134124369,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_every_page",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "cee01e6f"
+        },
+        "t": 1794134124373,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "129d4c7b"
+        },
+        "t": 1794134124377,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_homepage",
+          "y": "pageview",
+          "c": "other",
+          "o": {
+            "herobannerheader": "",
+            "why": ""
+          },
+          "hash_": "a338903b"
+        },
+        "t": 1794134125347,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_popular_products_component_",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "6e8143dd"
+        },
+        "t": 1794134125348,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_hp_save_purple",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "571a2448"
+        },
+        "t": 1794134125350,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_every_page",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "cee01e6f"
+        },
+        "t": 1794134125352,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "26357651"
+        },
+        "t": 1794134125610,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_every_page",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "cee01e6f"
+        },
+        "t": 1794134125611,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "1e8ccc77"
+        },
+        "t": 1794134125614,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "129d4c7b"
+        },
+        "t": 1794134125621,
+        "s": 1794134120092,
+        "si": 1
+      },
+      {
+        "eventBase": {
+          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
+          "y": "pageview",
+          "c": "other",
+          "hash_": "2b0fd00a"
+        },
+        "t": 1794134125624,
+        "s": 1794134120092,
+        "si": 1
+      }
+    ]
+  },
+  "get.visitor_id": {
+    "randomId": "oeu1794125466236r0.1273906060363994"
+  },
+  "get.state": {
+    "getPageStates": {
+      "5210171411005440": {
+        "id": "5210171411005440",
+        "name": "URL Targeting for EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
+        "category": "other",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/nbn-plans"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "tags": [],
+        "isActive": true,
+        "metadata": {}
+      },
+      "5923171895869440": {
+        "id": "5923171895869440",
+        "name": "URL Targeting for EGW | DCP-17039-personalised-business-simo",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
+        "category": "other",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/sim-only"
+            },
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/nbn-plans"
+            },
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/team-plans"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "tags": [],
+        "isActive": true,
+        "metadata": {}
+      },
+      "5967400055603200": {
+        "id": "5967400055603200",
+        "name": "Every Page",
+        "apiName": "24176680311_every_page",
+        "category": "other",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "substring",
+              "type": "url",
+              "value": "www.vodafone.com.au"
+            }
+          ]
+        ],
+        "tags": [],
+        "isActive": true,
+        "metadata": {}
+      },
+      "6073900440748032": {
+        "id": "6073900440748032",
+        "name": "URL Targeting for EGW | DCP-personalized-business-Apple-Nav",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+        "category": "other",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "substring",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "tags": [],
+        "isActive": true,
+        "metadata": {}
+      }
+    },
+    "getCampaignStates": {
+      "4747571281788928": {
+        "id": "4747571281788928",
+        "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "experiment": {
+          "id": "5873471188631552",
+          "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+        },
+        "audiences": [
+          {
+            "id": "5388103595065344",
+            "name": "egw-campaign"
+          },
+          {
+            "id": "5747059051986944",
+            "name": "experiment-eligible group"
+          }
+        ],
+        "allExperiments": [
+          {
+            "id": "5873471188631552",
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          }
+        ],
+        "variation": {
+          "id": "6088373836709888",
+          "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+        },
+        "isActive": true,
+        "visitorRedirected": false,
+        "isInCampaignHoldback": false
+      },
+      "5710553163759616": {
+        "id": "5710553163759616",
+        "campaignName": "EGW | DCP-17039-personalised-business-simo",
+        "experiment": {
+          "id": "4930130561204224",
+          "name": "DCP-17039-personalised-business-simo-hide-banner",
+          "campaignName": "EGW | DCP-17039-personalised-business-simo"
+        },
+        "audiences": [
+          {
+            "id": "5388103595065344",
+            "name": "egw-campaign"
+          },
+          {
+            "id": "5747059051986944",
+            "name": "experiment-eligible group"
+          }
+        ],
+        "allExperiments": [
+          {
+            "id": "4930130561204224",
+            "name": "DCP-17039-personalised-business-simo-hide-banner"
+          }
+        ],
+        "variation": {
+          "id": "5428207248211968",
+          "name": "EGW|DCP-TEMP-Personalised-Business-SIMO"
+        },
+        "isActive": true,
+        "visitorRedirected": false,
+        "isInCampaignHoldback": false
+      },
+      "6636850394169344": {
+        "id": "6636850394169344",
+        "campaignName": "EGW | DCP-personalized-business-Apple-Nav",
+        "experiment": {
+          "id": "6720080334028800",
+          "name": "EGW | DCP-personalized-Business-Apple",
+          "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+        },
+        "audiences": [
+          {
+            "id": "5388103595065344",
+            "name": "egw-campaign"
+          },
+          {
+            "id": "5747059051986944",
+            "name": "experiment-eligible group"
+          }
+        ],
+        "allExperiments": [
+          {
+            "id": "6720080334028800",
+            "name": "EGW | DCP-personalized-Business-Apple"
+          }
+        ],
+        "variation": {
+          "id": "6074198538321920",
+          "name": "EGW | DCP-personalized-Business-Apple"
+        },
+        "isActive": true,
+        "visitorRedirected": false,
+        "isInCampaignHoldback": false
+      }
+    },
+    "getExperimentStates": {}
+  },
+  "get.data": {
+    "audiences": {
+      "5388103595065344": {
+        "id": "5388103595065344",
+        "name": "egw-campaign",
+        "conditions": [
+          "and",
+          [
+            "or",
+            [
+              "or",
+              {
+                "match": null,
+                "name": null,
+                "type": "code",
+                "value": "//url must contains /business; url must NOT contain /cart or /checkout\ndocument.location.pathname.indexOf('/business')>-1 && (document.location.pathname.indexOf('/cart')<=-1 && document.location.pathname.indexOf('/checkout')<=-1);\n"
+              }
+            ]
+          ]
+        ]
+      },
+      "5747059051986944": {
+        "id": "5747059051986944",
+        "name": "experiment-eligible group",
+        "conditions": [
+          "and",
+          [
+            "or",
+            [
+              "or",
+              {
+                "match": null,
+                "name": null,
+                "type": "code",
+                "value": "function getCookieByName(name) {\n  const value = `; ${document.cookie}`; \n  const parts = value.split(`; ${name}=`);\n\n  if (parts.length === 2) {\n    return parts.pop().split(';').shift(); \n  }\n  return null;\n}\nvar lastTwoDigitsOfID = getCookieByName('optimizelyEndUserId') ? parseInt(getCookieByName('optimizelyEndUserId').slice(-2)) : 0;\n\n\n\n\n/* Option 1 */\n//console.log('###is exp eligibal user:', lastTwoDigitsOfID > 1);\nlastTwoDigitsOfID > 1;      // holdout group size in 2%\n\n\n\n/* Option 2\n// getCookieByName('optimizelyHoldoutGroup') == true;       // custom cookie from alway-on A/B test. Not using this approach!!!\n*/"
+              }
+            ]
+          ]
+        ]
+      }
+    },
+    "events": {
+      "25034820240": {
+        "id": "25034820240",
+        "viewId": "25058530195",
+        "name": "Begin Chat",
+        "category": "other",
+        "apiName": "24176680311_begin_chat",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "[data-message=\"ChatFormSubmit\"]"
+        },
+        "pageId": "25058530195"
+      },
+      "25091950207": {
+        "id": "25091950207",
+        "viewId": "25058530195",
+        "name": "Checkout Button ",
+        "category": "other",
+        "apiName": "24176680311_checkout_button_",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#button-Checkout"
+        },
+        "pageId": "25058530195"
+      },
+      "25173210717": {
+        "id": "25173210717",
+        "viewId": null,
+        "name": "Hero_banner",
+        "category": "other",
+        "apiName": "hero_banner",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25208670716": {
+        "id": "25208670716",
+        "viewId": null,
+        "name": "Live Chat - Begin chat/Chat/Chat now",
+        "category": "other",
+        "apiName": "live_chat_begin",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25222860257": {
+        "id": "25222860257",
+        "viewId": null,
+        "name": "Mega Nav Sub Menu - Upgrade your device",
+        "category": "other",
+        "apiName": "nav_upgrade_device",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25225900710": {
+        "id": "25225900710",
+        "viewId": "24814440116",
+        "name": "Select this phone CTA",
+        "category": "other",
+        "apiName": "24176680311_select_this_phone_cta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "button[data-testid=\"choose-plan-cta\"]"
+        },
+        "pageId": "24814440116"
+      },
+      "25232420461": {
+        "id": "25232420461",
+        "viewId": null,
+        "name": "Device Listing - Device Tiles",
+        "category": "other",
+        "apiName": "device_tiles",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25233910596": {
+        "id": "25233910596",
+        "viewId": null,
+        "name": "Cart Page (New acq) - Splitter Event",
+        "category": "other",
+        "apiName": "cart_splitter",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25246730128": {
+        "id": "25246730128",
+        "viewId": null,
+        "name": "Mega Nav Sub Menu - Get another device or plan",
+        "category": "other",
+        "apiName": "nav_add_another_device",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25248810701": {
+        "id": "25248810701",
+        "viewId": null,
+        "name": "Live Chat - Close/Leave chat/End chat",
+        "category": "other",
+        "apiName": "live_chat_close",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25251540886": {
+        "id": "25251540886",
+        "viewId": null,
+        "name": "Mega Nav Sub Menu - Manage your account",
+        "category": "other",
+        "apiName": "nav_manage_account",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25252930454": {
+        "id": "25252930454",
+        "viewId": null,
+        "name": "PDP - Select This Phone",
+        "category": "other",
+        "apiName": "select_this_phone",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25253820536": {
+        "id": "25253820536",
+        "viewId": null,
+        "name": "Plans Page - Select this plan",
+        "category": "other",
+        "apiName": "select_this_plan",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25415760404": {
+        "id": "25415760404",
+        "viewId": null,
+        "name": "Recently Viewed Click ",
+        "category": "other",
+        "apiName": "RecentlyViewedClick",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25452520118": {
+        "id": "25452520118",
+        "viewId": null,
+        "name": "Recently Viewed Component Display",
+        "category": "other",
+        "apiName": "RecentlyViewedExists",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25758341233": {
+        "id": "25758341233",
+        "viewId": null,
+        "name": "Quicklinks - NBN",
+        "category": "other",
+        "apiName": "quicklinksNBN",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25764660994": {
+        "id": "25764660994",
+        "viewId": null,
+        "name": "Quicklinks - Mobile",
+        "category": "other",
+        "apiName": "quicklinksMobile",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25766350771": {
+        "id": "25766350771",
+        "viewId": null,
+        "name": "Quicklinks - Simonly",
+        "category": "other",
+        "apiName": "quicklinksSimonly",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25793660824": {
+        "id": "25793660824",
+        "viewId": null,
+        "name": "Quicklinks - iPad",
+        "category": "other",
+        "apiName": "quicklinksiPad",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25801430837": {
+        "id": "25801430837",
+        "viewId": null,
+        "name": "Quicklinks - Prepaid",
+        "category": "other",
+        "apiName": "quicklinksPrepaid",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "25868350246": {
+        "id": "25868350246",
+        "viewId": "25048711059",
+        "name": "HomePagePrimaryCTA",
+        "category": "other",
+        "apiName": "24176680311_homepageprimarycta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "vha-hero-banner > div > vha-grid > div > div > vha-button.primaryCTA"
+        },
+        "pageId": "25048711059"
+      },
+      "26470260198": {
+        "id": "26470260198",
+        "viewId": null,
+        "name": "Logged Customer PDP View",
+        "category": "other",
+        "apiName": "loggedCustomerPdpView",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "27770540105": {
+        "id": "27770540105",
+        "viewId": "25048711059",
+        "name": "HomePageSecondaryCTA",
+        "category": "other",
+        "apiName": "24176680311_homepagesecondarycta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "vha-hero-banner > div > vha-grid > div > div > vha-button.secondaryCTA"
+        },
+        "pageId": "25048711059"
+      },
+      "27850670251": {
+        "id": "27850670251",
+        "viewId": "27906450060",
+        "name": "Click on CTA",
+        "category": "other",
+        "apiName": "24176680311_click_on_cta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "[data-testid=\"select-plan-cta\"]"
+        },
+        "pageId": "27906450060"
+      },
+      "27922940115": {
+        "id": "27922940115",
+        "viewId": "25048711059",
+        "name": "Manage Your Account ",
+        "category": "other",
+        "apiName": "24176680311_manage_your_account_",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "vha-service-action-button:nth-of-type(1) > a"
+        },
+        "pageId": "25048711059"
+      },
+      "27950730135": {
+        "id": "27950730135",
+        "viewId": "25048711059",
+        "name": "Quicklink: Mobile Phones",
+        "category": "other",
+        "apiName": "24176680311_footer_my_vodafone",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "vha-section vha-button-link:nth-child(1)"
+        },
+        "pageId": "25048711059"
+      },
+      "28327030091": {
+        "id": "28327030091",
+        "viewId": "25048711059",
+        "name": "Popular Products ",
+        "category": "other",
+        "apiName": "24176680311_popular_products__iphone_15_plus",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "[data-testid=\"popular-products-slider-container\"]"
+        },
+        "pageId": "25048711059"
+      },
+      "28554530419": {
+        "id": "28554530419",
+        "viewId": null,
+        "name": "Select this plan CTA - NBN Plans",
+        "category": "other",
+        "apiName": "select-this-plan-CTA",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "28569230252": {
+        "id": "28569230252",
+        "viewId": "28624420073",
+        "name": "Check your address",
+        "category": "other",
+        "apiName": "24176680311_check_your_address",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#input-typeahead-address-checker"
+        },
+        "pageId": "28624420073"
+      },
+      "28624940537": {
+        "id": "28624940537",
+        "viewId": "25048711059",
+        "name": "test",
+        "category": "other",
+        "apiName": "24176680311_test",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#v87cf13a4048754a8f807f5c8d92961030b984ce0d7802c0be476a6570c9c3ec0 > vha-service-action-button:nth-child(1)"
+        },
+        "pageId": "25048711059"
+      },
+      "29007580183": {
+        "id": "29007580183",
+        "viewId": "25048711059",
+        "name": "Pop Up ",
+        "category": "other",
+        "apiName": "24176680311_pop_up_",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".seeOfferButton primaryCTA"
+        },
+        "pageId": "25048711059"
+      },
+      "29030570330": {
+        "id": "29030570330",
+        "viewId": null,
+        "name": "Modal Window CTA Secondary",
+        "category": "other",
+        "apiName": "modal-window-cta-two",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "29123470010": {
+        "id": "29123470010",
+        "viewId": null,
+        "name": "Modal Window Close Button",
+        "category": "other",
+        "apiName": "modal-window-close-bt",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "29138060010": {
+        "id": "29138060010",
+        "viewId": null,
+        "name": "Modal Window Close Background",
+        "category": "other",
+        "apiName": "modal-window-close-bg",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "29169340005": {
+        "id": "29169340005",
+        "viewId": null,
+        "name": "Modal Window CTA Primary ",
+        "category": "other",
+        "apiName": "modal-window-cta-one",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "29457480565": {
+        "id": "29457480565",
+        "viewId": "29520940105",
+        "name": "Popular Device Tiles ",
+        "category": "other",
+        "apiName": "24176680311_popular_device_tiles_",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "iframe"
+        },
+        "pageId": "29520940105"
+      },
+      "29547220342": {
+        "id": "29547220342",
+        "viewId": null,
+        "name": "PIN-Reset-Open",
+        "category": "other",
+        "apiName": "PIN-Reset-Open",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "29824130101": {
+        "id": "29824130101",
+        "viewId": "29801540014",
+        "name": "Shop Now (Hubbl pg)",
+        "category": "other",
+        "apiName": "24176680311_shop_now_hubbl_pg",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "vha-hero-banner > div > vha-grid > div > div > vha-button.primaryCTA"
+        },
+        "pageId": "29801540014"
+      },
+      "30034660107": {
+        "id": "30034660107",
+        "viewId": null,
+        "name": "Apple Comparison Modal",
+        "category": "other",
+        "apiName": "apple-comparison-modal",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "30156330109": {
+        "id": "30156330109",
+        "viewId": "30163780090",
+        "name": "Watch PDP CTA ",
+        "category": "other",
+        "apiName": "24176680311_watch_pdp_cta_",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "[data-testid=\"add-to-cart-cta\"]"
+        },
+        "pageId": "30163780090"
+      },
+      "30166520108": {
+        "id": "30166520108",
+        "viewId": "30163780090",
+        "name": "Watch Continue to Cart Extras pg",
+        "category": "other",
+        "apiName": "24176680311_watch_continue_to_cart_extras_pg",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "[data-testid=\"sticky-cart-title-cta-button\"]"
+        },
+        "pageId": "30163780090"
+      },
+      "30222930077": {
+        "id": "30222930077",
+        "viewId": null,
+        "name": "mobileimageclick",
+        "category": "other",
+        "apiName": "mobileimageclick",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "30303710050": {
+        "id": "30303710050",
+        "viewId": null,
+        "name": "PIN-Reset-Display",
+        "category": "other",
+        "apiName": "PINResetDisplay",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "4523466741776384": {
+        "id": "4523466741776384",
+        "viewId": "5359967457247232",
+        "name": "OneSQ fibre vs wireless link",
+        "category": "other",
+        "apiName": "24176680311_onesq_fibre_vs_wireless_link",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#fibre-info-box"
+        },
+        "pageId": "5359967457247232"
+      },
+      "4586449375330304": {
+        "id": "4586449375330304",
+        "viewId": null,
+        "name": "Purchase - All Products",
+        "category": "other",
+        "apiName": "purchase",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "4588914552340480": {
+        "id": "4588914552340480",
+        "viewId": null,
+        "name": "EOFY Hat Attached",
+        "category": "other",
+        "apiName": "eofy_hat_attached",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "4698182756597760": {
+        "id": "4698182756597760",
+        "viewId": "28624420073",
+        "name": "nbn card ribbon click",
+        "category": "other",
+        "apiName": "24176680311_nbn_card_ribbon_click",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".card-ribbon-link"
+        },
+        "pageId": "28624420073"
+      },
+      "4709266825674752": {
+        "id": "4709266825674752",
+        "viewId": "6472973368950784",
+        "name": "ExistingCustomersSecondaryCTA",
+        "category": "other",
+        "apiName": "24176680311_existingcustomerssecondarycta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".secondaryCta"
+        },
+        "pageId": "6472973368950784"
+      },
+      "4748647984791552": {
+        "id": "4748647984791552",
+        "viewId": "28624420073",
+        "name": "nbn modal cta click",
+        "category": "other",
+        "apiName": "24176680311_nbn_modal_cta_click",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".modal-cta"
+        },
+        "pageId": "28624420073"
+      },
+      "4768189586866176": {
+        "id": "4768189586866176",
+        "viewId": null,
+        "name": "Mega Nav Clicks",
+        "category": "other",
+        "apiName": "mega_nav_clicks",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "4804550937804800": {
+        "id": "4804550937804800",
+        "viewId": null,
+        "name": "Added Customer Cookie",
+        "category": "other",
+        "apiName": "added_customer_cookie",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "4857910140862464": {
+        "id": "4857910140862464",
+        "viewId": "30401840612",
+        "name": "Compare link",
+        "category": "other",
+        "apiName": "24176680311_compare_link",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".Thcop"
+        },
+        "pageId": "30401840612"
+      },
+      "4859822489731072": {
+        "id": "4859822489731072",
+        "viewId": "6284266317807616",
+        "name": "content tile - deals",
+        "category": "other",
+        "apiName": "24176680311_content_tile__deals",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".content-tile-item"
+        },
+        "pageId": "6284266317807616"
+      },
+      "4914585493307392": {
+        "id": "4914585493307392",
+        "viewId": null,
+        "name": "Most popular device 1",
+        "category": "other",
+        "apiName": "most_popular_device_1",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "4970419917160448": {
+        "id": "4970419917160448",
+        "viewId": null,
+        "name": "BespokeBannerCtaOne",
+        "category": "other",
+        "apiName": "bespokebannerctaone",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "4978165769043968": {
+        "id": "4978165769043968",
+        "viewId": "27906450060",
+        "name": "SIMO Plans Slower speeds",
+        "category": "other",
+        "apiName": "24176680311_simo_plans_slower_speeds",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#throttled"
+        },
+        "pageId": "27906450060"
+      },
+      "5012475251261440": {
+        "id": "5012475251261440",
+        "viewId": null,
+        "name": "Opticomm Page Call",
+        "category": "other",
+        "apiName": "opticomm_page_call",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5015106277343232": {
+        "id": "5015106277343232",
+        "viewId": null,
+        "name": "Filter Tab Click",
+        "category": "other",
+        "apiName": "filter_tab_click",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5044259966418944": {
+        "id": "5044259966418944",
+        "viewId": null,
+        "name": "Homepage - Popular Device",
+        "category": "other",
+        "apiName": "homepage_popular_device",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5047186556190720": {
+        "id": "5047186556190720",
+        "viewId": null,
+        "name": "Add to Cart - All Products ",
+        "category": "other",
+        "apiName": "add_to_cart",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5071453415014400": {
+        "id": "5071453415014400",
+        "viewId": "5359967457247232",
+        "name": "Chat CTA oneSQ",
+        "category": "other",
+        "apiName": "24176680311_chat_cta_onesq",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#chatCTa"
+        },
+        "pageId": "5359967457247232"
+      },
+      "5072184368955392": {
+        "id": "5072184368955392",
+        "viewId": null,
+        "name": "Welcome Back Module Display",
+        "category": "other",
+        "apiName": "welcome_back_module_display",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5117531959066624": {
+        "id": "5117531959066624",
+        "viewId": null,
+        "name": "Most popular device 3",
+        "category": "other",
+        "apiName": "most_popular_device_3",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5251181853802496": {
+        "id": "5251181853802496",
+        "viewId": null,
+        "name": "Gilmore Event",
+        "category": "other",
+        "apiName": "gilmore_events",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5290798449688576": {
+        "id": "5290798449688576",
+        "viewId": null,
+        "name": "Continue to CTA",
+        "category": "other",
+        "apiName": "continue_to_cta",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5308347272921088": {
+        "id": "5308347272921088",
+        "viewId": null,
+        "name": "Mega Menu Banner",
+        "category": "other",
+        "apiName": "mega_menu_banner",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5332204394381312": {
+        "id": "5332204394381312",
+        "viewId": "5734014959484928",
+        "name": "fwa action card",
+        "category": "other",
+        "apiName": "24176680311_fwa_action_card",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "[data-testid=\"plan-card-actions-desktop\"]"
+        },
+        "pageId": "5734014959484928"
+      },
+      "5332612976214016": {
+        "id": "5332612976214016",
+        "viewId": "5967400055603200",
+        "name": "Exit Modal Primary CTA",
+        "category": "other",
+        "apiName": "24176680311_exit_modal_primary_cta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".modalWindowCta.primary"
+        },
+        "pageId": "5967400055603200"
+      },
+      "5335813634916352": {
+        "id": "5335813634916352",
+        "viewId": "5359967457247232",
+        "name": "Arcadyan Link Click",
+        "category": "other",
+        "apiName": "24176680311_arcadyan_link_click",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".arc-increase-info"
+        },
+        "pageId": "5359967457247232"
+      },
+      "5345318426902528": {
+        "id": "5345318426902528",
+        "viewId": null,
+        "name": "searchinputdeliverytab",
+        "category": "other",
+        "apiName": "searchinputdeliverytab",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5349554107711488": {
+        "id": "5349554107711488",
+        "viewId": "5359967457247232",
+        "name": "oneSQ chatBtn",
+        "category": "other",
+        "apiName": "24176680311_select_card_onesq",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".chatBtn"
+        },
+        "pageId": "5359967457247232"
+      },
+      "5431878512017408": {
+        "id": "5431878512017408",
+        "viewId": null,
+        "name": "DCP-18720 eSIM Banner - Primary CTA Click",
+        "category": "other",
+        "apiName": "dcp18720_esim_banner_primary_cta_click",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5491606258712576": {
+        "id": "5491606258712576",
+        "viewId": "6463843140894720",
+        "name": "Click Inline Banner Link",
+        "category": "other",
+        "apiName": "24176680311_click_inline_banner_link",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".speed-inline-banner a"
+        },
+        "pageId": "6463843140894720"
+      },
+      "5546765940686848": {
+        "id": "5546765940686848",
+        "viewId": null,
+        "name": "Device Extra Page",
+        "category": "other",
+        "apiName": "device_extra_page",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5560322338062336": {
+        "id": "5560322338062336",
+        "viewId": "28624420073",
+        "name": "NBN modem link click",
+        "category": "other",
+        "apiName": "24176680311_nbn_modem_link_click",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".modem-inline-banner-info"
+        },
+        "pageId": "28624420073"
+      },
+      "5574979004137472": {
+        "id": "5574979004137472",
+        "viewId": "5568709157191680",
+        "name": "banner_cta_2",
+        "category": "other",
+        "apiName": "24176680311_banner_cta_2",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".secCTA > .btn"
+        },
+        "pageId": "5568709157191680"
+      },
+      "5579912141078528": {
+        "id": "5579912141078528",
+        "viewId": null,
+        "name": "deliveryScrolldown",
+        "category": "other",
+        "apiName": "deliveryscrolldown",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5582969572687872": {
+        "id": "5582969572687872",
+        "viewId": null,
+        "name": "Pixel Modal CTA clicked",
+        "category": "other",
+        "apiName": "pixel_modal_cta_clicked",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5635204899930112": {
+        "id": "5635204899930112",
+        "viewId": "25048711059",
+        "name": "Nav CTA Home Page",
+        "category": "other",
+        "apiName": "24176680311_nav_cta_home_page",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".inline-cta"
+        },
+        "pageId": "25048711059"
+      },
+      "5640584059158528": {
+        "id": "5640584059158528",
+        "viewId": "5967400055603200",
+        "name": "Exit Modal Secondary CTA",
+        "category": "other",
+        "apiName": "24176680311_exit_modal_secondary_cta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "modalWindowCta.secondary"
+        },
+        "pageId": "5967400055603200"
+      },
+      "5668059835269120": {
+        "id": "5668059835269120",
+        "viewId": null,
+        "name": "expressdeliverytab",
+        "category": "other",
+        "apiName": "expressdeliverytab",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5670331172519936": {
+        "id": "5670331172519936",
+        "viewId": "28624420073",
+        "name": "fwa link on nbn page",
+        "category": "other",
+        "apiName": "24176680311_fwa_link_on_nbn_page",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".fwa-link"
+        },
+        "pageId": "28624420073"
+      },
+      "5708080223092736": {
+        "id": "5708080223092736",
+        "viewId": null,
+        "name": "clickandcollecttab",
+        "category": "other",
+        "apiName": "clickandcollecttab",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5714417753522176": {
+        "id": "5714417753522176",
+        "viewId": null,
+        "name": "Contextual messaging",
+        "category": "other",
+        "apiName": "contextual_messaging",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5739020051808256": {
+        "id": "5739020051808256",
+        "viewId": null,
+        "name": "Welcome Back Module Click",
+        "category": "other",
+        "apiName": "welcome_back_module_click",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5785704316272640": {
+        "id": "5785704316272640",
+        "viewId": null,
+        "name": "Most popular device 2",
+        "category": "other",
+        "apiName": "most_popular_device_2",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5806884737777664": {
+        "id": "5806884737777664",
+        "viewId": null,
+        "name": "searchinputcollecttab",
+        "category": "other",
+        "apiName": "searchinputcollecttab",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "5849627230994432": {
+        "id": "5849627230994432",
+        "viewId": "5967400055603200",
+        "name": "Inline Banner CTA Click",
+        "category": "other",
+        "apiName": "24176680311_inline_banner_cta_click",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".inline-banner__cta"
+        },
+        "pageId": "5967400055603200"
+      },
+      "5874151999668224": {
+        "id": "5874151999668224",
+        "viewId": "6249421545930752",
+        "name": "Quicklinks - Watch",
+        "category": "other",
+        "apiName": "24176680311_quicklinks__watch",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#quicklinksSmartWatch"
+        },
+        "pageId": "6249421545930752"
+      },
+      "6013847765516288": {
+        "id": "6013847765516288",
+        "viewId": "6629345737834496",
+        "name": "CTA - Bne airport offer",
+        "category": "other",
+        "apiName": "24176680311_cta__bne_airport_offer",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#v1f994638d811832c51ceb071ba37558155bf5fbf38116e5cf942c589679096cb a.btn"
+        },
+        "pageId": "6629345737834496"
+      },
+      "6067648950173696": {
+        "id": "6067648950173696",
+        "viewId": "5967400055603200",
+        "name": "Nav CTA",
+        "category": "other",
+        "apiName": "24176680311_nav_cta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".inline-cta"
+        },
+        "pageId": "5967400055603200"
+      },
+      "6087562398269440": {
+        "id": "6087562398269440",
+        "viewId": "5359967457247232",
+        "name": "Card ribbon Oo=neSQ",
+        "category": "other",
+        "apiName": "24176680311_card_ribbon_oonesq",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".card-ribbon-link"
+        },
+        "pageId": "5359967457247232"
+      },
+      "6243663854960640": {
+        "id": "6243663854960640",
+        "viewId": null,
+        "name": "See more plans click",
+        "category": "other",
+        "apiName": "see_more_plans_click",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6304042566025216": {
+        "id": "6304042566025216",
+        "viewId": null,
+        "name": "Fibre Upgrade Ribbon Chat Link",
+        "category": "other",
+        "apiName": "fibre_upgrade_ribbon_chat_link",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6311040074383360": {
+        "id": "6311040074383360",
+        "viewId": null,
+        "name": "Begin Checkout - All Products ",
+        "category": "other",
+        "apiName": "begin_checkout",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6344666019266560": {
+        "id": "6344666019266560",
+        "viewId": "25048711059",
+        "name": "HP pop-up modal cta",
+        "category": "other",
+        "apiName": "24176680311_hp_popup_modal_cta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".modalWindowCta"
+        },
+        "pageId": "25048711059"
+      },
+      "6347556079271936": {
+        "id": "6347556079271936",
+        "viewId": "5359967457247232",
+        "name": "Select Card OneSQ",
+        "category": "other",
+        "apiName": "24176680311_select_card_onesq_1",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "[data-testid=\"plan-card-actions-desktop\"] button"
+        },
+        "pageId": "5359967457247232"
+      },
+      "6374784380960768": {
+        "id": "6374784380960768",
+        "viewId": null,
+        "name": "BespokeBannerCtaTwo",
+        "category": "other",
+        "apiName": "bespokebannerctatwo",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6376452308860928": {
+        "id": "6376452308860928",
+        "viewId": "5532781464256512",
+        "name": "Device Plan CTA",
+        "category": "other",
+        "apiName": "24176680311_device_plan_cta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "button[data-testid=\"select-plan-cta\"]"
+        },
+        "pageId": "5532781464256512"
+      },
+      "6428765102800896": {
+        "id": "6428765102800896",
+        "viewId": null,
+        "name": "Content Tile",
+        "category": "other",
+        "apiName": "content_tile",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6430714111983616": {
+        "id": "6430714111983616",
+        "viewId": "27906450060",
+        "name": "SIMO Plans Zone2",
+        "category": "other",
+        "apiName": "24176680311_simo_plans_zone2",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#zone2"
+        },
+        "pageId": "27906450060"
+      },
+      "6482560941817856": {
+        "id": "6482560941817856",
+        "viewId": null,
+        "name": "Pixel Modal Shown",
+        "category": "other",
+        "apiName": "pixel_modal_shown",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6493244679258112": {
+        "id": "6493244679258112",
+        "viewId": null,
+        "name": "Most popular device 4",
+        "category": "other",
+        "apiName": "most_popular_device_4",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6501772196315136": {
+        "id": "6501772196315136",
+        "viewId": "5568709157191680",
+        "name": "banner_cta_1",
+        "category": "other",
+        "apiName": "24176680311_banner_cta_1",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".cta-container > vha-button:nth-of-type(1) > .btn"
+        },
+        "pageId": "5568709157191680"
+      },
+      "6536134130401280": {
+        "id": "6536134130401280",
+        "viewId": null,
+        "name": "Quicklinks",
+        "category": "other",
+        "apiName": "quicklinks",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6557778418860032": {
+        "id": "6557778418860032",
+        "viewId": null,
+        "name": "DCP-18720 eSIM Banner - Secondary CTA Click",
+        "category": "other",
+        "apiName": "dcp18720_esim_banner_secondary_cta_click",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6573821440819200": {
+        "id": "6573821440819200",
+        "viewId": null,
+        "name": "Check address clicks - nbn",
+        "category": "other",
+        "apiName": "check_address_clicks_-_nbn",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6633914593181696": {
+        "id": "6633914593181696",
+        "viewId": null,
+        "name": "Fibre Upgrade Ribbon Phone Link",
+        "category": "other",
+        "apiName": "fibre_upgrade_ribbon_phone_link",
+        "eventType": "custom",
+        "eventFilter": null,
+        "pageId": null
+      },
+      "6642189241942016": {
+        "id": "6642189241942016",
+        "viewId": "6472973368950784",
+        "name": "ExistingCustomersPrimaryCTA",
+        "category": "other",
+        "apiName": "24176680311_existingcustomersprimarycta",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".primaryCta"
+        },
+        "pageId": "6472973368950784"
+      },
+      "6645418050715648": {
+        "id": "6645418050715648",
+        "viewId": "27906450060",
+        "name": "SIMO Plans Zone1",
+        "category": "other",
+        "apiName": "24176680311_simo_plans_slower_zone1",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#zone1"
+        },
+        "pageId": "27906450060"
+      },
+      "6652685420593152": {
+        "id": "6652685420593152",
+        "viewId": "28624420073",
+        "name": "Chat CTA nbn",
+        "category": "other",
+        "apiName": "24176680311_chat_cta_nbn",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#chatCTa"
+        },
+        "pageId": "28624420073"
+      },
+      "6655838169858048": {
+        "id": "6655838169858048",
+        "viewId": "4782540351864832",
+        "name": "T&C Network Banner",
+        "category": "other",
+        "apiName": "24176680311_tc_network_banner",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": "#tandc"
+        },
+        "pageId": "4782540351864832"
+      },
+      "6706893083639808": {
+        "id": "6706893083639808",
+        "viewId": "28624420073",
+        "name": "nbn modal clicks",
+        "category": "other",
+        "apiName": "24176680311_nbn_modal_clicks",
+        "eventType": "click",
+        "eventFilter": {
+          "filterType": "target_selector",
+          "selector": ".modalWindowCta"
+        },
+        "pageId": "28624420073"
+      }
+    },
+    "campaigns": {
+      "4747571281788928": {
+        "changes": [],
+        "id": "4747571281788928",
+        "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "commitId": "4717124617240576",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "5873471188631552",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "6088373836709888",
+                "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+                "actions": [
+                  {
+                    "viewId": "5210171411005440",
+                    "changes": [
+                      {
+                        "id": "187310FF-EDCD-4065-8BF2-3A752DD53152",
+                        "type": "custom_code",
+                        "dependencies": []
+                      },
+                      {
+                        "id": "1DD77F69-A306-4D6F-84C2-BFFB175F80B4",
+                        "type": "append",
+                        "dependencies": [],
+                        "name": "",
+                        "isOpalManaged": false,
+                        "selector": "head",
+                        "value": "<style>[data-testid=\"plan-card-AU13007\"].optly-highlighted,\n[data-testid=\"plan-card-AU13008\"].optly-highlighted,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted {\n \n  background-color: #000000 !important;\n  border-bottom: none !important;\n}\n\n.plan-icon img[src*=\"cable-fibre.svg\"] {\n  filter: brightness(0) !important;\n}\n\n\n/*/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT BACKGROUND CONTROLS       */\n/* ==================================================== */\n\n/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT CONTROLS (EXACT DOM MATCH)*/\n/* ==================================================== */\n\n/* 1. Turns the inner container background solid black when highlighted */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: transparent !important;\n}\n\n/* 2. Forces all nested text inside the black banner (including the superscript R) to white */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted *,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted * {\n  color: #ffffff !important;\n}\n\n\n\n/* ==================================================== */\n/* HIGHLIGHTED STATE CONTROL FOR DETACHED MOBILE BADGE  */\n/* ==================================================== */\n\n/* Clear parent nesting dependencies. Target the highlight directly on the badge class */\n[data-testid=\"plan-card-badge\"].optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important;\n  color: #ffffff !important;\n}\n\n/* Force all text tags inside the highlighted badge to turn white */\n[data-testid=\"plan-card-badge\"].optly-highlighted * {\n  color: #ffffff !important;\n}\n\n/* Targets the badge element safely inside your highlighted Pro plans */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important; /* Clears any existing colored outlines */\n}\n\n/* Forces the text color inside the black badge to turn crisp white */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  color: #ffffff !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted\n {\n  background-color: #000000 !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"] {\n  color: #ffffff !important;\n}\n\n\n/* ==================================================== */\n/* MOBILE VERTICAL TOGGLE STACK CONTROLS (< 768px)      */\n/* ==================================================== */\n@media screen and (max-width: 767px) {\n  \n  /* 1. Set gap to 0 to join the top and bottom button blocks */\n  .plans-toggle-container {\n    display: flex !important;\n    flex-direction: column !important;\n    align-items: stretch !important;\n    width: 100% !important;\n    max-width: 480px; \n    margin: 0 auto !important;\n    position: relative !important; \n    border-radius: 8px !important;\n    overflow: hidden !important; \n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;\n    border: 1px solid #e0e0e0 !important;\n    box-sizing: border-box !important;\n    gap: 0px !important; /* FIXED: Closed vertical whitespace gap */\n  }\n\n  /* 2. Style layout buttons to expand to full container width */\n  .plans-toggle-container button.plan-tab {\n    width: 100% !important;\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    text-align: left !important;\n    padding: 20px 18px !important;\n    border: none !important;\n    box-sizing: border-box !important;\n    margin: 0 !important; /* FIXED: Clears any leftover framework spacing */\n    background-color: #ffffff !important; \n    color: #111111 !important;\n  }\n\n  /* 3. Style properties for your 'Basic plans' layout tab */\n  .plans-toggle-container #btn-basic {\n    background-color: #ffffff !important;\n    color: #111111 !important;\n  }\n  .plans-toggle-container #btn-basic .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #111111 !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-basic .plan-desc {\n    font-size: 13px !important;\n    color: #555555 !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n  .plans-toggle-container #btn-basic .plan-icon {\n    color: #111111 !important;\n    margin-right: 16px !important;\n    display: flex !important;\n    align-items: center !important;\n  }\n\n  /* 4. Style properties for your 'Max Plans' dark mode style */\n  .plans-toggle-container #btn-pro {\n    background-color: #212529 !important; /* Matte charcoal dark background */\n    color: #ffffff !important;\n  }\n  .plans-toggle-container #btn-pro .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #ffffff !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-pro .plan-desc {\n    font-size: 13px !important;\n    color: #cccccc !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n\n  /* 5. Custom layout adjustments for your Max plan icon circle component */\n  .plans-toggle-container .plan-icon-circle {\n    width: 42px !important;\n    height: 42px !important;\n    min-width: 42px !important;\n    border: 2px solid #ffffff !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    margin-right: 16px !important;\n    font-size: 13px !important;\n    font-weight: 700 !important;\n    text-transform: lowercase !important;\n    color: #ffffff !important;\n    box-sizing: border-box !important;\n  }\n\n  /* 6. Absolute overlay configuration for your middle 'or' text component */\n  .plans-toggle-container .divider-text {\n    position: absolute !important;\n    top: 50% !important;\n    left: 50% !important;\n    transform: translate(-50%, -50%) !important; \n    z-index: 5 !important;\n    background-color: #ffffff !important;\n    color: #777777 !important;\n    font-size: 12px !important;\n    width: 30px !important;\n    height: 30px !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    border: 1px solid #dcdcdc !important;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;\n    pointer-events: none !important; \n  }\n}</style>"
+                      },
+                      {
+                        "operator": "before",
+                        "isOpalManaged": false,
+                        "dependencies": [],
+                        "name": "",
+                        "value": "<div class=\"plans-toggle-container\">\r\n  \r\n  <!-- Basic Button Layout Tab (Active State Default) -->\r\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\">\r\n    <!-- Corrected Inline SVG Vector Asset -->\r\n    <div class=\"plan-icon\">\r\n      <svg xmlns=\"http://w3.org\" width=\"24\" height=\"24\" viewBox=\"0 -960 960 960\" fill=\"currentColor\">\r\n        <path d=\"M720-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-360-160q-66 0-113-47t-47-113q0-66 47-113t113-47h40v320h-40Zm120 0v-320h120l160 160-160 160H480Zm0-400v-80q0-33 23.5-56.5T560-800h40v80h-40v320h-40Zm-280 80H120q-17 0-28.5-11.5T80-640q0-17 11.5-28.5T120-680h40v160Z\"/>\r\n      </svg>\r\n    </div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Basic plans</span>\r\n      <span class=\"plan-desc\">Classic, unbeatable value nbn&reg; plans for small business.</span>\r\n    </div>\r\n  </button>\r\n\r\n  <span class=\"divider-text\">or</span>\r\n\r\n  <!-- Pro Button Layout Tab -->\r\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\">\r\n    <div class=\"plan-icon-circle\">pro</div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Pro plans</span>\r\n      <span class=\"plan-desc\">Boosted upload speeds and priority fault restoration.</span>\r\n    </div>\r\n  </button>\r\n  \r\n</div>\r\n<style>\r\n    /* Outer Grid Container Structural Parent */\r\n.plans-toggle-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100%;\r\n  max-width: 1140px;\r\n  margin: 24px auto;\r\n  gap: 16px;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Base Common Tab Buttons Layout Blueprint */\r\n.plan-tab {\r\n  flex: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 14px;\r\n  padding: 16px 24px;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n  text-align: left;\r\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Interior Typography Flex Containers */\r\n.plan-info {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 4px;\r\n}\r\n\r\n.plan-title {\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n  letter-spacing: -0.2px;\r\n}\r\n\r\n.plan-desc {\r\n  font-size: 12px;\r\n  line-height: 1.4;\r\n}\r\n\r\n/* Middle Layout Text Label \"or\" Spacer */\r\n.divider-text {\r\n  color: #71717a;\r\n  font-size: 14px;\r\n  font-weight: 400;\r\n  user-select: none;\r\n  padding: 0 4px;\r\n}\r\n\r\n/* ==================================================== */\r\n/* VARIANT CONFIGURATION DESIGN                         */\r\n/* ==================================================== */\r\n\r\n/* --- Basic Option (White Canvas Theme) --- */\r\n#btn-basic {\r\n  background-color: #ffffff;\r\n  border: 1px solid #e4e4e7;\r\n  color: #18181b;\r\n}\r\n\r\n#btn-basic .plan-desc {\r\n  color: #71717a;\r\n}\r\n\r\n#btn-basic .plan-icon {\r\n  color: #52525b;\r\n  display: flex;\r\n  align-items: center;\r\n  flex-shrink: 0;\r\n}\r\n\r\n/* Basic Highlighting Selector Class Override */\r\n#btn-basic.active {\r\n  border: 2px solid #18181b !important;\r\n  box-shadow: 0 4px 12px rgba(24, 24, 27, 0.06);\r\n}\r\n\r\n\r\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\r\n#btn-pro {\r\n  background-color: #27272a;\r\n  border: 1px solid transparent;\r\n  color: #ffffff;\r\n}\r\n\r\n#btn-pro .plan-desc {\r\n  color: #a1a1aa;\r\n}\r\n\r\n/* Circular \"pro\" Text Vector Asset Badge */\r\n.plan-icon-circle {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 28px;\r\n  height: 28px;\r\n  border-radius: 50%;\r\n  border: 1.5px solid #ffffff;\r\n  font-size: 10px;\r\n  font-weight: 700;\r\n  text-transform: lowercase;\r\n  flex-shrink: 0;\r\n  user-select: none;\r\n}\r\n\r\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\r\n#btn-pro.active {\r\n  border: 2px solid #E60000 !important;\r\n  box-shadow: 0 4px 16px rgba(230, 0, 0, 0.18);\r\n}\r\n\r\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\r\n.plan-tab:not(.active):hover {\r\n  transform: translateY(-1px);\r\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\r\n}\r\n\r\n</style>",
+                        "type": "append",
+                        "id": "57C0A1E4-F0C0-48C2-8FFB-B6376F036447",
+                        "selector": ".iGBhDJ"
+                      },
+                      {
+                        "css": {},
+                        "isOpalManaged": false,
+                        "dependencies": [],
+                        "name": "",
+                        "attributes": {
+                          "html": "<div><p>All plans come with next gen Wi-Fi 7 modem + first Mesh, a static IP address and <a href=\"https://www.vodafone.com.au/business/fibre-upgrade\" >$0 upgrade to FTTP fibre if eligible.</a>\n  </p>\n  <p>Unsure which plan best suits your business? Here’s the difference:\n  </p>\n  </div>\n\n<div class=\"plans-toggle-container\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <img alt=\"\" src=\"https://www.vodafone.com.au/images/icon/system/red/cable-fibre.svg\" class=\"sc-6295c191-3 jSpdYF\">\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Core plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n       Reliable, everyday speeds.\n      </span>\n    </div>\n  </button>\n  <span class=\"divider-text\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    or\n  </span>\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon-circle\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      Max\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Max plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Faster uploads and priority support.\n      </span>\n    </div>\n  </button>\n</div>\n<style data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  /* Outer Grid Container Structural Parent */\n.plans-toggle-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  max-width: 1140px;\n  margin: 24px auto;\n  gap: 16px;\n  font-family: Arial, Helvetica, sans-serif;\n  box-sizing: border-box;\n}\n\n/* Base Common Tab Buttons Layout Blueprint */\n.plan-tab {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 16px 24px;\n  border-radius: 8px;\n  cursor: pointer;\n  text-align: left;\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  box-sizing: border-box;\n}\n\n/* Interior Typography Flex Containers */\n.plan-info {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.plan-title {\n  font-size: 16px;\n  font-weight: 700;\n  letter-spacing: -0.2px;\n}\n\n.plan-desc {\n  font-size: 12px;\n  line-height: 1.4;\n}\n\n/* Middle Layout Text Label \"or\" Spacer */\n.divider-text {\n  color: #71717a;\n  font-size: 14px;\n  font-weight: 400;\n  user-select: none;\n  padding: 0 4px;\n}\n\n/* ==================================================== */\n/* VARIANT CONFIGURATION DESIGN                         */\n/* ==================================================== */\n\n/* --- Basic Option (White Canvas Theme) --- */\n#btn-basic {\n  background-color: #ffffff;\n  border: 1px solid #e4e4e7;\n  color: #18181b;\n}\n\n#btn-basic .plan-desc {\n  color: #71717a;\n}\n\n#btn-basic .plan-icon {\n  color: #52525b;\n  display: flex;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n/* Basic Highlighting Selector Class Override */\n#btn-basic.active {\n \n}\n\n\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\n#btn-pro {\n  background-color: #27272a;\n  border: 1px solid transparent;\n  color: #ffffff;\n}\n\n#btn-pro .plan-desc {\n  color: #a1a1aa;\n}\n\n/* Circular \"pro\" Text Vector Asset Badge */\n.plan-icon-circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  border: 1.5px solid #ffffff;\n  font-size: 10px;\n  font-weight: 700;\n  text-transform: lowercase;\n  flex-shrink: 0;\n  user-select: none;\n}\n\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\n#btn-pro.active {\n \n}\n\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\n.plan-tab:not(.active):hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\n}\n</style>\n<div aria-live=\"polite\" font-size=\"[object Object]\" class=\"sc-cead3999-0 iGBhDJ\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  Showing\n  <b data-testid=\"filtered-items\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    5\n  </b>\n  Internet Plans\n</div>"
+                        },
+                        "type": "attribute",
+                        "id": "7333102A-AB83-4097-86DF-3D9DE94B5F8A",
+                        "selector": ".fvargx"
+                      }
+                    ],
+                    "pageId": "5210171411005440"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "4747571281788928"
+            },
+            "deployed": false,
+            "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "5210171411005440"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "5873471188631552",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "5210171411005440"
+        ]
+      },
+      "5710553163759616": {
+        "changes": [],
+        "id": "5710553163759616",
+        "name": "EGW | DCP-17039-personalised-business-simo",
+        "commitId": "6727275001937920",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "4930130561204224",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "5428207248211968",
+                "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
+                "actions": [
+                  {
+                    "viewId": "5923171895869440",
+                    "changes": [
+                      {
+                        "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
+                        "type": "attribute",
+                        "dependencies": [],
+                        "name": "",
+                        "isOpalManaged": false,
+                        "selector": ".iDSVCZ",
+                        "attributes": {
+                          "remove": true
+                        },
+                        "css": {}
+                      }
+                    ],
+                    "pageId": "5923171895869440"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "DCP-17039-personalised-business-simo-hide-banner",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "5710553163759616"
+            },
+            "deployed": false,
+            "campaignName": "EGW | DCP-17039-personalised-business-simo"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "5923171895869440"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "4930130561204224",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "5923171895869440"
+        ]
+      },
+      "6636850394169344": {
+        "changes": [],
+        "id": "6636850394169344",
+        "name": "EGW | DCP-personalized-business-Apple-Nav",
+        "commitId": "6313503194087424",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "6720080334028800",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "6074198538321920",
+                "name": "EGW | DCP-personalized-Business-Apple",
+                "actions": [
+                  {
+                    "viewId": "6073900440748032",
+                    "changes": [
+                      {
+                        "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
+                        "type": "append",
+                        "selector": "head",
+                        "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
+                        "dependencies": []
+                      },
+                      {
+                        "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
+                        "type": "custom_code",
+                        "dependencies": []
+                      }
+                    ],
+                    "pageId": "6073900440748032"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "6636850394169344"
+            },
+            "deployed": false,
+            "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "6073900440748032"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "6720080334028800",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "6073900440748032"
+        ]
+      }
+    },
+    "pages": {
+      "5210171411005440": {
+        "id": "5210171411005440",
+        "category": "other",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
+        "name": "URL Targeting for EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/nbn-plans"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "deactivationEnabled": false,
+        "undoOnDeactivation": false,
+        "tags": [],
+        "activationType": "url_changed"
+      },
+      "5923171895869440": {
+        "id": "5923171895869440",
+        "category": "other",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
+        "name": "URL Targeting for EGW | DCP-17039-personalised-business-simo",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/sim-only"
+            },
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/nbn-plans"
+            },
+            {
+              "match": "simple",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business/team-plans"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "deactivationEnabled": false,
+        "undoOnDeactivation": false,
+        "tags": [],
+        "activationType": "url_changed"
+      },
+      "5967400055603200": {
+        "id": "5967400055603200",
+        "category": "other",
+        "apiName": "24176680311_every_page",
+        "name": "Every Page",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "substring",
+              "type": "url",
+              "value": "www.vodafone.com.au"
+            }
+          ]
+        ],
+        "deactivationEnabled": true,
+        "undoOnDeactivation": true,
+        "tags": []
+      },
+      "6073900440748032": {
+        "id": "6073900440748032",
+        "category": "other",
+        "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
+        "name": "URL Targeting for EGW | DCP-personalized-business-Apple-Nav",
+        "staticConditions": [
+          "and",
+          [
+            "or",
+            {
+              "match": "substring",
+              "type": "url",
+              "value": "https://www.vodafone.com.au/business"
+            }
+          ],
+          [
+            "not",
+            [
+              "or",
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/cart"
+              },
+              {
+                "match": "substring",
+                "type": "url",
+                "value": "/checkout"
+              }
+            ]
+          ]
+        ],
+        "deactivationEnabled": false,
+        "undoOnDeactivation": false,
+        "tags": [],
+        "activationType": "url_changed"
+      }
+    },
+    "experiments": {
+      "5873471188631552": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "5873471188631552",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "6088373836709888",
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "actions": [
+              {
+                "viewId": "5210171411005440",
+                "changes": [
+                  {
+                    "id": "187310FF-EDCD-4065-8BF2-3A752DD53152",
+                    "type": "custom_code",
+                    "dependencies": []
+                  },
+                  {
+                    "id": "1DD77F69-A306-4D6F-84C2-BFFB175F80B4",
+                    "type": "append",
+                    "dependencies": [],
+                    "name": "",
+                    "isOpalManaged": false,
+                    "selector": "head",
+                    "value": "<style>[data-testid=\"plan-card-AU13007\"].optly-highlighted,\n[data-testid=\"plan-card-AU13008\"].optly-highlighted,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted {\n \n  background-color: #000000 !important;\n  border-bottom: none !important;\n}\n\n.plan-icon img[src*=\"cable-fibre.svg\"] {\n  filter: brightness(0) !important;\n}\n\n\n/*/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT BACKGROUND CONTROLS       */\n/* ==================================================== */\n\n/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT CONTROLS (EXACT DOM MATCH)*/\n/* ==================================================== */\n\n/* 1. Turns the inner container background solid black when highlighted */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: transparent !important;\n}\n\n/* 2. Forces all nested text inside the black banner (including the superscript R) to white */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted *,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted * {\n  color: #ffffff !important;\n}\n\n\n\n/* ==================================================== */\n/* HIGHLIGHTED STATE CONTROL FOR DETACHED MOBILE BADGE  */\n/* ==================================================== */\n\n/* Clear parent nesting dependencies. Target the highlight directly on the badge class */\n[data-testid=\"plan-card-badge\"].optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important;\n  color: #ffffff !important;\n}\n\n/* Force all text tags inside the highlighted badge to turn white */\n[data-testid=\"plan-card-badge\"].optly-highlighted * {\n  color: #ffffff !important;\n}\n\n/* Targets the badge element safely inside your highlighted Pro plans */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important; /* Clears any existing colored outlines */\n}\n\n/* Forces the text color inside the black badge to turn crisp white */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  color: #ffffff !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted\n {\n  background-color: #000000 !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"] {\n  color: #ffffff !important;\n}\n\n\n/* ==================================================== */\n/* MOBILE VERTICAL TOGGLE STACK CONTROLS (< 768px)      */\n/* ==================================================== */\n@media screen and (max-width: 767px) {\n  \n  /* 1. Set gap to 0 to join the top and bottom button blocks */\n  .plans-toggle-container {\n    display: flex !important;\n    flex-direction: column !important;\n    align-items: stretch !important;\n    width: 100% !important;\n    max-width: 480px; \n    margin: 0 auto !important;\n    position: relative !important; \n    border-radius: 8px !important;\n    overflow: hidden !important; \n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;\n    border: 1px solid #e0e0e0 !important;\n    box-sizing: border-box !important;\n    gap: 0px !important; /* FIXED: Closed vertical whitespace gap */\n  }\n\n  /* 2. Style layout buttons to expand to full container width */\n  .plans-toggle-container button.plan-tab {\n    width: 100% !important;\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    text-align: left !important;\n    padding: 20px 18px !important;\n    border: none !important;\n    box-sizing: border-box !important;\n    margin: 0 !important; /* FIXED: Clears any leftover framework spacing */\n    background-color: #ffffff !important; \n    color: #111111 !important;\n  }\n\n  /* 3. Style properties for your 'Basic plans' layout tab */\n  .plans-toggle-container #btn-basic {\n    background-color: #ffffff !important;\n    color: #111111 !important;\n  }\n  .plans-toggle-container #btn-basic .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #111111 !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-basic .plan-desc {\n    font-size: 13px !important;\n    color: #555555 !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n  .plans-toggle-container #btn-basic .plan-icon {\n    color: #111111 !important;\n    margin-right: 16px !important;\n    display: flex !important;\n    align-items: center !important;\n  }\n\n  /* 4. Style properties for your 'Max Plans' dark mode style */\n  .plans-toggle-container #btn-pro {\n    background-color: #212529 !important; /* Matte charcoal dark background */\n    color: #ffffff !important;\n  }\n  .plans-toggle-container #btn-pro .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #ffffff !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-pro .plan-desc {\n    font-size: 13px !important;\n    color: #cccccc !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n\n  /* 5. Custom layout adjustments for your Max plan icon circle component */\n  .plans-toggle-container .plan-icon-circle {\n    width: 42px !important;\n    height: 42px !important;\n    min-width: 42px !important;\n    border: 2px solid #ffffff !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    margin-right: 16px !important;\n    font-size: 13px !important;\n    font-weight: 700 !important;\n    text-transform: lowercase !important;\n    color: #ffffff !important;\n    box-sizing: border-box !important;\n  }\n\n  /* 6. Absolute overlay configuration for your middle 'or' text component */\n  .plans-toggle-container .divider-text {\n    position: absolute !important;\n    top: 50% !important;\n    left: 50% !important;\n    transform: translate(-50%, -50%) !important; \n    z-index: 5 !important;\n    background-color: #ffffff !important;\n    color: #777777 !important;\n    font-size: 12px !important;\n    width: 30px !important;\n    height: 30px !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    border: 1px solid #dcdcdc !important;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;\n    pointer-events: none !important; \n  }\n}</style>"
+                  },
+                  {
+                    "operator": "before",
+                    "isOpalManaged": false,
+                    "dependencies": [],
+                    "name": "",
+                    "value": "<div class=\"plans-toggle-container\">\r\n  \r\n  <!-- Basic Button Layout Tab (Active State Default) -->\r\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\">\r\n    <!-- Corrected Inline SVG Vector Asset -->\r\n    <div class=\"plan-icon\">\r\n      <svg xmlns=\"http://w3.org\" width=\"24\" height=\"24\" viewBox=\"0 -960 960 960\" fill=\"currentColor\">\r\n        <path d=\"M720-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-360-160q-66 0-113-47t-47-113q0-66 47-113t113-47h40v320h-40Zm120 0v-320h120l160 160-160 160H480Zm0-400v-80q0-33 23.5-56.5T560-800h40v80h-40v320h-40Zm-280 80H120q-17 0-28.5-11.5T80-640q0-17 11.5-28.5T120-680h40v160Z\"/>\r\n      </svg>\r\n    </div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Basic plans</span>\r\n      <span class=\"plan-desc\">Classic, unbeatable value nbn&reg; plans for small business.</span>\r\n    </div>\r\n  </button>\r\n\r\n  <span class=\"divider-text\">or</span>\r\n\r\n  <!-- Pro Button Layout Tab -->\r\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\">\r\n    <div class=\"plan-icon-circle\">pro</div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Pro plans</span>\r\n      <span class=\"plan-desc\">Boosted upload speeds and priority fault restoration.</span>\r\n    </div>\r\n  </button>\r\n  \r\n</div>\r\n<style>\r\n    /* Outer Grid Container Structural Parent */\r\n.plans-toggle-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100%;\r\n  max-width: 1140px;\r\n  margin: 24px auto;\r\n  gap: 16px;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Base Common Tab Buttons Layout Blueprint */\r\n.plan-tab {\r\n  flex: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 14px;\r\n  padding: 16px 24px;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n  text-align: left;\r\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Interior Typography Flex Containers */\r\n.plan-info {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 4px;\r\n}\r\n\r\n.plan-title {\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n  letter-spacing: -0.2px;\r\n}\r\n\r\n.plan-desc {\r\n  font-size: 12px;\r\n  line-height: 1.4;\r\n}\r\n\r\n/* Middle Layout Text Label \"or\" Spacer */\r\n.divider-text {\r\n  color: #71717a;\r\n  font-size: 14px;\r\n  font-weight: 400;\r\n  user-select: none;\r\n  padding: 0 4px;\r\n}\r\n\r\n/* ==================================================== */\r\n/* VARIANT CONFIGURATION DESIGN                         */\r\n/* ==================================================== */\r\n\r\n/* --- Basic Option (White Canvas Theme) --- */\r\n#btn-basic {\r\n  background-color: #ffffff;\r\n  border: 1px solid #e4e4e7;\r\n  color: #18181b;\r\n}\r\n\r\n#btn-basic .plan-desc {\r\n  color: #71717a;\r\n}\r\n\r\n#btn-basic .plan-icon {\r\n  color: #52525b;\r\n  display: flex;\r\n  align-items: center;\r\n  flex-shrink: 0;\r\n}\r\n\r\n/* Basic Highlighting Selector Class Override */\r\n#btn-basic.active {\r\n  border: 2px solid #18181b !important;\r\n  box-shadow: 0 4px 12px rgba(24, 24, 27, 0.06);\r\n}\r\n\r\n\r\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\r\n#btn-pro {\r\n  background-color: #27272a;\r\n  border: 1px solid transparent;\r\n  color: #ffffff;\r\n}\r\n\r\n#btn-pro .plan-desc {\r\n  color: #a1a1aa;\r\n}\r\n\r\n/* Circular \"pro\" Text Vector Asset Badge */\r\n.plan-icon-circle {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 28px;\r\n  height: 28px;\r\n  border-radius: 50%;\r\n  border: 1.5px solid #ffffff;\r\n  font-size: 10px;\r\n  font-weight: 700;\r\n  text-transform: lowercase;\r\n  flex-shrink: 0;\r\n  user-select: none;\r\n}\r\n\r\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\r\n#btn-pro.active {\r\n  border: 2px solid #E60000 !important;\r\n  box-shadow: 0 4px 16px rgba(230, 0, 0, 0.18);\r\n}\r\n\r\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\r\n.plan-tab:not(.active):hover {\r\n  transform: translateY(-1px);\r\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\r\n}\r\n\r\n</style>",
+                    "type": "append",
+                    "id": "57C0A1E4-F0C0-48C2-8FFB-B6376F036447",
+                    "selector": ".iGBhDJ"
+                  },
+                  {
+                    "css": {},
+                    "isOpalManaged": false,
+                    "dependencies": [],
+                    "name": "",
+                    "attributes": {
+                      "html": "<div><p>All plans come with next gen Wi-Fi 7 modem + first Mesh, a static IP address and <a href=\"https://www.vodafone.com.au/business/fibre-upgrade\" >$0 upgrade to FTTP fibre if eligible.</a>\n  </p>\n  <p>Unsure which plan best suits your business? Here’s the difference:\n  </p>\n  </div>\n\n<div class=\"plans-toggle-container\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <img alt=\"\" src=\"https://www.vodafone.com.au/images/icon/system/red/cable-fibre.svg\" class=\"sc-6295c191-3 jSpdYF\">\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Core plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n       Reliable, everyday speeds.\n      </span>\n    </div>\n  </button>\n  <span class=\"divider-text\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    or\n  </span>\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon-circle\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      Max\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Max plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Faster uploads and priority support.\n      </span>\n    </div>\n  </button>\n</div>\n<style data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  /* Outer Grid Container Structural Parent */\n.plans-toggle-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  max-width: 1140px;\n  margin: 24px auto;\n  gap: 16px;\n  font-family: Arial, Helvetica, sans-serif;\n  box-sizing: border-box;\n}\n\n/* Base Common Tab Buttons Layout Blueprint */\n.plan-tab {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 16px 24px;\n  border-radius: 8px;\n  cursor: pointer;\n  text-align: left;\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  box-sizing: border-box;\n}\n\n/* Interior Typography Flex Containers */\n.plan-info {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.plan-title {\n  font-size: 16px;\n  font-weight: 700;\n  letter-spacing: -0.2px;\n}\n\n.plan-desc {\n  font-size: 12px;\n  line-height: 1.4;\n}\n\n/* Middle Layout Text Label \"or\" Spacer */\n.divider-text {\n  color: #71717a;\n  font-size: 14px;\n  font-weight: 400;\n  user-select: none;\n  padding: 0 4px;\n}\n\n/* ==================================================== */\n/* VARIANT CONFIGURATION DESIGN                         */\n/* ==================================================== */\n\n/* --- Basic Option (White Canvas Theme) --- */\n#btn-basic {\n  background-color: #ffffff;\n  border: 1px solid #e4e4e7;\n  color: #18181b;\n}\n\n#btn-basic .plan-desc {\n  color: #71717a;\n}\n\n#btn-basic .plan-icon {\n  color: #52525b;\n  display: flex;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n/* Basic Highlighting Selector Class Override */\n#btn-basic.active {\n \n}\n\n\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\n#btn-pro {\n  background-color: #27272a;\n  border: 1px solid transparent;\n  color: #ffffff;\n}\n\n#btn-pro .plan-desc {\n  color: #a1a1aa;\n}\n\n/* Circular \"pro\" Text Vector Asset Badge */\n.plan-icon-circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  border: 1.5px solid #ffffff;\n  font-size: 10px;\n  font-weight: 700;\n  text-transform: lowercase;\n  flex-shrink: 0;\n  user-select: none;\n}\n\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\n#btn-pro.active {\n \n}\n\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\n.plan-tab:not(.active):hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\n}\n</style>\n<div aria-live=\"polite\" font-size=\"[object Object]\" class=\"sc-cead3999-0 iGBhDJ\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  Showing\n  <b data-testid=\"filtered-items\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    5\n  </b>\n  Internet Plans\n</div>"
+                    },
+                    "type": "attribute",
+                    "id": "7333102A-AB83-4097-86DF-3D9DE94B5F8A",
+                    "selector": ".fvargx"
+                  }
+                ],
+                "pageId": "5210171411005440"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "4747571281788928"
+        },
+        "deployed": false,
+        "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+      },
+      "4930130561204224": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "4930130561204224",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "5428207248211968",
+            "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
+            "actions": [
+              {
+                "viewId": "5923171895869440",
+                "changes": [
+                  {
+                    "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
+                    "type": "attribute",
+                    "dependencies": [],
+                    "name": "",
+                    "isOpalManaged": false,
+                    "selector": ".iDSVCZ",
+                    "attributes": {
+                      "remove": true
+                    },
+                    "css": {}
+                  }
+                ],
+                "pageId": "5923171895869440"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "DCP-17039-personalised-business-simo-hide-banner",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "5710553163759616"
+        },
+        "deployed": false,
+        "campaignName": "EGW | DCP-17039-personalised-business-simo"
+      },
+      "6720080334028800": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "6720080334028800",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "6074198538321920",
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "actions": [
+              {
+                "viewId": "6073900440748032",
+                "changes": [
+                  {
+                    "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
+                    "type": "append",
+                    "selector": "head",
+                    "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
+                    "dependencies": []
+                  },
+                  {
+                    "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
+                    "type": "custom_code",
+                    "dependencies": []
+                  }
+                ],
+                "pageId": "6073900440748032"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "EGW | DCP-personalized-Business-Apple",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "6636850394169344"
+        },
+        "deployed": false,
+        "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+      }
+    },
+    "variations": {
+      "6088373836709888": {
+        "id": "6088373836709888",
+        "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+        "actions": [
+          {
+            "viewId": "5210171411005440",
+            "changes": [
+              {
+                "id": "187310FF-EDCD-4065-8BF2-3A752DD53152",
+                "type": "custom_code",
+                "dependencies": []
+              },
+              {
+                "id": "1DD77F69-A306-4D6F-84C2-BFFB175F80B4",
+                "type": "append",
+                "dependencies": [],
+                "name": "",
+                "isOpalManaged": false,
+                "selector": "head",
+                "value": "<style>[data-testid=\"plan-card-AU13007\"].optly-highlighted,\n[data-testid=\"plan-card-AU13008\"].optly-highlighted,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted {\n \n  background-color: #000000 !important;\n  border-bottom: none !important;\n}\n\n.plan-icon img[src*=\"cable-fibre.svg\"] {\n  filter: brightness(0) !important;\n}\n\n\n/*/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT BACKGROUND CONTROLS       */\n/* ==================================================== */\n\n/* ==================================================== */\n/* PRO TITLE BANNER BLACK OUT CONTROLS (EXACT DOM MATCH)*/\n/* ==================================================== */\n\n/* 1. Turns the inner container background solid black when highlighted */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: transparent !important;\n}\n\n/* 2. Forces all nested text inside the black banner (including the superscript R) to white */\n[data-testid=\"plan-card-title-au13007\"] .jpwsTS.optly-highlighted *,\n[data-testid=\"plan-card-title-au13008\"] .jpwsTS.optly-highlighted * {\n  color: #ffffff !important;\n}\n\n\n\n/* ==================================================== */\n/* HIGHLIGHTED STATE CONTROL FOR DETACHED MOBILE BADGE  */\n/* ==================================================== */\n\n/* Clear parent nesting dependencies. Target the highlight directly on the badge class */\n[data-testid=\"plan-card-badge\"].optly-highlighted {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important;\n  color: #ffffff !important;\n}\n\n/* Force all text tags inside the highlighted badge to turn white */\n[data-testid=\"plan-card-badge\"].optly-highlighted * {\n  color: #ffffff !important;\n}\n\n/* Targets the badge element safely inside your highlighted Pro plans */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  background: #000000 !important;\n  background-color: #000000 !important;\n  border-color: #000000 !important; /* Clears any existing colored outlines */\n}\n\n/* Forces the text color inside the black badge to turn crisp white */\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] *,\n[data-testid=\"plan-card-au13007\"].optly-highlighted [data-testid=\"plan-card-badge\"],\n[data-testid=\"plan-card-au13008\"].optly-highlighted [data-testid=\"plan-card-badge\"] {\n  color: #ffffff !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted\n {\n  background-color: #000000 !important;\n}\n\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-info-container\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-connection-speed\"] div,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"neo-plan-header-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-price-container\"] div,\n\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"was-price\"],\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-boost-speed\"] span,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"plan-card-head-sec-subtext\"] p,\n[data-testid=\"plan-card-AU13007\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"],\n[data-testid=\"plan-card-AU13008\"] .gVyIeD.optly-highlighted [data-testid=\"mincost-modal\"] {\n  color: #ffffff !important;\n}\n\n\n/* ==================================================== */\n/* MOBILE VERTICAL TOGGLE STACK CONTROLS (< 768px)      */\n/* ==================================================== */\n@media screen and (max-width: 767px) {\n  \n  /* 1. Set gap to 0 to join the top and bottom button blocks */\n  .plans-toggle-container {\n    display: flex !important;\n    flex-direction: column !important;\n    align-items: stretch !important;\n    width: 100% !important;\n    max-width: 480px; \n    margin: 0 auto !important;\n    position: relative !important; \n    border-radius: 8px !important;\n    overflow: hidden !important; \n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;\n    border: 1px solid #e0e0e0 !important;\n    box-sizing: border-box !important;\n    gap: 0px !important; /* FIXED: Closed vertical whitespace gap */\n  }\n\n  /* 2. Style layout buttons to expand to full container width */\n  .plans-toggle-container button.plan-tab {\n    width: 100% !important;\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    text-align: left !important;\n    padding: 20px 18px !important;\n    border: none !important;\n    box-sizing: border-box !important;\n    margin: 0 !important; /* FIXED: Clears any leftover framework spacing */\n    background-color: #ffffff !important; \n    color: #111111 !important;\n  }\n\n  /* 3. Style properties for your 'Basic plans' layout tab */\n  .plans-toggle-container #btn-basic {\n    background-color: #ffffff !important;\n    color: #111111 !important;\n  }\n  .plans-toggle-container #btn-basic .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #111111 !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-basic .plan-desc {\n    font-size: 13px !important;\n    color: #555555 !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n  .plans-toggle-container #btn-basic .plan-icon {\n    color: #111111 !important;\n    margin-right: 16px !important;\n    display: flex !important;\n    align-items: center !important;\n  }\n\n  /* 4. Style properties for your 'Max Plans' dark mode style */\n  .plans-toggle-container #btn-pro {\n    background-color: #212529 !important; /* Matte charcoal dark background */\n    color: #ffffff !important;\n  }\n  .plans-toggle-container #btn-pro .plan-title {\n    font-size: 24px !important;\n    font-weight: 400 !important;\n    color: #ffffff !important;\n    display: block !important;\n  }\n  .plans-toggle-container #btn-pro .plan-desc {\n    font-size: 13px !important;\n    color: #cccccc !important;\n    display: block !important;\n    margin-top: 2px !important;\n  }\n\n  /* 5. Custom layout adjustments for your Max plan icon circle component */\n  .plans-toggle-container .plan-icon-circle {\n    width: 42px !important;\n    height: 42px !important;\n    min-width: 42px !important;\n    border: 2px solid #ffffff !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    margin-right: 16px !important;\n    font-size: 13px !important;\n    font-weight: 700 !important;\n    text-transform: lowercase !important;\n    color: #ffffff !important;\n    box-sizing: border-box !important;\n  }\n\n  /* 6. Absolute overlay configuration for your middle 'or' text component */\n  .plans-toggle-container .divider-text {\n    position: absolute !important;\n    top: 50% !important;\n    left: 50% !important;\n    transform: translate(-50%, -50%) !important; \n    z-index: 5 !important;\n    background-color: #ffffff !important;\n    color: #777777 !important;\n    font-size: 12px !important;\n    width: 30px !important;\n    height: 30px !important;\n    border-radius: 50% !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    border: 1px solid #dcdcdc !important;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;\n    pointer-events: none !important; \n  }\n}</style>"
+              },
+              {
+                "operator": "before",
+                "isOpalManaged": false,
+                "dependencies": [],
+                "name": "",
+                "value": "<div class=\"plans-toggle-container\">\r\n  \r\n  <!-- Basic Button Layout Tab (Active State Default) -->\r\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\">\r\n    <!-- Corrected Inline SVG Vector Asset -->\r\n    <div class=\"plan-icon\">\r\n      <svg xmlns=\"http://w3.org\" width=\"24\" height=\"24\" viewBox=\"0 -960 960 960\" fill=\"currentColor\">\r\n        <path d=\"M720-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-360-160q-66 0-113-47t-47-113q0-66 47-113t113-47h40v320h-40Zm120 0v-320h120l160 160-160 160H480Zm0-400v-80q0-33 23.5-56.5T560-800h40v80h-40v320h-40Zm-280 80H120q-17 0-28.5-11.5T80-640q0-17 11.5-28.5T120-680h40v160Z\"/>\r\n      </svg>\r\n    </div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Basic plans</span>\r\n      <span class=\"plan-desc\">Classic, unbeatable value nbn&reg; plans for small business.</span>\r\n    </div>\r\n  </button>\r\n\r\n  <span class=\"divider-text\">or</span>\r\n\r\n  <!-- Pro Button Layout Tab -->\r\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\">\r\n    <div class=\"plan-icon-circle\">pro</div>\r\n    <div class=\"plan-info\">\r\n      <span class=\"plan-title\">Pro plans</span>\r\n      <span class=\"plan-desc\">Boosted upload speeds and priority fault restoration.</span>\r\n    </div>\r\n  </button>\r\n  \r\n</div>\r\n<style>\r\n    /* Outer Grid Container Structural Parent */\r\n.plans-toggle-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100%;\r\n  max-width: 1140px;\r\n  margin: 24px auto;\r\n  gap: 16px;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Base Common Tab Buttons Layout Blueprint */\r\n.plan-tab {\r\n  flex: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 14px;\r\n  padding: 16px 24px;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n  text-align: left;\r\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\r\n  box-sizing: border-box;\r\n}\r\n\r\n/* Interior Typography Flex Containers */\r\n.plan-info {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 4px;\r\n}\r\n\r\n.plan-title {\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n  letter-spacing: -0.2px;\r\n}\r\n\r\n.plan-desc {\r\n  font-size: 12px;\r\n  line-height: 1.4;\r\n}\r\n\r\n/* Middle Layout Text Label \"or\" Spacer */\r\n.divider-text {\r\n  color: #71717a;\r\n  font-size: 14px;\r\n  font-weight: 400;\r\n  user-select: none;\r\n  padding: 0 4px;\r\n}\r\n\r\n/* ==================================================== */\r\n/* VARIANT CONFIGURATION DESIGN                         */\r\n/* ==================================================== */\r\n\r\n/* --- Basic Option (White Canvas Theme) --- */\r\n#btn-basic {\r\n  background-color: #ffffff;\r\n  border: 1px solid #e4e4e7;\r\n  color: #18181b;\r\n}\r\n\r\n#btn-basic .plan-desc {\r\n  color: #71717a;\r\n}\r\n\r\n#btn-basic .plan-icon {\r\n  color: #52525b;\r\n  display: flex;\r\n  align-items: center;\r\n  flex-shrink: 0;\r\n}\r\n\r\n/* Basic Highlighting Selector Class Override */\r\n#btn-basic.active {\r\n  border: 2px solid #18181b !important;\r\n  box-shadow: 0 4px 12px rgba(24, 24, 27, 0.06);\r\n}\r\n\r\n\r\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\r\n#btn-pro {\r\n  background-color: #27272a;\r\n  border: 1px solid transparent;\r\n  color: #ffffff;\r\n}\r\n\r\n#btn-pro .plan-desc {\r\n  color: #a1a1aa;\r\n}\r\n\r\n/* Circular \"pro\" Text Vector Asset Badge */\r\n.plan-icon-circle {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 28px;\r\n  height: 28px;\r\n  border-radius: 50%;\r\n  border: 1.5px solid #ffffff;\r\n  font-size: 10px;\r\n  font-weight: 700;\r\n  text-transform: lowercase;\r\n  flex-shrink: 0;\r\n  user-select: none;\r\n}\r\n\r\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\r\n#btn-pro.active {\r\n  border: 2px solid #E60000 !important;\r\n  box-shadow: 0 4px 16px rgba(230, 0, 0, 0.18);\r\n}\r\n\r\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\r\n.plan-tab:not(.active):hover {\r\n  transform: translateY(-1px);\r\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\r\n}\r\n\r\n</style>",
+                "type": "append",
+                "id": "57C0A1E4-F0C0-48C2-8FFB-B6376F036447",
+                "selector": ".iGBhDJ"
+              },
+              {
+                "css": {},
+                "isOpalManaged": false,
+                "dependencies": [],
+                "name": "",
+                "attributes": {
+                  "html": "<div><p>All plans come with next gen Wi-Fi 7 modem + first Mesh, a static IP address and <a href=\"https://www.vodafone.com.au/business/fibre-upgrade\" >$0 upgrade to FTTP fibre if eligible.</a>\n  </p>\n  <p>Unsure which plan best suits your business? Here’s the difference:\n  </p>\n  </div>\n\n<div class=\"plans-toggle-container\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  <button id=\"btn-basic\" type=\"button\" class=\"plan-tab active\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <img alt=\"\" src=\"https://www.vodafone.com.au/images/icon/system/red/cable-fibre.svg\" class=\"sc-6295c191-3 jSpdYF\">\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Core plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n       Reliable, everyday speeds.\n      </span>\n    </div>\n  </button>\n  <span class=\"divider-text\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    or\n  </span>\n  <button id=\"btn-pro\" type=\"button\" class=\"plan-tab\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    <div class=\"plan-icon-circle\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      Max\n    </div>\n    <div class=\"plan-info\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n      <span class=\"plan-title\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Max plans\n      </span>\n      <span class=\"plan-desc\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n        Faster uploads and priority support.\n      </span>\n    </div>\n  </button>\n</div>\n<style data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  /* Outer Grid Container Structural Parent */\n.plans-toggle-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  max-width: 1140px;\n  margin: 24px auto;\n  gap: 16px;\n  font-family: Arial, Helvetica, sans-serif;\n  box-sizing: border-box;\n}\n\n/* Base Common Tab Buttons Layout Blueprint */\n.plan-tab {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 16px 24px;\n  border-radius: 8px;\n  cursor: pointer;\n  text-align: left;\n  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  box-sizing: border-box;\n}\n\n/* Interior Typography Flex Containers */\n.plan-info {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.plan-title {\n  font-size: 16px;\n  font-weight: 700;\n  letter-spacing: -0.2px;\n}\n\n.plan-desc {\n  font-size: 12px;\n  line-height: 1.4;\n}\n\n/* Middle Layout Text Label \"or\" Spacer */\n.divider-text {\n  color: #71717a;\n  font-size: 14px;\n  font-weight: 400;\n  user-select: none;\n  padding: 0 4px;\n}\n\n/* ==================================================== */\n/* VARIANT CONFIGURATION DESIGN                         */\n/* ==================================================== */\n\n/* --- Basic Option (White Canvas Theme) --- */\n#btn-basic {\n  background-color: #ffffff;\n  border: 1px solid #e4e4e7;\n  color: #18181b;\n}\n\n#btn-basic .plan-desc {\n  color: #71717a;\n}\n\n#btn-basic .plan-icon {\n  color: #52525b;\n  display: flex;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n/* Basic Highlighting Selector Class Override */\n#btn-basic.active {\n \n}\n\n\n/* --- Pro Option (Charcoal Dark Panel Theme) --- */\n#btn-pro {\n  background-color: #27272a;\n  border: 1px solid transparent;\n  color: #ffffff;\n}\n\n#btn-pro .plan-desc {\n  color: #a1a1aa;\n}\n\n/* Circular \"pro\" Text Vector Asset Badge */\n.plan-icon-circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  border: 1.5px solid #ffffff;\n  font-size: 10px;\n  font-weight: 700;\n  text-transform: lowercase;\n  flex-shrink: 0;\n  user-select: none;\n}\n\n/* Pro Highlighting Selector Class Override (Vodafone Red Accent Brand Ring) */\n#btn-pro.active {\n \n}\n\n/* Simple Micro-Interactivity States on Inactive Layout Blocks */\n.plan-tab:not(.active):hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);\n}\n</style>\n<div aria-live=\"polite\" font-size=\"[object Object]\" class=\"sc-cead3999-0 iGBhDJ\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n  Showing\n  <b data-testid=\"filtered-items\" data-optly-57c0a1e4-f0c0-48c2-8ffb-b6376f036447=\"\">\n    5\n  </b>\n  Internet Plans\n</div>"
+                },
+                "type": "attribute",
+                "id": "7333102A-AB83-4097-86DF-3D9DE94B5F8A",
+                "selector": ".fvargx"
+              }
+            ],
+            "pageId": "5210171411005440"
+          }
+        ]
+      },
+      "5428207248211968": {
+        "id": "5428207248211968",
+        "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
+        "actions": [
+          {
+            "viewId": "5923171895869440",
+            "changes": [
+              {
+                "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
+                "type": "attribute",
+                "dependencies": [],
+                "name": "",
+                "isOpalManaged": false,
+                "selector": ".iDSVCZ",
+                "attributes": {
+                  "remove": true
+                },
+                "css": {}
+              }
+            ],
+            "pageId": "5923171895869440"
+          }
+        ]
+      },
+      "6074198538321920": {
+        "id": "6074198538321920",
+        "name": "EGW | DCP-personalized-Business-Apple",
+        "actions": [
+          {
+            "viewId": "6073900440748032",
+            "changes": [
+              {
+                "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
+                "type": "append",
+                "selector": "head",
+                "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
+                "dependencies": []
+              },
+              {
+                "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
+                "type": "custom_code",
+                "dependencies": []
+              }
+            ],
+            "pageId": "6073900440748032"
+          }
+        ]
+      }
+    },
+    "projectId": "24176680311",
+    "snippetId": null,
+    "accountId": "24176680311",
+    "dcpServiceId": "24439210394",
+    "revision": "27672",
+    "clientName": "js",
+    "clientVersion": "0.261.0",
+    "groups": {}
+  },
+  "meta": {
+    "current": {
+      "data": {
+        "campaigns": [
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "EGW | DCP-17039-personalised-business-simo",
+          "EGW | DCP-personalized-business-Apple-Nav"
+        ],
+        "pages": [
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-17039-personalised-business-simo",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu"
+          },
+          {
+            "name": "Every Page",
+            "apiName": "24176680311_every_page"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Apple-Nav",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17"
+          }
+        ],
+        "experiments": [
+          {
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          },
+          {
+            "name": "DCP-17039-personalised-business-simo-hide-banner",
+            "campaignName": "EGW | DCP-17039-personalised-business-simo"
+          },
+          {
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+          }
+        ],
+        "variations": [
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "EGW|DCP-TEMP-Personalised-Business-SIMO",
+          "EGW | DCP-personalized-Business-Apple"
+        ]
+      }
+    },
+    "all": {
+      "data": {
+        "campaigns": [
+          "Hat Component",
+          "DCP-12435-Account PIN page - Round 2 - 60-40",
+          "EGW | DCP-MCP-personalized-business-team-plans",
+          "DCP-17351-Hide DV tab title",
+          "DCP-18685-vision-btl-oneSQ-page",
+          "DCP-17576-iPad Air 11-inch (M4)",
+          "Apple-NPI-Hub-Fixes",
+          "EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "DCP-18106-888 Tiles Restyle",
+          "DCP-17576-Galaxy Tab S10 FE+ 5G",
+          "EGW | DCP-18317-Hot Offers Deal",
+          "EGW|DCP-Personalized-Business-mobile-phones-apple",
+          "EGW- DCP-business-48-home",
+          "DCP-17577-Exit Intent $30 Credit Toaster",
+          "EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+          "DCP-18199-Apple NPI Bento Banner",
+          "EGW | DCP-business-mobile-phone-pay-48m",
+          "EGW | DCP-18151 - CRO | Team Plan layout",
+          "EGW | DCP-business-Apple-PDP-iPhone-Duo",
+          "VT - TEST ASN POC",
+          "EGW | DCP-personalized-business-Apple-PDP",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+          "DCP-18720 eSim Cludo A/B",
+          "DCP-18209-48M CTA",
+          "Clearance - device listing pills",
+          "VT: A/B SIMO Bridge CTA Solution",
+          "DCP-17707-bundle-save-inline-nbn-page",
+          "EGW | DCP-personalized-Custom-Variant-Code",
+          "EGW|DCP-Personalized-Salesforce-POC",
+          "EGW | DCP-17039-personalised-business-simo",
+          "Clearance - save purple badge on popular module",
+          "DCP-17304-NDC-fix-for-oneSQ",
+          "DCP-17785 Prepaid Static Page Great value Pills",
+          "EGW | DCP-18152- CRO | SIMO Plan layout",
+          "DCP-17340-Prepaid BTL Bris Airport Offer",
+          "DCP-18722-New-Bundle-Pill",
+          "EGW | DCP-MCP-personalized-business-simo-plans",
+          "DCP-16264-Vision-pop-up-nbn-page-perso",
+          "DCP-17576-Galaxy Tab S10 FE 5G",
+          "DCP-17576-Samsung Galaxy Edge S25 Watch GWP",
+          "DCP-18274-New Apple Compare Link + 3D Spin",
+          "DCP-18198-Apple NPI: Previously Viewed Contextual Messaging",
+          "Quick links with Chevron",
+          "DCP-17577-Exit Intent $30 Credit Message",
+          "DCP-18209-48M MPP",
+          "EGW | DCP-18488-personalized-business-black-Banner-hide",
+          "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+          "Deals Hub Filter",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+          "DCP-16554-prepaid esim quick links",
+          "DCP-18446-bundle-save-oneSQ-page",
+          "DCP-18642-bundle-save-pill-banner",
+          "DCP-17785 Prepaid Static Page Online only Pills",
+          "Pill PDP Samsung Galaxy Tab",
+          "EGW | DCP-personalized-business-contact-form",
+          "DCP-18362-Apple NPI-Coming Soon-Alert",
+          "DCP-17201 CLM Offer for Launch",
+          "DCP-16683-update-sq-box-results-nbn-page",
+          "DCP-17576-iPad Air 13-inch (M4)",
+          "DCP-18685-Vision-Page-BTL-session-SQ-check",
+          "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+          "EGW | DCP-personalized-business-Apple-Nav",
+          "DCP-18608-Apple-PDP-iPhone Duo",
+          "Mega Nav Links",
+          "Clearance - PDP pill and callout"
+        ],
+        "pages": [
+          {
+            "name": "Single: /mobile/mobile-phones",
+            "apiName": "24176680311_device_listing_page"
+          },
+          {
+            "name": "Home page",
+            "apiName": "24176680311_homepage"
+          },
+          {
+            "name": "/cart",
+            "apiName": "24176680311_cart_page"
+          },
+          {
+            "name": "/checkout",
+            "apiName": "24176680311_checkout_page_"
+          },
+          {
+            "name": "?extra=OnlineBTL",
+            "apiName": "24176680311_ptk_offer_page"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/(apple|samsung)/(iphone-15|samsung-galaxy-s23-ultra-5g)",
+            "apiName": "24176680311_iphone_15promax_samsung_fold5_pdp"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones|/mobile/sim-only-phone-plans|/home-internet|/prepaid/plans|/mobile/tablets",
+            "apiName": "24176680311_product_category_pages_phonessimoprepaidfwatablets"
+          },
+          {
+            "name": "/mobile/sim-only-phone-plans",
+            "apiName": "24176680311_sim_only"
+          },
+          {
+            "name": "NBN Plans",
+            "apiName": "24176680311_nbn_plans"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/(apple|samsung)/(iphone-15|samsung-galaxy-s24-ultra)",
+            "apiName": "24176680311_multiple_pages_mobilemobilephonesapplesamsungiphone1"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone15propromaxplu"
+          },
+          {
+            "name": "Prepaid Plans",
+            "apiName": "24176680311_prepaid_plans"
+          },
+          {
+            "name": "Multiple: /mobile/(sim-only-phone-plans|mobile-phones)|/hot-offers/samsung-galaxy-s24-hub|/home-internet/plans",
+            "apiName": "24176680311_multiple_mobilesimonlyphoneplansmobilephoneshotoffer"
+          },
+          {
+            "name": "Single: /ticket",
+            "apiName": "24176680311_single_ticket"
+          },
+          {
+            "name": "Multiple: /support",
+            "apiName": "24176680311_multiple_support"
+          },
+          {
+            "name": "Multiple: /mobile/sim-only-phone-plans|/mobile/mobile-phones",
+            "apiName": "24176680311_multiple_mobilesimonlyphoneplansmobilemobilephones"
+          },
+          {
+            "name": "Single: /eofy",
+            "apiName": "24176680311_single_eofy"
+          },
+          {
+            "name": "Single: /iframe/popular-products",
+            "apiName": "24176680311_popular_products_component_"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone-15",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone15"
+          },
+          {
+            "name": "nbn plans page Wolverine",
+            "apiName": "24176680311_nbn_plans_page_wolverine"
+          },
+          {
+            "name": "Hot offers nbn",
+            "apiName": "24176680311_hot_offers_nbn"
+          },
+          {
+            "name": "/hot-offers?title=nbn-and-internet",
+            "apiName": "24176680311_hotofferstitlenbnandinternet"
+          },
+          {
+            "name": "Hubbl",
+            "apiName": "24176680311_httpswwwvodafonecomauhubbl"
+          },
+          {
+            "name": "Multiple: /samsung/samsung-galaxy-s24",
+            "apiName": "24176680311_multiple_samsungsamsunggalaxys24"
+          },
+          {
+            "name": "Multiple: /samsung-galaxy-z-fold6|/samsung-galaxy-z-flip6",
+            "apiName": "24176680311_multiple_samsunggalaxyzfold6samsunggalaxyzflip6"
+          },
+          {
+            "name": "Multiple: /support/prepaid",
+            "apiName": "24176680311_single_supportprepaidrecharge"
+          },
+          {
+            "name": "PIN Reset Page",
+            "apiName": "24176680311_pin_reset_page"
+          },
+          {
+            "name": "Multiple: /accessories/smart-watches/samsung/",
+            "apiName": "24176680311_multiple_accessoriessmartwatchessamsung"
+          },
+          {
+            "name": "Single: /network/coverage-expansion",
+            "apiName": "24176680311_single_networkcoverageexpansion"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone-16",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone16"
+          },
+          {
+            "name": "Single: /mobile/mobile-phones?brand=Apple",
+            "apiName": "24176680311_single_mobilemobilephonesbrandapple"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-business-Apple-PDP-iPhone-Duo",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcpbusinessapplepdpip"
+          },
+          {
+            "name": "Device care for all iPhone17 family devices",
+            "apiName": "24176680311_device_care_for_all_iphone17_family_devices"
+          },
+          {
+            "name": "Single: /ticket/lady-gaga",
+            "apiName": "24176680311_single_ticketladygaga"
+          },
+          {
+            "name": "multiple: /mobile/sim-only-phone-plans|multi-sim.+step=1",
+            "apiName": "24176680311_multiple_mobilesimonlyphoneplansmultisimstep1"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone-17",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone17"
+          },
+          {
+            "name": "Single: /ticket/kendrick-lamar",
+            "apiName": "24176680311_single_ticketkendricklamar"
+          },
+          {
+            "name": "URL Targeting for EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_6"
+          },
+          {
+            "name": "Network",
+            "apiName": "24176680311_network"
+          },
+          {
+            "name": "/mobile/mobile-phones/google/google-pixel-10-pro-xl",
+            "apiName": "24176680311_mobilemobilephonesgooglegooglepixel10proxl"
+          },
+          {
+            "name": "Samsung Pages",
+            "apiName": "24176680311_samsung_hub"
+          },
+          {
+            "name": "URL Targeting for Clearance - save purple badge on popular module",
+            "apiName": "24176680311_url_targeting_for_hp_save_purple"
+          },
+          {
+            "name": "URL Targeting for DCP-17577-Exit Intent $30 Credit Toaster",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp16339exit_intent_20_c_1"
+          },
+          {
+            "name": "URL Targeting for DCP-18685-vision-btl-oneSQ-page",
+            "apiName": "24176680311_url_targeting_for_dcp18685visionbtlonesqpage"
+          },
+          {
+            "name": "URL Targeting for DCP-18446-bundle-save-oneSQ-page",
+            "apiName": "24176680311_url_targeting_for_dcp18446bundlesaveonesqpage"
+          },
+          {
+            "name": "URL Targeting for DCP-18106-888 Tiles Restyle",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles"
+          },
+          {
+            "name": "URL Targeting for DCP-18198-Apple NPI: Previously Viewed Contextual Messaging",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess"
+          },
+          {
+            "name": "URL Targeting for Quick links with Chevron",
+            "apiName": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron"
+          },
+          {
+            "name": "URL Targeting for DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17943tdd_apple_device_1"
+          },
+          {
+            "name": "URL Targeting for Clearance - device listing pills",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17407clearance_hub_pill"
+          },
+          {
+            "name": "URL Targeting for Pill PDP Samsung Galaxy Tab",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_pdp_pil"
+          },
+          {
+            "name": "URL Targeting for Apple-NPI-Hub-Fixes",
+            "apiName": "24176680311_url_targeting_for_applenpihubfixes"
+          },
+          {
+            "name": "URL Targeting for EGW- DCP-business-48-home",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18317-Hot Offers Deal",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_15"
+          },
+          {
+            "name": "URL Targeting for DCP-18685-Vision-Page-BTL-session-SQ-check",
+            "apiName": "24176680311_url_targeting_for_visionpagebtlsessionsqcheck"
+          },
+          {
+            "name": "URL Targeting for EGW|DCP-Personalized-Business-mobile-phones-apple",
+            "apiName": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusiness"
+          },
+          {
+            "name": "URL Targeting for DCP-18209-48M MPP",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_"
+          },
+          {
+            "name": "URL Targeting for Clearance - PDP pill and callout",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17046clearance_pdp_pill"
+          },
+          {
+            "name": "URL Targeting for DCP-16264-Vision-pop-up-nbn-page-perso",
+            "apiName": "24176680311_url_targeting_for_dcp16264visionpopupnbnpageperso"
+          },
+          {
+            "name": "URL Targeting for DCP-12435-Account PIN page - Round 2 - 60-40",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp12435account_pin_page_2"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7"
+          },
+          {
+            "name": "URL Targeting for Deals Hub Filter",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp15207_deals_hub_filter"
+          },
+          {
+            "name": "URL Targeting for Mega Nav Links",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega"
+          },
+          {
+            "name": "OneSQ Page",
+            "apiName": "24176680311_onesq_page"
+          },
+          {
+            "name": "PDP for All Phones",
+            "apiName": "24176680311_pdp_for_all_phones"
+          },
+          {
+            "name": "URL Targeting for DCP-18642-bundle-save-pill-banner",
+            "apiName": "24176680311_url_targeting_for_dcp18642bundlesavepillbanner"
+          },
+          {
+            "name": "URL Targeting for DCP-18274-New Apple Compare Link + 3D Spin",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp15845apple_compare_link"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-Galaxy Tab S10 FE+ 5G",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576galaxy_tab_a11_5_1"
+          },
+          {
+            "name": "Exclusive Offer",
+            "apiName": "24176680311_exclusive_offer"
+          },
+          {
+            "name": "Single: /ticket/usher",
+            "apiName": "24176680311_single_ticketusher"
+          },
+          {
+            "name": "Device Plans Page",
+            "apiName": "24176680311_device_plans_page"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-iPad Air 11-inch (M4)",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576galaxy_tab_a11_5g"
+          },
+          {
+            "name": "URL Targeting for DCP-18720 eSim Cludo A/B",
+            "apiName": "24176680311_url_targeting_for_dcp18720_esim_cludo_ab"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Apple-PDP",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcppersonalizedbusi_3"
+          },
+          {
+            "name": "URL Targeting for Hat Component",
+            "apiName": "24176680311_url_targeting_for_copy_of_fabio_hat_template_s3_test"
+          },
+          {
+            "name": "Multiple: Product Category Pages + Deals ",
+            "apiName": "24176680311_multiple_product_category_pages__deals_"
+          },
+          {
+            "name": "/contact/samsung-news",
+            "apiName": "24176680311_httpswwwvodafonecomaucontactsamsungnews"
+          },
+          {
+            "name": "URL Targeting for DCP-17201 CLM Offer for Launch",
+            "apiName": "24176680311_url_targeting_for_dcp17201_clm_offer_for_launch"
+          },
+          {
+            "name": "URL Targeting for EGW|DCP-Personalized-Salesforce-POC",
+            "apiName": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2"
+          },
+          {
+            "name": "FWA",
+            "apiName": "24176680311_fwa"
+          },
+          {
+            "name": "Spilt Milk Page",
+            "apiName": "24176680311_spilt_milk_page"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcppersonalizedbusi_4"
+          },
+          {
+            "name": "URL Targeting for DCP-17707-bundle-save-inline-nbn-page",
+            "apiName": "24176680311_url_targeting_for_dcp17707bundlesaveinlinenbnpage"
+          },
+          {
+            "name": "URL Targeting for DCP-17785 Prepaid Static Page Online only Pills",
+            "apiName": "24176680311_url_targeting_for_prepaid_starter_pack_pills"
+          },
+          {
+            "name": "URL Targeting for DCP-17304-NDC-fix-for-oneSQ",
+            "apiName": "24176680311_url_targeting_for_dcp17304ndcfixforonesq"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-Galaxy Tab S10 FE 5G",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576galaxy_tab_a11_5_2"
+          },
+          {
+            "name": "URL Targeting for DCP-18209-48M CTA",
+            "apiName": "24176680311_url_targeting_for_dcp1820948m_cta"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-17039-personalised-business-simo",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu"
+          },
+          {
+            "name": "Android Hub",
+            "apiName": "24176680311_android_hub"
+          },
+          {
+            "name": "Every Page",
+            "apiName": "24176680311_every_page"
+          },
+          {
+            "name": "URL Targeting for DCP-16683-update-sq-box-results-nbn-page",
+            "apiName": "24176680311_url_targeting_for_dcp16683updatesqboxresultsnbnpage"
+          },
+          {
+            "name": "Android Summer Sale",
+            "apiName": "24176680311_android_summer_sale"
+          },
+          {
+            "name": "URL Targeting for VT: A/B SIMO Bridge CTA Solution",
+            "apiName": "24176680311_url_targeting_for_vt_ab_simo_bridge_cta_solution"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Apple-Nav",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-iPad Air 13-inch (M4)",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576ipad_air_11inch_m4"
+          },
+          {
+            "name": "URL Targeting for DCP-17351-Hide DV tab title",
+            "apiName": "24176680311_url_targeting_for_hide_dv_tab_copy"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-MCP-personalized-business-simo-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcpmcppersonalizedbus"
+          },
+          {
+            "name": "URL Targeting for DCP-16554-prepaid esim quick links",
+            "apiName": "24176680311_url_targeting_for_dcp16554prepaid_esim_quick_links"
+          },
+          {
+            "name": "Single: /deals",
+            "apiName": "24176680311_single_deals"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-Samsung Galaxy Edge S25 Watch GWP",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp175711200_eofy_promote_"
+          },
+          {
+            "name": "URL Targeting for VT - TEST ASN POC",
+            "apiName": "24176680311_url_targeting_for_vt__test_asn_poc"
+          },
+          {
+            "name": "URL Targeting for DCP-18199-Apple NPI Bento Banner",
+            "apiName": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18152- CRO | SIMO Plan layout",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-business-mobile-phone-pay-48m",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcpbusinessapplepdp_1"
+          },
+          {
+            "name": "URL Targeting for DCP-18362-Apple NPI-Coming Soon-Alert",
+            "apiName": "24176680311_url_targeting_for_dcp18362apple_npicoming_soonalert"
+          },
+          {
+            "name": "URL Targeting for DCP-17577-Exit Intent $30 Credit Message",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp16339exit_intent_20_c_3"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-contact-form",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcp18488personalizedb"
+          },
+          {
+            "name": "URL Targeting for DCP-16888-CLM-Samsung Galaxy S26 Plus Alert Bar",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17099_alert_bar_samsu_1"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18151 - CRO | Team Plan layout",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12"
+          },
+          {
+            "name": "Google Pixel 10 Pro XL",
+            "apiName": "24176680311_google_pixel_10_pro_xl"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-MCP-personalized-business-team-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_14"
+          },
+          {
+            "name": "URL Targeting for DCP-17785 Prepaid Static Page Great value Pills",
+            "apiName": "24176680311_url_targeting_for_dcp16171"
+          },
+          {
+            "name": "Fibre Upgrade",
+            "apiName": "24176680311_fibre_upgrade"
+          },
+          {
+            "name": "Existing Customers Home Page",
+            "apiName": "24176680311_existing_customers_home_page"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-Custom-Variant-Code",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_16"
+          },
+          {
+            "name": "URL Targeting for DCP-18608-Apple-PDP-iPhone Duo",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp18277applenpipdpiphone_"
+          },
+          {
+            "name": "URL Targeting for DCP-18722-New-Bundle-Pill",
+            "apiName": "24176680311_url_targeting_for_new_bundle_pill_test_"
+          },
+          {
+            "name": "URL Targeting for DCP-17340-Prepaid BTL Bris Airport Offer",
+            "apiName": "24176680311_url_targeting_for_dcp17340prepaid_btl_bris_airport_o"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18488-personalized-business-black-Banner-hide",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_19"
+          },
+          {
+            "name": "Single: Homepage",
+            "apiName": "24176680311_single_homepage"
+          },
+          {
+            "name": "URL Targeting for DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp18277applenpipdp"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcppersonalizedcustom"
+          }
+        ],
+        "experiments": [
+          {
+            "name": "DCP-17391-Upgrades Offer",
+            "campaignName": "Hat Component"
+          },
+          {
+            "name": "DCP-12435-Account PIN page - Round 2 - 60-40",
+            "campaignName": null
+          },
+          {
+            "name": " EGW | DCP-MCP-personalized-business-team-plans",
+            "campaignName": "EGW | DCP-MCP-personalized-business-team-plans"
+          },
+          {
+            "name": "Everyone",
+            "campaignName": "DCP-17351-Hide DV tab title"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-18685-vision-btl-oneSQ-page"
+          },
+          {
+            "name": "DCP-17576-iPad Air 11-inch (M4)",
+            "campaignName": "DCP-17576-iPad Air 11-inch (M4)"
+          },
+          {
+            "name": "Apple-NPI-Hub-Fixes",
+            "campaignName": "Apple-NPI-Hub-Fixes"
+          },
+          {
+            "name": "EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+            "campaignName": "EGW | DCP-personalized-Custom-Variant-Code-18-promax"
+          },
+          {
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          },
+          {
+            "name": "DCP-18106-888 Tiles Restyle",
+            "campaignName": "DCP-18106-888 Tiles Restyle"
+          },
+          {
+            "name": "DCP-17576-Galaxy Tab S10 FE+ 5G",
+            "campaignName": "DCP-17576-Galaxy Tab S10 FE+ 5G"
+          },
+          {
+            "name": "EGW | DCP-18317-Hot Offers Deal",
+            "campaignName": "EGW | DCP-18317-Hot Offers Deal"
+          },
+          {
+            "name": "EGW|DCP-Personalized-Business-mobile-phones-apple",
+            "campaignName": "EGW|DCP-Personalized-Business-mobile-phones-apple"
+          },
+          {
+            "name": "EGW- DCP-business-48-home",
+            "campaignName": "EGW- DCP-business-48-home"
+          },
+          {
+            "name": "DCP-17577-Exit Intent $30 Credit Toaster",
+            "campaignName": "DCP-17577-Exit Intent $30 Credit Toaster"
+          },
+          {
+            "name": " EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+            "campaignName": "EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max"
+          },
+          {
+            "name": "SIMO",
+            "campaignName": "DCP-18199-Apple NPI Bento Banner"
+          },
+          {
+            "name": " EGW | DCP-business-mobile-phone-pay-48m",
+            "campaignName": "EGW | DCP-business-mobile-phone-pay-48m"
+          },
+          {
+            "name": "EGW | DCP-18151 - CRO | Team Plan layout",
+            "campaignName": "EGW | DCP-18151 - CRO | Team Plan layout"
+          },
+          {
+            "name": "EGW | DCP-business-Apple-PDP-iPhone-Duo",
+            "campaignName": "EGW | DCP-business-Apple-PDP-iPhone-Duo"
+          },
+          {
+            "name": "ASN POC",
+            "campaignName": "VT - TEST ASN POC"
+          },
+          {
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "campaignName": "EGW | DCP-personalized-business-Apple-PDP"
+          },
+          {
+            "name": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+            "campaignName": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro"
+          },
+          {
+            "name": "DCP-18720 eSim Cludo A/B",
+            "campaignName": null
+          },
+          {
+            "name": "DCP-18209-48M CTA",
+            "campaignName": "DCP-18209-48M CTA"
+          },
+          {
+            "name": "DCP-18666-clearance-pill",
+            "campaignName": "Clearance - device listing pills"
+          },
+          {
+            "name": "VT: A/B SIMO Bridge CTA Solution",
+            "campaignName": null
+          },
+          {
+            "name": "nbn users",
+            "campaignName": "DCP-17707-bundle-save-inline-nbn-page"
+          },
+          {
+            "name": " EGW | DCP-personalized-Custom-Variant-Code",
+            "campaignName": "EGW | DCP-personalized-Custom-Variant-Code"
+          },
+          {
+            "name": "EGW|DCP-Personalized-Salesforce-POC",
+            "campaignName": "EGW|DCP-Personalized-Salesforce-POC"
+          },
+          {
+            "name": "DCP-17039-personalised-business-simo-hide-banner",
+            "campaignName": "EGW | DCP-17039-personalised-business-simo"
+          },
+          {
+            "name": "DCP-18666-clearance-purple-save-values",
+            "campaignName": "Clearance - save purple badge on popular module"
+          },
+          {
+            "name": "NDC fix",
+            "campaignName": "DCP-17304-NDC-fix-for-oneSQ"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-17785 Prepaid Static Page Great value Pills"
+          },
+          {
+            "name": "EGW | DCP-18152- CRO | SIMO Plan layout",
+            "campaignName": "EGW | DCP-18152- CRO | SIMO Plan layout"
+          },
+          {
+            "name": "brisbane-offer-audience",
+            "campaignName": "DCP-17340-Prepaid BTL Bris Airport Offer"
+          },
+          {
+            "name": "Everyone",
+            "campaignName": "DCP-18722-New-Bundle-Pill"
+          },
+          {
+            "name": " EGW | DCP-MCP-personalized-business-simo-plans",
+            "campaignName": "EGW | DCP-MCP-personalized-business-simo-plans"
+          },
+          {
+            "name": "DCP-16264",
+            "campaignName": "DCP-16264-Vision-pop-up-nbn-page-perso"
+          },
+          {
+            "name": "DCP-17576-Galaxy Tab S10 FE 5G",
+            "campaignName": "DCP-17576-Galaxy Tab S10 FE 5G"
+          },
+          {
+            "name": "DCP-17576-Galaxy Edge S25 Watch GWP",
+            "campaignName": "DCP-17576-Samsung Galaxy Edge S25 Watch GWP"
+          },
+          {
+            "name": "DCP-18274-New Apple Compare Link + 3D Spin",
+            "campaignName": null
+          },
+          {
+            "name": "DCP-18198-AppleNPI-Contextual-Messaging",
+            "campaignName": "DCP-18198-Apple NPI: Previously Viewed Contextual Messaging"
+          },
+          {
+            "name": "DCP-15294 Quick links with Chevron",
+            "campaignName": "Quick links with Chevron"
+          },
+          {
+            "name": "DCP-17577-Exit Intent $30 Credit Message",
+            "campaignName": "DCP-17577-Exit Intent $30 Credit Message"
+          },
+          {
+            "name": "DCP-18209-48M MPP",
+            "campaignName": "DCP-18209-48M MPP"
+          },
+          {
+            "name": "EGW | DCP-18488-personalized-business-black-Banner-hide",
+            "campaignName": "EGW | DCP-18488-personalized-business-black-Banner-hide"
+          },
+          {
+            "name": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+            "campaignName": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now"
+          },
+          {
+            "name": "DCP-16400: Deals Hub Filter Personalisation",
+            "campaignName": "Deals Hub Filter"
+          },
+          {
+            "name": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+            "campaignName": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-16554-prepaid esim quick links"
+          },
+          {
+            "name": "oneSQ visitors",
+            "campaignName": "DCP-18446-bundle-save-oneSQ-page"
+          },
+          {
+            "name": "all users",
+            "campaignName": "DCP-18642-bundle-save-pill-banner"
+          },
+          {
+            "name": "Everyone",
+            "campaignName": "DCP-17785 Prepaid Static Page Online only Pills"
+          },
+          {
+            "name": "Pill PDP Samsung Galaxy Tab",
+            "campaignName": "Pill PDP Samsung Galaxy Tab"
+          },
+          {
+            "name": "EGW-DCP-personalized-business-contact-form",
+            "campaignName": "EGW | DCP-personalized-business-contact-form"
+          },
+          {
+            "name": "DCP-18362-Apple NPI-Coming Soon-Alert",
+            "campaignName": "DCP-18362-Apple NPI-Coming Soon-Alert"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-17201 CLM Offer for Launch"
+          },
+          {
+            "name": "DCP-16683",
+            "campaignName": "DCP-16683-update-sq-box-results-nbn-page"
+          },
+          {
+            "name": "DCP-17576-iPad Air 13-inch (M4)",
+            "campaignName": "DCP-17576-iPad Air 13-inch (M4)"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-18685-Vision-Page-BTL-session-SQ-check"
+          },
+          {
+            "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+            "campaignName": "EGW|DCP-17619-Personalized-business-banner-eofy-cta"
+          },
+          {
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+          },
+          {
+            "name": "DCP-18608-Apple-PDP-iPhone Duo",
+            "campaignName": "DCP-18608-Apple-PDP-iPhone Duo"
+          },
+          {
+            "name": "DCP-18197-Iphone18 Nav",
+            "campaignName": "Mega Nav Links"
+          },
+          {
+            "name": "DCP-18666-clearance",
+            "campaignName": "Clearance - PDP pill and callout"
+          }
+        ],
+        "variations": [
+          "DCP-17391-Upgrades Offer",
+          "Original",
+          "Variation #1",
+          " EGW | DCP-MCP-personalized-business-team-plans",
+          "Variation #1",
+          "Variation #1",
+          "DCP-17576-iPad Air 11-inch (M4)",
+          "Apple-NPI-Hub-Fixes",
+          "EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "DCP-18106-888 Tiles Restyle",
+          "DCP-17576-Galaxy Tab S10 FE+ 5G",
+          "EGW | DCP-18317-Hot Offers Deal",
+          "EGW|DCP-Personalized-Business-mobile-phones-apple",
+          "EGW- DCP-business-48-home",
+          "DCP-17577-Exit Intent $30 Credit Toaster",
+          " EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+          "SIMO",
+          " EGW | DCP-business-mobile-phone-pay-48m",
+          "EGW | DCP-18151 - CRO | Team Plan layout",
+          "EGW | DCP-business-Apple-PDP-iPhone-Duo",
+          "Variation #1",
+          "EGW | DCP-personalized-business-Apple-PDP",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+          "Original",
+          "Variation esim cludo banner",
+          "DCP-18209-48M CTA",
+          "Listings",
+          "Original",
+          "Bridge CTA",
+          "Variation #1",
+          " EGW | DCP-personalized-Custom-Variant-Code",
+          "EGW|DCP-Personalized-Salesforce-POC",
+          "EGW|DCP-TEMP-Personalised-Business-SIMO",
+          "Variation #1",
+          "Variation #1",
+          "Variation #1",
+          "EGW | DCP-18152- CRO | SIMO Plan layout",
+          "Variation #1",
+          "Variation #1",
+          " EGW | DCP-MCP-personalized-business-simo-plans",
+          "Variation #1",
+          "DCP-17576-Galaxy Tab S10 FE 5G",
+          "DCP-17576-Galaxy Edge S25 Watch GWP",
+          "Original",
+          "show compare and 3D links under gallery",
+          "DCP-18198-Contextual Messaging",
+          "Variation #1",
+          "DCP-17577-Exit Intent $30 Credit Message",
+          "DCP-18209-48M MPP",
+          "EGW | DCP-18488-personalized-business-black-Banner-hide",
+          "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+          "DCP-16400: Deals Hub Filter Personalisation",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+          "Variation #1",
+          "Variation #1",
+          "Variation #1",
+          "Variation #1",
+          "Pill PDP Samsung Galaxy Tab",
+          "EGW-DCP-personalized-business-contact-form",
+          "DCP-18362-Apple NPI-Coming Soon-Alert",
+          "Variation #1",
+          "Variation #1",
+          "DCP-17576-iPad Air 13-inch (M4)",
+          "Variation #1",
+          "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+          "EGW | DCP-personalized-Business-Apple",
+          "DCP-18608-Apple-PDP-iPhone Duo",
+          "DCP-18197-Iphone18 Nav",
+          "Variation #1"
+        ]
+      }
+    }
+  }
+}

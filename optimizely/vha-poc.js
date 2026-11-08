@@ -5,27 +5,24 @@
  * change the page, activate campaigns, or reload Optimizely.
  *
  * Console commands:
- *   vhaPoc.run()     Fetch fresh Salesforce decisions for the configured points
- *                    and submit their attributes to Optimizely. The snippet
- *                    also runs this once automatically when loaded.
- *   vhaPoc.inspect() Log the submitted command, visitor and current Optimizely
- *                    active page, campaign and experiment state plus the
- *                    related configuration; returns an object
- *                    with get.state and filtered get.data as separate keys.
- *                    meta summarizes current and all project-data names.
- *                    It does not fetch or submit Salesforce decisions.
- *   vhaPoc.stop()    Ignore the result of any pending POC request. It does not
- *                    clear attributes already submitted to Optimizely.
+ *   vhaPoc.run()     Fetch fresh Salesforce decisions
+ *   vhaPoc.inspectOptimizelyContext()
+ *   vhaPoc.stop()    Ignore the result of any pending POC request.
  *
- * copy(vhaPoc.inspect());
+ * copy(vhaPoc.inspectOptimizelyContext());
  */
 (function (host) {
   'use strict';
 
+  /**************************************************************************
+   * CONFIGURATION
+   * prefix: Identifies this POC in browser console messages.
+   * targetPagePersonalizationPoints: Defines which Salesforce decisions enter the process.
+   * salesforceToOptimizelyDecisionMapping: Defines the Salesforce-to-Optimizely data contract.
+   **************************************************************************/
   var prefix = '[VHA Salesforce Optimizely POC]';
   var targetPagePersonalizationPoints = ['page_base_poc', 'page_extended_poc', 'page_priority_poc'];
-  // Each Optimizely key explicitly selects its Salesforce point and field.
-  var salesforceOptimizelyDecisionMaping = {
+  var salesforceToOptimizelyDecisionMapping = {
     base_point: { point: 'page_base_poc', field: 'personalizationPointName' },
     base_decision: { point: 'page_base_poc', field: 'decisionId' },
     base_experience_scope: { point: 'page_base_poc', field: 'attributes.experienceScope' },
@@ -42,21 +39,132 @@
     priority_experience_tags: { point: 'page_priority_poc', field: 'attributes.experienceTags' },
     priority_experience_value: { point: 'page_priority_poc', field: 'attributes.experienceValue' }
   };
+
+  /**************************************************************************
+   * STATE MANAGEMENT
+   * requestGeneration: Identifies the current run so outdated responses can be ignored.
+   * lastPayload: Preserves the latest submitted command for inspection.
+   * initializeSnippet(): Establishes the public snippet instance and begins the initial flow.
+   * run(): Coordinates one complete Salesforce-to-Optimizely decision flow.
+   * stop(): Invalidates pending work without clearing previously submitted attributes.
+   **************************************************************************/
   var requestGeneration = 0;
   var lastPayload = null;
 
-  // Invalidate a request from an earlier execution of the snippet.
-  if (host.vhaPoc && typeof host.vhaPoc.stop === 'function') host.vhaPoc.stop();
-
-  function readOptimizely(key) {
-    if (!host.optimizely || typeof host.optimizely.get !== 'function') return undefined;
-    try { return host.optimizely.get(key); }
-    catch (error) { console.warn(prefix, 'Unable to read Optimizely ' + key + ':', error); }
+  function initializeSnippet() {
+    if (host.vhaPoc && typeof host.vhaPoc.stop === 'function') host.vhaPoc.stop();
+    host.vhaPoc = {
+      run: run,
+      inspectOptimizelyContext: inspectOptimizelyContext,
+      stop: stop
+    };
+    inspectOptimizelyContext();
+    run();
   }
 
-  function inspect() {
+  async function run() {
+    var generation = ++requestGeneration;
+    try {
+      var requestedUrl = host.location.href;
+      var sdk = getReadySalesforceSdk();
+      var decisions = await fetchSalesforcePageDecisions(sdk);
+      if (generation !== requestGeneration || host.location.href !== requestedUrl) {
+        console.warn(prefix, 'Ignoring an outdated decision request.');
+        return;
+      }
+      var command = buildOptimizelyUserCommandFromDecisions(decisions);
+      submitOptimizelyUserCommand(command);
+    } catch (error) {
+      console.warn(prefix, 'Could not fetch and publish Salesforce decisions:', error);
+    }
+  }
+
+  function stop() { requestGeneration++; }
+
+  /**************************************************************************
+   * SALESFORCE
+   * getReadySalesforceSdk(): Provides the Salesforce dependency required by the flow.
+   * fetchSalesforcePageDecisions(): Supplies decisions for the configured page points.
+   * buildOptimizelyUserCommandFromDecisions(): Translates Salesforce decisions into the Optimizely user command.
+   * readSalesforceDecisionField(): Supports translation of mapped Salesforce fields.
+   **************************************************************************/
+  function getReadySalesforceSdk() {
+    if (typeof host.getSalesforceInteractions !== 'function') throw new Error('Salesforce Interactions SDK is unavailable. Load it using the extension first.');
+    var sdk = host.getSalesforceInteractions();
+    if (!sdk || !sdk.Personalization || typeof sdk.Personalization.fetch !== 'function') {
+      throw new Error('Salesforce Personalization.fetch API is unavailable.');
+    }
+    return sdk;
+  }
+
+  async function fetchSalesforcePageDecisions(sdk) {
+    var points = targetPagePersonalizationPoints.slice();
+    console.log(prefix, 'Requesting Salesforce page decisions for:', points);
+    var response = await sdk.Personalization.fetch(points);
+    if (!response || !Array.isArray(response.personalizations)) throw new Error('Unexpected Salesforce personalization response.');
+    console.log(prefix, 'Salesforce page-decision response:', response);
+    return response.personalizations;
+  }
+
+  function buildOptimizelyUserCommandFromDecisions(decisions) {
+    var attributes = {};
+    var byPoint = Object.create(null);
+    decisions.forEach(function (decision) {
+      var point = decision && decision.personalizationPointName;
+      if (targetPagePersonalizationPoints.indexOf(point) !== -1) {
+        if (byPoint[point]) console.warn(prefix, 'Multiple decisions for point; using the last:', point);
+        byPoint[point] = decision;
+      }
+    });
+    targetPagePersonalizationPoints.forEach(function (point) {
+      if (!byPoint[point]) console.log(prefix, 'No decision returned for point:', point);
+    });
+    Object.keys(salesforceToOptimizelyDecisionMapping).forEach(function (attributeName) {
+      var mapping = salesforceToOptimizelyDecisionMapping[attributeName];
+      var decision = byPoint[mapping.point];
+      var value = decision ? readSalesforceDecisionField(decision, mapping.field) : null;
+      attributes[attributeName] = value == null ? null : String(value);
+    });
+    return { type: 'user', attributes: attributes };
+  }
+
+  function readSalesforceDecisionField(decision, path) {
+    return path.split('.').reduce(function (value, key) {
+      return value != null ? value[key] : undefined;
+    }, decision);
+  }
+
+  /**************************************************************************
+   * OPTIMIZELY
+   * submitOptimizelyUserCommand(): Delivers the translated decision data and starts inspection.
+   **************************************************************************/
+  function submitOptimizelyUserCommand(command) {
+    try {
+      host.optimizely = host.optimizely || [];
+      if (typeof host.optimizely.push !== 'function') throw new Error('Optimizely push is unavailable.');
+      host.optimizely.push(command);
+      lastPayload = command;
+      console.log(prefix, 'User command submitted (may be queued):', command);
+      inspectOptimizelyContext();
+    } catch (error) {
+      console.warn(prefix, 'Could not submit the user command:', error);
+    }
+  }
+
+  /**************************************************************************
+   * OPTIMIZELY INSPECTION
+   * inspectOptimizelyContext(): Produces the public report of the current Optimizely context.
+   * readOptimizelyValue(): Provides resilient access to Optimizely report inputs.
+   * inspectActiveOptimizelyState(): Collects the active state included in the report.
+   * selectActiveOptimizelyConfiguration(): Limits project data to the active experience context.
+   * addVariation(): Retains variations linked to the selected active configuration.
+   * addExperiment(): Retains experiments and their linked variations for the selected context.
+   * summarizeOptimizelyConfiguration(): Creates the compact project-data overview.
+   * items(): Supplies valid project entities to the configuration summary.
+   **************************************************************************/
+  function inspectOptimizelyContext() {
     var report = { url: host.location.href, lastSubmittedCommand: lastPayload,
-      'get.visitor': readOptimizely('visitor'), 'get.visitor_id': readOptimizely('visitor_id'),
+      'get.visitor': readOptimizelyValue('visitor'), 'get.visitor_id': readOptimizelyValue('visitor_id'),
       'get.state': {}, 'get.data': {} };
     console.log(prefix, 'Inspection URL:', host.location.href);
     console.log(prefix, 'Last submitted user command:', report.lastSubmittedCommand);
@@ -66,36 +174,27 @@
       console.log(prefix, 'Optimizely get is not ready; the user command may be queued.');
       return report;
     }
-    report['get.state'] = inspectOptimizelyState(readOptimizely('state'));
-    var allData = readOptimizely('data');
-    report['get.data'] = selectActiveConfiguration(allData, report['get.state']);
-    report.meta = { current: { data: summarizeData(report['get.data']) }, all: { data: summarizeData(allData) } };
+    report['get.state'] = inspectActiveOptimizelyState(readOptimizelyValue('state'));
+    var allData = readOptimizelyValue('data');
+    report['get.data'] = selectActiveOptimizelyConfiguration(allData, report['get.state']);
+    report.meta = { current: { data: summarizeOptimizelyConfiguration(report['get.data']) }, all: { data: summarizeOptimizelyConfiguration(allData) } };
     console.log(prefix, 'get("data") scoped to active pages and campaigns; selected objects are unchanged:', report['get.data']);
     console.log(prefix, 'Project-data summaries for current scope and all entities:', report.meta);
     return report;
   }
 
-  function summarizeData(data) {
-    if (!data) return null;
-    function items(key) {
-      var collection = data[key] || {};
-      return Object.keys(collection).map(function (id) { return collection[id]; }).filter(function (item) { return item && typeof item === 'object'; });
-    }
-    return {
-      campaigns: items('campaigns').map(function (item) { return item.name == null ? null : item.name; }),
-      pages: items('pages').map(function (item) { return { name: item.name == null ? null : item.name, apiName: item.apiName == null ? null : item.apiName }; }),
-      experiments: items('experiments').map(function (item) { return { name: item.name == null ? null : item.name, campaignName: item.campaignName == null ? null : item.campaignName }; }),
-      variations: items('variations').map(function (item) { return item.name == null ? null : item.name; })
-    };
+  function readOptimizelyValue(key) {
+    if (!host.optimizely || typeof host.optimizely.get !== 'function') return undefined;
+    try { return host.optimizely.get(key); }
+    catch (error) { console.warn(prefix, 'Unable to read Optimizely ' + key + ':', error); }
   }
 
-  function inspectOptimizelyState(state) {
+  function inspectActiveOptimizelyState(state) {
     var results = {};
     if (!state) {
       console.log(prefix, 'Optimizely state is unavailable.');
       return results;
     }
-    // Only keep active states; every call is isolated from failures in others.
     [
       ['getPageStates', 'Active pages and configured tags'],
       ['getCampaignStates', 'Active campaigns, audiences and assigned variations'],
@@ -120,11 +219,7 @@
     return results;
   }
 
-  // Select top-level entities related to active pages and campaigns. Each
-  // selected object, including all nested experiments and variations, is the
-  // original object returned by Optimizely. Keep audiences intact because
-  // audience conditions can contain nested references.
-  function selectActiveConfiguration(data, state) {
+  function selectActiveOptimizelyConfiguration(data, state) {
     var selected = Object.assign({}, data || {});
     selected.pages = {};
     selected.campaigns = {};
@@ -172,86 +267,41 @@
     return selected;
   }
 
-  function readDecisionField(decision, path) {
-    return path.split('.').reduce(function (value, key) {
-      return value != null ? value[key] : undefined;
-    }, decision);
-  }
-
-  // Map each explicit Optimizely key to its configured point and field.
-  // Missing points and fields are cleared after a successful response.
-  function buildAttributes(decisions) {
-    var attributes = {};
-    var byPoint = Object.create(null);
-    decisions.forEach(function (decision) {
-      var point = decision && decision.personalizationPointName;
-      if (targetPagePersonalizationPoints.indexOf(point) !== -1) {
-        if (byPoint[point]) console.warn(prefix, 'Multiple decisions for point; using the last:', point);
-        byPoint[point] = decision;
-      }
-    });
-    targetPagePersonalizationPoints.forEach(function (point) {
-      if (!byPoint[point]) console.log(prefix, 'No decision returned for point:', point);
-    });
-    Object.keys(salesforceOptimizelyDecisionMaping).forEach(function (attributeName) {
-      var mapping = salesforceOptimizelyDecisionMaping[attributeName];
-      var decision = byPoint[mapping.point];
-      var value = decision ? readDecisionField(decision, mapping.field) : null;
-      attributes[attributeName] = value == null ? null : String(value);
-    });
-    return { type: 'user', attributes: attributes };
-  }
-
-  function publish(command) {
-    try {
-      host.optimizely = host.optimizely || [];
-      if (typeof host.optimizely.push !== 'function') throw new Error('Optimizely push is unavailable.');
-      host.optimizely.push(command);
-      lastPayload = command;
-      console.log(prefix, 'User command submitted (may be queued):', command);
-      inspect();
-    } catch (error) {
-      console.warn(prefix, 'Could not submit the user command:', error);
+  function summarizeOptimizelyConfiguration(data) {
+    if (!data) return null;
+    function items(key) {
+      var collection = data[key] || {};
+      return Object.keys(collection).map(function (id) { return collection[id]; }).filter(function (item) { return item && typeof item === 'object'; });
     }
+    return {
+      campaigns: items('campaigns').map(function (item) { return item.name == null ? null : item.name; }),
+      pages: items('pages').map(function (item) { return { name: item.name == null ? null : item.name, apiName: item.apiName == null ? null : item.apiName }; }),
+      experiments: items('experiments').map(function (item) { return { name: item.name == null ? null : item.name, campaignName: item.campaignName == null ? null : item.campaignName }; }),
+      variations: items('variations').map(function (item) { return item.name == null ? null : item.name; })
+    };
   }
 
-  function getSalesforceSdk() {
-    if (typeof host.getSalesforceInteractions !== 'function') throw new Error('Salesforce Interactions SDK is unavailable. Load it using the extension first.');
-    var sdk = host.getSalesforceInteractions();
-    if (!sdk || !sdk.Personalization || typeof sdk.Personalization.fetch !== 'function') {
-      throw new Error('Salesforce Personalization.fetch API is unavailable.');
-    }
-    return sdk;
-  }
-
-  async function fetchDecisions(sdk) {
-    var points = targetPagePersonalizationPoints.slice();
-    console.log(prefix, 'Requesting Salesforce page decisions for:', points);
-    var response = await sdk.Personalization.fetch(points);
-    if (!response || !Array.isArray(response.personalizations)) throw new Error('Unexpected Salesforce personalization response.');
-    console.log(prefix, 'Salesforce page-decision response:', response);
-    return response.personalizations;
-  }
-
-  async function run() {
-    var generation = ++requestGeneration;
-    try {
-      var requestedUrl = host.location.href;
-      var sdk = getSalesforceSdk();
-      var decisions = await fetchDecisions(sdk);
-      if (generation !== requestGeneration || host.location.href !== requestedUrl) {
-        console.warn(prefix, 'Ignoring an outdated decision request.');
-        return;
-      }
-      publish(buildAttributes(decisions));
-    } catch (error) {
-      console.warn(prefix, 'Could not fetch and publish Salesforce decisions:', error);
-    }
-  }
-
-  function stop() { requestGeneration++; }
-
-  host.vhaPoc = { run: run, inspect: inspect, stop: stop };
-  inspect(); // Capture the Optimizely state before submitting Salesforce attributes.
-  run();
+  initializeSnippet();
 })(window);
+
+/**************************************************************************
+ * EXECUTION FLOW
+ * 1. initializeSnippet(): Replace the old instance and expose public controls.
+ *    -> stop(): Invalidate the old instance when one exists.
+ *    -> 2. inspectOptimizelyContext(): Capture the pre-submission context.
+ *       -> 3. readOptimizelyValue(): Supply visitor, state and project data.
+ *       -> 4. inspectActiveOptimizelyState(): Collect active experience state.
+ *       -> 5. selectActiveOptimizelyConfiguration(): Select related project data.
+ *          -> 6. addExperiment() -> addVariation(): Retain linked entities.
+ *       -> 7. summarizeOptimizelyConfiguration() -> items(): Build the overview.
+ *    -> 8. run(): Start the Salesforce-to-Optimizely decision flow.
+ *       -> 9. getReadySalesforceSdk(): Resolve the Salesforce dependency.
+ *       -> 10. fetchSalesforcePageDecisions(): Request configured page points.
+ *       -> 11. buildOptimizelyUserCommandFromDecisions(): Create the user command.
+ *          -> 12. readSalesforceDecisionField(): Supply each mapped value.
+ *       -> 13. submitOptimizelyUserCommand(): Submit and retain the command.
+ *          -> 14. inspectOptimizelyContext(): Build the post-submission report
+ *                 by repeating the inspection branch in steps 3-7.
+ * Public controls:
+ *    run() -> step 8 | inspectOptimizelyContext() -> step 2 | stop() -> invalidate
+ **************************************************************************/
