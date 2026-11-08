@@ -25,7 +25,7 @@ SI.init({
     },
     pageTypes: [
       {
-        name: "Home page",
+        name: "index",
         isMatch: () => window.location.pathname.includes("/index.html"),
         // Zone names must match Salesforce personalization point API names.
         // Replace these example selectors with stable targets on the actual page.
@@ -35,12 +35,12 @@ SI.init({
           { name: "SECTION_FEATURES_V1", selector: "#section-features" },
         ],
         interaction: {
-          name: "Page View - Home",
+          name: "Page View - index",
           eventType: "userEngagement",
         },
       },
       {
-        name: "Optimizely",
+        name: "optimizely",
         isMatch: () => window.location.pathname.includes("/index-optimizely.html"),
         // Zone names must match Salesforce personalization point API names.
         // Replace these example selectors with stable targets on the actual page.
@@ -50,12 +50,12 @@ SI.init({
           { name: "SECTION_FEATURES_V1", selector: "#section-features" },
         ],
         interaction: {
-          name: "Page View - Home",
+          name: "Page View - optimizely",
           eventType: "userEngagement",
         },
       },
       {
-        name: "Optimizely - Custom Attributes",
+        name: "optimizely_custom_attributes",
         isMatch: () => window.location.pathname.includes("/index-optimizely-custom-attributes.html"),
         // Zone names must match Salesforce personalization point API names.
         // Replace these example selectors with stable targets on the actual page.
@@ -65,12 +65,12 @@ SI.init({
           { name: "SECTION_FEATURES_V1", selector: "#section-features" },
         ],
         interaction: {
-          name: "Page View - Home",
+          name: "Page View - optimizely_custom_attributes",
           eventType: "userEngagement",
         },
       },
       {
-        name: "Business SIM-only page",
+        name: "sim-only",
         isMatch: () => window.location.pathname.includes("/business/sim-only"),
         contentZones: [
           { name: "SECTION_HERO_V1", selector: "#section-hero" },
@@ -83,7 +83,7 @@ SI.init({
         },
       },
       {
-        name: "Business Team Plans page",
+        name: "team-plans",
         isMatch: () => window.location.pathname === "/business/team-plans",
         contentZones: [
           { name: "SECTION_HERO_V1", selector: "#section-hero" },
@@ -91,12 +91,12 @@ SI.init({
           { name: "SECTION_FEATURES_V1", selector: "#section-features" },
         ],
         interaction: {
-          name: "Page View - Business Team Plans",
+          name: "Page View - team-plans",
           eventType: "userEngagement",
         },
       },
       {
-        name: "Business NBN page",
+        name: "nbn-plans",
         isMatch: () => window.location.pathname === "/business/nbn-plans",
         contentZones: [
           { name: "SECTION_HERO_V1", selector: "#section-hero" },
@@ -104,7 +104,7 @@ SI.init({
           { name: "SECTION_FEATURES_V1", selector: "#section-features" },
         ],
         interaction: {
-          name: "Page View - Business NBN",
+          name: "Page View - nbn-plans",
           eventType: "userEngagement",
         },
       },

@@ -172,6 +172,12 @@ main > section {
   background: #e7edf5;
 }
 
+.debug-toolbar button[aria-pressed="true"] {
+  background: #172033;
+  border-color: #172033;
+  color: #fff;
+}
+
 .experience-links,
 .debug-actions {
   display: flex;

@@ -3,28 +3,28 @@
   "lastSubmittedCommand": {
     "type": "user",
     "attributes": {
-      "SECTION_HERO_V1_contentZoneName": "SECTION_HERO_V1",
-      "SECTION_HERO_V1_contentZoneSelector": "#section-hero",
-      "SECTION_HERO_V1_contentPath": "/banner/business/team-plan/master",
-      "SECTION_HERO_V1_experienceKey": "DEFAULT",
-      "SECTION_HERO_V1_isSalesforceDecision": "true",
-      "SECTION_FAQ_V1_contentZoneName": "SECTION_FAQ_V1",
-      "SECTION_FAQ_V1_contentZoneSelector": "#section-faq",
-      "SECTION_FAQ_V1_contentPath": "/banner/business/team-plan/master",
-      "SECTION_FAQ_V1_experienceKey": "DEFAULT",
-      "SECTION_FAQ_V1_isSalesforceDecision": "true",
-      "SECTION_FEATURES_V1_contentZoneName": "SECTION_FEATURES_V1",
-      "SECTION_FEATURES_V1_contentZoneSelector": "#section-features",
-      "SECTION_FEATURES_V1_contentPath": "/banner/business/iphone-duo/master",
-      "SECTION_FEATURES_V1_experienceKey": "DEFAULT",
-      "SECTION_FEATURES_V1_isSalesforceDecision": "true",
-      "decisions": "[{\"personalizationPointName\":\"SECTION_HERO_V1\",\"contentZone\":{\"name\":\"SECTION_HERO_V1\",\"selector\":\"#section-hero\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"personalizationPointName\":\"SECTION_FAQ_V1\",\"contentZone\":{\"name\":\"SECTION_FAQ_V1\",\"selector\":\"#section-faq\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"personalizationPointName\":\"SECTION_FEATURES_V1\",\"contentZone\":{\"name\":\"SECTION_FEATURES_V1\",\"selector\":\"#section-features\"},\"contentPath\":\"/banner/business/iphone-duo/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"}]"
+      "base_point": "page_base_poc",
+      "base_decision": "9pb9p00000001ovAAA",
+      "base_experience_scope": "page",
+      "base_experience_tags": "",
+      "base_experience_value": "default",
+      "extended_point": "page_extended_poc",
+      "extended_decision": "9pb9p00000001ybAAA",
+      "extended_experience_scope": "nbn_plans",
+      "extended_experience_tags": "",
+      "extended_experience_value": "email",
+      "priority_point": "page_priority_poc",
+      "priority_decision": null,
+      "priority_experience_scope": null,
+      "priority_experience_tags": null,
+      "priority_experience_value": null
     }
   },
   "get.visitor": {
-    "visitorId": "oeu1793437753488r0.0355891724734525",
+    "visitorId": "oeu1794125466236r0.1273906060363994",
+    "events": [],
     "customBehavior": {},
-    "first_session": false,
+    "first_session": true,
     "browserId": "gc",
     "browserVersion": "156.0.0.0",
     "device": "desktop",
@@ -32,4109 +32,55 @@
     "referrer": null,
     "source_type": "direct",
     "custom": {
-      "SECTION_HERO_V1_contentZoneName": {
-        "value": "SECTION_HERO_V1"
+      "base_point": {
+        "value": "page_base_poc"
       },
-      "SECTION_HERO_V1_contentZoneSelector": {
-        "value": "#section-hero"
+      "base_decision": {
+        "value": "9pb9p00000001ovAAA"
       },
-      "SECTION_HERO_V1_contentPath": {
-        "value": "/banner/business/team-plan/master"
+      "base_experience_scope": {
+        "value": "page"
       },
-      "SECTION_HERO_V1_experienceKey": {
-        "value": "DEFAULT"
+      "base_experience_tags": {
+        "value": ""
       },
-      "SECTION_HERO_V1_isSalesforceDecision": {
-        "value": "true"
+      "base_experience_value": {
+        "value": "default"
       },
-      "SECTION_FAQ_V1_contentZoneName": {
-        "value": "SECTION_FAQ_V1"
+      "extended_point": {
+        "value": "page_extended_poc"
       },
-      "SECTION_FAQ_V1_contentZoneSelector": {
-        "value": "#section-faq"
+      "extended_decision": {
+        "value": "9pb9p00000001ybAAA"
       },
-      "SECTION_FAQ_V1_contentPath": {
-        "value": "/banner/business/team-plan/master"
+      "extended_experience_scope": {
+        "value": "nbn_plans"
       },
-      "SECTION_FAQ_V1_experienceKey": {
-        "value": "DEFAULT"
+      "extended_experience_tags": {
+        "value": ""
       },
-      "SECTION_FAQ_V1_isSalesforceDecision": {
-        "value": "true"
+      "extended_experience_value": {
+        "value": "email"
       },
-      "SECTION_FEATURES_V1_contentZoneName": {
-        "value": "SECTION_FEATURES_V1"
+      "priority_point": {
+        "value": "page_priority_poc"
       },
-      "SECTION_FEATURES_V1_contentZoneSelector": {
-        "value": "#section-features"
+      "priority_decision": {
+        "value": null
       },
-      "SECTION_FEATURES_V1_contentPath": {
-        "value": "/banner/business/iphone-duo/master"
+      "priority_experience_scope": {
+        "value": null
       },
-      "SECTION_FEATURES_V1_experienceKey": {
-        "value": "DEFAULT"
+      "priority_experience_tags": {
+        "value": null
       },
-      "SECTION_FEATURES_V1_isSalesforceDecision": {
-        "value": "true"
-      },
-      "decisions": {
-        "value": "[{\"personalizationPointName\":\"SECTION_HERO_V1\",\"contentZone\":{\"name\":\"SECTION_HERO_V1\",\"selector\":\"#section-hero\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"personalizationPointName\":\"SECTION_FAQ_V1\",\"contentZone\":{\"name\":\"SECTION_FAQ_V1\",\"selector\":\"#section-faq\"},\"contentPath\":\"/banner/business/team-plan/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"},{\"personalizationPointName\":\"SECTION_FEATURES_V1\",\"contentZone\":{\"name\":\"SECTION_FEATURES_V1\",\"selector\":\"#section-features\"},\"contentPath\":\"/banner/business/iphone-duo/master\",\"experienceKey\":\"DEFAULT\",\"isSalesforceDecision\":\"true\"}]"
+      "priority_experience_value": {
+        "value": null
       }
-    },
-    "events": [
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793437753851,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793437753852,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793437753854,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793437753856,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "4bbd5518"
-        },
-        "t": 1793437754775,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793437754776,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793437754777,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793437754778,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793437754778,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793437754779,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793437754780,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793437754780,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793437754781,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793437754782,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "4ae82615"
-        },
-        "t": 1793437756656,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793437756657,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793437756658,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793437762610,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793437762614,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1793437762616,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793437762619,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1793437762622,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793437767664,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793437767666,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793437775411,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793437775441,
-        "s": 1793437753851,
-        "si": 10
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793486294782,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793486294783,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793486294785,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486294786,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "4bbd5518"
-        },
-        "t": 1793486295734,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793486295735,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793486295735,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793486295736,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793486295736,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793486295737,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793486295737,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486295738,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793486295738,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793486295739,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "4ae82615"
-        },
-        "t": 1793486298516,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486298517,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793486298518,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486301520,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793486301523,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "The ultimate Pro iPhone. From $48/mth",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "e298bc3e"
-        },
-        "t": 1793486900824,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793486900833,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793486900836,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793486900843,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793486900846,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793486900850,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793486900854,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486900855,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793486900859,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793486900860,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793486901518,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793486901520,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793486901525,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486901529,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793486901569,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793486901571,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793486901575,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486901577,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "4ae82615"
-        },
-        "t": 1793486906250,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486906251,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793486906252,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793486909450,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793486909455,
-        "s": 1793486294782,
-        "si": 9
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "The ultimate Pro iPhone. From $48/mth",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "e298bc3e"
-        },
-        "t": 1793690989347,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793690989352,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793690989353,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793690989354,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793690989355,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793690989357,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793690989358,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793690989360,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793690989361,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793690989362,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793690990051,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793690990052,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793690990053,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793690990054,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793690990117,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793690990117,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793690990119,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793690990120,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "4ae82615"
-        },
-        "t": 1793690993195,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793690993196,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793690993196,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793690998648,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793690998652,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793691157505,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793691157506,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793691157508,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793691157509,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "4bbd5518"
-        },
-        "t": 1793691158291,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793691158292,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793691158293,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793691158294,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793691158294,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793691158295,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793691158295,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793691158296,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793691158296,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793691158297,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "4ae82615"
-        },
-        "t": 1793691338427,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793691338429,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793691338434,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793691338748,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793691338749,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793691338751,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793691338752,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793691342054,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793691342061,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793691350426,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793691350426,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1793691350428,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793691350431,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1793691350433,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793691355578,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793691355582,
-        "s": 1793690989347,
-        "si": 8
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "The ultimate Pro iPhone. From $48/mth",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "e298bc3e"
-        },
-        "t": 1793850739815,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793850739822,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793850739823,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793850739825,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793850739826,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793850739827,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793850739828,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793850739830,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793850739831,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793850739832,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793850740565,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793850740567,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793850740570,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793850740572,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793850740606,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793850740608,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793850740611,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793850740613,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793850802970,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793850802971,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793850802975,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793850802977,
-        "s": 1793850739815,
-        "si": 7
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793875359926,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793875359926,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793875359928,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793875359929,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793875867110,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793875867111,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793875867112,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793875867113,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876038231,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876038232,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876038234,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876038235,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876226247,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876226248,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876226250,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876226251,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876282315,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876282316,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876282318,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876282319,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876300842,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876300843,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876300844,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876300844,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876355067,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876355068,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876355070,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876355071,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876566457,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876566458,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876566459,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876566459,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876590244,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876590245,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876590246,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876590248,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876609480,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876609481,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876609482,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876609484,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876620578,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876620580,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876620580,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876620581,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793876908934,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793876908935,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793876908936,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1793876908937,
-        "s": 1793875359926,
-        "si": 6
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "The ultimate Pro iPhone. From $48/mth",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "e298bc3e"
-        },
-        "t": 1793939172993,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793939173000,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793939173002,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793939173004,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793939173006,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793939173009,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793939173012,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793939173015,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793939173018,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793939173021,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793939173634,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793939173635,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793939173637,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793939173638,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793939173702,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793939173703,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793939173704,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793939173705,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "4ae82615"
-        },
-        "t": 1793939177479,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793939177480,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793939177486,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793939193882,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793939193882,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1793939193885,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793939193889,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1793939193892,
-        "s": 1793939172993,
-        "si": 5
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "The ultimate Pro iPhone. From $48/mth",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "e298bc3e"
-        },
-        "t": 1793963821586,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793963821591,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793963821592,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793963821594,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793963821595,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793963821596,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793963821598,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793963821599,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793963821601,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793963821603,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793963822213,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793963822215,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793963822232,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793963822233,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793963822405,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793963822407,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793963822412,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793963822415,
-        "s": 1793963821586,
-        "si": 4
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "The ultimate Pro iPhone. From $48/mth",
-            "why": "Why choose Vodafone"
-          },
-          "hash_": "e298bc3e"
-        },
-        "t": 1793965809969,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793965809971,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "68719ce3"
-        },
-        "t": 1793965809972,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "bbfc770d"
-        },
-        "t": 1793965809973,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "654b84af"
-        },
-        "t": 1793965809974,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "ae2f2927"
-        },
-        "t": 1793965809975,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2cd025b5"
-        },
-        "t": 1793965809977,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793965809978,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "b689ceca"
-        },
-        "t": 1793965809980,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_single_homepage",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "878b4ff1"
-        },
-        "t": 1793965809981,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793965810634,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793965810635,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793965810639,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793965810641,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_homepage",
-          "y": "pageview",
-          "c": "other",
-          "o": {
-            "herobannerheader": "",
-            "why": ""
-          },
-          "hash_": "a338903b"
-        },
-        "t": 1793965811142,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_popular_products_component_",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "6e8143dd"
-        },
-        "t": 1793965811144,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_hp_save_purple",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "571a2448"
-        },
-        "t": 1793965811148,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793965811152,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "4ae82615"
-        },
-        "t": 1793965814044,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793965814045,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793965814047,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793965818324,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793965818324,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1793965818330,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793965818333,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1793965818335,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793966028447,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793966028448,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1793966028448,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793966028449,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1793966028450,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1793966183253,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1793966183254,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1793966183255,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1793966183256,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1793966183265,
-        "s": 1793965809969,
-        "si": 3
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794041182654,
-        "s": 1794041182654,
-        "si": 2
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794041182655,
-        "s": 1794041182654,
-        "si": 2
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794041182656,
-        "s": 1794041182654,
-        "si": 2
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794041182662,
-        "s": 1794041182654,
-        "si": 2
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794041182663,
-        "s": 1794041182654,
-        "si": 2
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794054189984,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794054189985,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794054189986,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794054189988,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794054189990,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794054201263,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794054201263,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794054201266,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794054201268,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794054201272,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794055328865,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794055328866,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794055328867,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794055328867,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794055328868,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794055715285,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794055715286,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794055715287,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794055715288,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794055715288,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794056034396,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794056034397,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794056034398,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794056034398,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794056034399,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794056286461,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794056286463,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794056286463,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794056286464,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794056286465,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794056499302,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794056499303,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794056499305,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794056499306,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794056499308,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794057744705,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794057744706,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794057744707,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794057744708,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794057744709,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794058163611,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794058163612,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "1e8ccc77"
-        },
-        "t": 1794058163614,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794058163615,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "2b0fd00a"
-        },
-        "t": 1794058163617,
-        "s": 1794054189984,
-        "si": 1
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794066538491,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794066538493,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794066544007,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794066544008,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794066544008,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1794066544010,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794066624599,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794066624600,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794066624601,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1794066624601,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794066858323,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794066858325,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794066858325,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1794066858326,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794066884709,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794066884710,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794066884711,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1794066884713,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794066900312,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794066900313,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794066900315,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "3b2ba051"
-        },
-        "t": 1794066900316,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "755e85ba"
-        },
-        "t": 1794067470751,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794067470752,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794067470753,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794067470753,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "755e85ba"
-        },
-        "t": 1794067477031,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794067477032,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794067477032,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794067477033,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "755e85ba"
-        },
-        "t": 1794067587337,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794067587338,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794067587338,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794067587339,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "755e85ba"
-        },
-        "t": 1794067593793,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "26357651"
-        },
-        "t": 1794067593794,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_every_page",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "cee01e6f"
-        },
-        "t": 1794067593795,
-        "s": 1794066538491,
-        "si": 0
-      },
-      {
-        "eventBase": {
-          "n": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17",
-          "y": "pageview",
-          "c": "other",
-          "hash_": "129d4c7b"
-        },
-        "t": 1794067593795,
-        "s": 1794066538491,
-        "si": 0
-      }
-    ]
+    }
   },
   "get.visitor_id": {
-    "randomId": "oeu1793437753488r0.0355891724734525"
+    "randomId": "oeu1794125466236r0.1273906060363994"
   },
   "get.state": {
     "getPageStates": {
@@ -4278,13 +224,13 @@
       }
     },
     "getCampaignStates": {
-      "6636850394169344": {
-        "id": "6636850394169344",
-        "campaignName": "EGW | DCP-personalized-business-Apple-Nav",
+      "4747571281788928": {
+        "id": "4747571281788928",
+        "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
         "experiment": {
-          "id": "6720080334028800",
-          "name": "EGW | DCP-personalized-Business-Apple",
-          "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+          "id": "5873471188631552",
+          "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
         },
         "audiences": [
           {
@@ -4298,13 +244,13 @@
         ],
         "allExperiments": [
           {
-            "id": "6720080334028800",
-            "name": "EGW | DCP-personalized-Business-Apple"
+            "id": "5873471188631552",
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
           }
         ],
         "variation": {
-          "id": "6074198538321920",
-          "name": "EGW | DCP-personalized-Business-Apple"
+          "id": "6088373836709888",
+          "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
         },
         "isActive": true,
         "visitorRedirected": false,
@@ -4342,13 +288,13 @@
         "visitorRedirected": false,
         "isInCampaignHoldback": false
       },
-      "4747571281788928": {
-        "id": "4747571281788928",
-        "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+      "6636850394169344": {
+        "id": "6636850394169344",
+        "campaignName": "EGW | DCP-personalized-business-Apple-Nav",
         "experiment": {
-          "id": "5873471188631552",
-          "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
-          "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          "id": "6720080334028800",
+          "name": "EGW | DCP-personalized-Business-Apple",
+          "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
         },
         "audiences": [
           {
@@ -4362,13 +308,13 @@
         ],
         "allExperiments": [
           {
-            "id": "5873471188631552",
-            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+            "id": "6720080334028800",
+            "name": "EGW | DCP-personalized-Business-Apple"
           }
         ],
         "variation": {
-          "id": "6088373836709888",
-          "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          "id": "6074198538321920",
+          "name": "EGW | DCP-personalized-Business-Apple"
         },
         "isActive": true,
         "visitorRedirected": false,
@@ -5698,170 +1644,6 @@
       }
     },
     "campaigns": {
-      "6636850394169344": {
-        "changes": [],
-        "id": "6636850394169344",
-        "name": "EGW | DCP-personalized-business-Apple-Nav",
-        "commitId": "6313503194087424",
-        "groupId": null,
-        "holdback": 0,
-        "activation": {},
-        "integrationSettings": {
-          "contentsquare": {}
-        },
-        "integrationStringVersion": 2,
-        "experiments": [
-          {
-            "audienceIds": [
-              "and",
-              "5388103595065344",
-              "5747059051986944"
-            ],
-            "audienceName": "egw-campaign,experiment-eligible group",
-            "changes": [],
-            "id": "6720080334028800",
-            "integrationSettings": null,
-            "variations": [
-              {
-                "id": "6074198538321920",
-                "name": "EGW | DCP-personalized-Business-Apple",
-                "actions": [
-                  {
-                    "viewId": "6073900440748032",
-                    "changes": [
-                      {
-                        "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
-                        "type": "append",
-                        "selector": "head",
-                        "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
-                        "dependencies": []
-                      },
-                      {
-                        "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
-                        "type": "custom_code",
-                        "dependencies": []
-                      }
-                    ],
-                    "pageId": "6073900440748032"
-                  }
-                ]
-              }
-            ],
-            "weightDistributions": null,
-            "name": "EGW | DCP-personalized-Business-Apple",
-            "bucketingStrategy": null,
-            "experimentMetadata": {
-              "allocationPolicy": "manual",
-              "layerId": "6636850394169344"
-            },
-            "deployed": false,
-            "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
-          }
-        ],
-        "policy": "equal_priority",
-        "viewIds": [
-          "6073900440748032"
-        ],
-        "weightDistributions": null,
-        "decisionMetadata": {
-          "experimentPriorities": [
-            [
-              {
-                "entityId": "6720080334028800",
-                "endOfRange": null
-              }
-            ]
-          ],
-          "experimentWeights": null,
-          "offerConsistency": null
-        },
-        "concluded": false,
-        "pageIds": [
-          "6073900440748032"
-        ]
-      },
-      "5710553163759616": {
-        "changes": [],
-        "id": "5710553163759616",
-        "name": "EGW | DCP-17039-personalised-business-simo",
-        "commitId": "6727275001937920",
-        "groupId": null,
-        "holdback": 0,
-        "activation": {},
-        "integrationSettings": {
-          "contentsquare": {}
-        },
-        "integrationStringVersion": 2,
-        "experiments": [
-          {
-            "audienceIds": [
-              "and",
-              "5388103595065344",
-              "5747059051986944"
-            ],
-            "audienceName": "egw-campaign,experiment-eligible group",
-            "changes": [],
-            "id": "4930130561204224",
-            "integrationSettings": null,
-            "variations": [
-              {
-                "id": "5428207248211968",
-                "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
-                "actions": [
-                  {
-                    "viewId": "5923171895869440",
-                    "changes": [
-                      {
-                        "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
-                        "type": "attribute",
-                        "dependencies": [],
-                        "name": "",
-                        "isOpalManaged": false,
-                        "selector": ".iDSVCZ",
-                        "attributes": {
-                          "remove": true
-                        },
-                        "css": {}
-                      }
-                    ],
-                    "pageId": "5923171895869440"
-                  }
-                ]
-              }
-            ],
-            "weightDistributions": null,
-            "name": "DCP-17039-personalised-business-simo-hide-banner",
-            "bucketingStrategy": null,
-            "experimentMetadata": {
-              "allocationPolicy": "manual",
-              "layerId": "5710553163759616"
-            },
-            "deployed": false,
-            "campaignName": "EGW | DCP-17039-personalised-business-simo"
-          }
-        ],
-        "policy": "equal_priority",
-        "viewIds": [
-          "5923171895869440"
-        ],
-        "weightDistributions": null,
-        "decisionMetadata": {
-          "experimentPriorities": [
-            [
-              {
-                "entityId": "4930130561204224",
-                "endOfRange": null
-              }
-            ]
-          ],
-          "experimentWeights": null,
-          "offerConsistency": null
-        },
-        "concluded": false,
-        "pageIds": [
-          "5923171895869440"
-        ]
-      },
       "4747571281788928": {
         "changes": [],
         "id": "4747571281788928",
@@ -5966,6 +1748,170 @@
         "concluded": false,
         "pageIds": [
           "5210171411005440"
+        ]
+      },
+      "5710553163759616": {
+        "changes": [],
+        "id": "5710553163759616",
+        "name": "EGW | DCP-17039-personalised-business-simo",
+        "commitId": "6727275001937920",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "4930130561204224",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "5428207248211968",
+                "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
+                "actions": [
+                  {
+                    "viewId": "5923171895869440",
+                    "changes": [
+                      {
+                        "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
+                        "type": "attribute",
+                        "dependencies": [],
+                        "name": "",
+                        "isOpalManaged": false,
+                        "selector": ".iDSVCZ",
+                        "attributes": {
+                          "remove": true
+                        },
+                        "css": {}
+                      }
+                    ],
+                    "pageId": "5923171895869440"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "DCP-17039-personalised-business-simo-hide-banner",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "5710553163759616"
+            },
+            "deployed": false,
+            "campaignName": "EGW | DCP-17039-personalised-business-simo"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "5923171895869440"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "4930130561204224",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "5923171895869440"
+        ]
+      },
+      "6636850394169344": {
+        "changes": [],
+        "id": "6636850394169344",
+        "name": "EGW | DCP-personalized-business-Apple-Nav",
+        "commitId": "6313503194087424",
+        "groupId": null,
+        "holdback": 0,
+        "activation": {},
+        "integrationSettings": {
+          "contentsquare": {}
+        },
+        "integrationStringVersion": 2,
+        "experiments": [
+          {
+            "audienceIds": [
+              "and",
+              "5388103595065344",
+              "5747059051986944"
+            ],
+            "audienceName": "egw-campaign,experiment-eligible group",
+            "changes": [],
+            "id": "6720080334028800",
+            "integrationSettings": null,
+            "variations": [
+              {
+                "id": "6074198538321920",
+                "name": "EGW | DCP-personalized-Business-Apple",
+                "actions": [
+                  {
+                    "viewId": "6073900440748032",
+                    "changes": [
+                      {
+                        "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
+                        "type": "append",
+                        "selector": "head",
+                        "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
+                        "dependencies": []
+                      },
+                      {
+                        "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
+                        "type": "custom_code",
+                        "dependencies": []
+                      }
+                    ],
+                    "pageId": "6073900440748032"
+                  }
+                ]
+              }
+            ],
+            "weightDistributions": null,
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "bucketingStrategy": null,
+            "experimentMetadata": {
+              "allocationPolicy": "manual",
+              "layerId": "6636850394169344"
+            },
+            "deployed": false,
+            "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+          }
+        ],
+        "policy": "equal_priority",
+        "viewIds": [
+          "6073900440748032"
+        ],
+        "weightDistributions": null,
+        "decisionMetadata": {
+          "experimentPriorities": [
+            [
+              {
+                "entityId": "6720080334028800",
+                "endOfRange": null
+              }
+            ]
+          ],
+          "experimentWeights": null,
+          "offerConsistency": null
+        },
+        "concluded": false,
+        "pageIds": [
+          "6073900440748032"
         ]
       }
     },
@@ -6113,98 +2059,6 @@
       }
     },
     "experiments": {
-      "6720080334028800": {
-        "audienceIds": [
-          "and",
-          "5388103595065344",
-          "5747059051986944"
-        ],
-        "audienceName": "egw-campaign,experiment-eligible group",
-        "changes": [],
-        "id": "6720080334028800",
-        "integrationSettings": null,
-        "variations": [
-          {
-            "id": "6074198538321920",
-            "name": "EGW | DCP-personalized-Business-Apple",
-            "actions": [
-              {
-                "viewId": "6073900440748032",
-                "changes": [
-                  {
-                    "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
-                    "type": "append",
-                    "selector": "head",
-                    "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
-                    "dependencies": []
-                  },
-                  {
-                    "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
-                    "type": "custom_code",
-                    "dependencies": []
-                  }
-                ],
-                "pageId": "6073900440748032"
-              }
-            ]
-          }
-        ],
-        "weightDistributions": null,
-        "name": "EGW | DCP-personalized-Business-Apple",
-        "bucketingStrategy": null,
-        "experimentMetadata": {
-          "allocationPolicy": "manual",
-          "layerId": "6636850394169344"
-        },
-        "deployed": false,
-        "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
-      },
-      "4930130561204224": {
-        "audienceIds": [
-          "and",
-          "5388103595065344",
-          "5747059051986944"
-        ],
-        "audienceName": "egw-campaign,experiment-eligible group",
-        "changes": [],
-        "id": "4930130561204224",
-        "integrationSettings": null,
-        "variations": [
-          {
-            "id": "5428207248211968",
-            "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
-            "actions": [
-              {
-                "viewId": "5923171895869440",
-                "changes": [
-                  {
-                    "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
-                    "type": "attribute",
-                    "dependencies": [],
-                    "name": "",
-                    "isOpalManaged": false,
-                    "selector": ".iDSVCZ",
-                    "attributes": {
-                      "remove": true
-                    },
-                    "css": {}
-                  }
-                ],
-                "pageId": "5923171895869440"
-              }
-            ]
-          }
-        ],
-        "weightDistributions": null,
-        "name": "DCP-17039-personalised-business-simo-hide-banner",
-        "bucketingStrategy": null,
-        "experimentMetadata": {
-          "allocationPolicy": "manual",
-          "layerId": "5710553163759616"
-        },
-        "deployed": false,
-        "campaignName": "EGW | DCP-17039-personalised-business-simo"
-      },
       "5873471188631552": {
         "audienceIds": [
           "and",
@@ -6274,57 +2128,101 @@
         },
         "deployed": false,
         "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+      },
+      "4930130561204224": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "4930130561204224",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "5428207248211968",
+            "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
+            "actions": [
+              {
+                "viewId": "5923171895869440",
+                "changes": [
+                  {
+                    "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
+                    "type": "attribute",
+                    "dependencies": [],
+                    "name": "",
+                    "isOpalManaged": false,
+                    "selector": ".iDSVCZ",
+                    "attributes": {
+                      "remove": true
+                    },
+                    "css": {}
+                  }
+                ],
+                "pageId": "5923171895869440"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "DCP-17039-personalised-business-simo-hide-banner",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "5710553163759616"
+        },
+        "deployed": false,
+        "campaignName": "EGW | DCP-17039-personalised-business-simo"
+      },
+      "6720080334028800": {
+        "audienceIds": [
+          "and",
+          "5388103595065344",
+          "5747059051986944"
+        ],
+        "audienceName": "egw-campaign,experiment-eligible group",
+        "changes": [],
+        "id": "6720080334028800",
+        "integrationSettings": null,
+        "variations": [
+          {
+            "id": "6074198538321920",
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "actions": [
+              {
+                "viewId": "6073900440748032",
+                "changes": [
+                  {
+                    "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
+                    "type": "append",
+                    "selector": "head",
+                    "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
+                    "dependencies": []
+                  },
+                  {
+                    "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
+                    "type": "custom_code",
+                    "dependencies": []
+                  }
+                ],
+                "pageId": "6073900440748032"
+              }
+            ]
+          }
+        ],
+        "weightDistributions": null,
+        "name": "EGW | DCP-personalized-Business-Apple",
+        "bucketingStrategy": null,
+        "experimentMetadata": {
+          "allocationPolicy": "manual",
+          "layerId": "6636850394169344"
+        },
+        "deployed": false,
+        "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
       }
     },
     "variations": {
-      "6074198538321920": {
-        "id": "6074198538321920",
-        "name": "EGW | DCP-personalized-Business-Apple",
-        "actions": [
-          {
-            "viewId": "6073900440748032",
-            "changes": [
-              {
-                "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
-                "type": "append",
-                "selector": "head",
-                "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
-                "dependencies": []
-              },
-              {
-                "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
-                "type": "custom_code",
-                "dependencies": []
-              }
-            ],
-            "pageId": "6073900440748032"
-          }
-        ]
-      },
-      "5428207248211968": {
-        "id": "5428207248211968",
-        "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
-        "actions": [
-          {
-            "viewId": "5923171895869440",
-            "changes": [
-              {
-                "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
-                "type": "attribute",
-                "dependencies": [],
-                "name": "",
-                "isOpalManaged": false,
-                "selector": ".iDSVCZ",
-                "attributes": {
-                  "remove": true
-                },
-                "css": {}
-              }
-            ],
-            "pageId": "5923171895869440"
-          }
-        ]
-      },
       "6088373836709888": {
         "id": "6088373836709888",
         "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
@@ -6372,6 +2270,54 @@
             "pageId": "5210171411005440"
           }
         ]
+      },
+      "5428207248211968": {
+        "id": "5428207248211968",
+        "name": "EGW|DCP-TEMP-Personalised-Business-SIMO",
+        "actions": [
+          {
+            "viewId": "5923171895869440",
+            "changes": [
+              {
+                "id": "6E08DF24-EB2B-4EC5-8579-FE4F24C1FE6B",
+                "type": "attribute",
+                "dependencies": [],
+                "name": "",
+                "isOpalManaged": false,
+                "selector": ".iDSVCZ",
+                "attributes": {
+                  "remove": true
+                },
+                "css": {}
+              }
+            ],
+            "pageId": "5923171895869440"
+          }
+        ]
+      },
+      "6074198538321920": {
+        "id": "6074198538321920",
+        "name": "EGW | DCP-personalized-Business-Apple",
+        "actions": [
+          {
+            "viewId": "6073900440748032",
+            "changes": [
+              {
+                "id": "840F2EC3-DEDF-4523-B3B4-4BA5822D6E5F",
+                "type": "append",
+                "selector": "head",
+                "value": "<style>#vd7bd8eba8e223f4daaa255c7fa1c7354fd972f1033ad0fde691f61fdb3d215c5 div > div > div.countdown-content > p.countdown-cell{\r\n  display: flex !important;\r\n  flex-direction: row !important; \r\n  align-items: baseline !important; /* Aligns the bottom of the text neatly */\r\n  gap: 6px; \r\n  font-size: 16px !important;\r\n}</style>",
+                "dependencies": []
+              },
+              {
+                "id": "D4C08DA1-A837-40A6-96F3-A8BD00FED0AA",
+                "type": "custom_code",
+                "dependencies": []
+              }
+            ],
+            "pageId": "6073900440748032"
+          }
+        ]
       }
     },
     "projectId": "24176680311",
@@ -6382,5 +2328,957 @@
     "clientName": "js",
     "clientVersion": "0.261.0",
     "groups": {}
+  },
+  "meta": {
+    "current": {
+      "data": {
+        "campaigns": [
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "EGW | DCP-17039-personalised-business-simo",
+          "EGW | DCP-personalized-business-Apple-Nav"
+        ],
+        "pages": [
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-17039-personalised-business-simo",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu"
+          },
+          {
+            "name": "Every Page",
+            "apiName": "24176680311_every_page"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Apple-Nav",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17"
+          }
+        ],
+        "experiments": [
+          {
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          },
+          {
+            "name": "DCP-17039-personalised-business-simo-hide-banner",
+            "campaignName": "EGW | DCP-17039-personalised-business-simo"
+          },
+          {
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+          }
+        ],
+        "variations": [
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "EGW|DCP-TEMP-Personalised-Business-SIMO",
+          "EGW | DCP-personalized-Business-Apple"
+        ]
+      }
+    },
+    "all": {
+      "data": {
+        "campaigns": [
+          "Hat Component",
+          "DCP-12435-Account PIN page - Round 2 - 60-40",
+          "EGW | DCP-MCP-personalized-business-team-plans",
+          "DCP-17351-Hide DV tab title",
+          "DCP-18685-vision-btl-oneSQ-page",
+          "DCP-17576-iPad Air 11-inch (M4)",
+          "Apple-NPI-Hub-Fixes",
+          "EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "DCP-18106-888 Tiles Restyle",
+          "DCP-17576-Galaxy Tab S10 FE+ 5G",
+          "EGW | DCP-18317-Hot Offers Deal",
+          "EGW|DCP-Personalized-Business-mobile-phones-apple",
+          "EGW- DCP-business-48-home",
+          "DCP-17577-Exit Intent $30 Credit Toaster",
+          "EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+          "DCP-18199-Apple NPI Bento Banner",
+          "EGW | DCP-business-mobile-phone-pay-48m",
+          "EGW | DCP-18151 - CRO | Team Plan layout",
+          "EGW | DCP-business-Apple-PDP-iPhone-Duo",
+          "VT - TEST ASN POC",
+          "EGW | DCP-personalized-business-Apple-PDP",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+          "DCP-18720 eSim Cludo A/B",
+          "DCP-18209-48M CTA",
+          "Clearance - device listing pills",
+          "VT: A/B SIMO Bridge CTA Solution",
+          "DCP-17707-bundle-save-inline-nbn-page",
+          "EGW | DCP-personalized-Custom-Variant-Code",
+          "EGW|DCP-Personalized-Salesforce-POC",
+          "EGW | DCP-17039-personalised-business-simo",
+          "Clearance - save purple badge on popular module",
+          "DCP-17304-NDC-fix-for-oneSQ",
+          "DCP-17785 Prepaid Static Page Great value Pills",
+          "EGW | DCP-18152- CRO | SIMO Plan layout",
+          "DCP-17340-Prepaid BTL Bris Airport Offer",
+          "DCP-18722-New-Bundle-Pill",
+          "EGW | DCP-MCP-personalized-business-simo-plans",
+          "DCP-16264-Vision-pop-up-nbn-page-perso",
+          "DCP-17576-Galaxy Tab S10 FE 5G",
+          "DCP-17576-Samsung Galaxy Edge S25 Watch GWP",
+          "DCP-18274-New Apple Compare Link + 3D Spin",
+          "DCP-18198-Apple NPI: Previously Viewed Contextual Messaging",
+          "Quick links with Chevron",
+          "DCP-17577-Exit Intent $30 Credit Message",
+          "DCP-18209-48M MPP",
+          "EGW | DCP-18488-personalized-business-black-Banner-hide",
+          "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+          "Deals Hub Filter",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+          "DCP-16554-prepaid esim quick links",
+          "DCP-18446-bundle-save-oneSQ-page",
+          "DCP-18642-bundle-save-pill-banner",
+          "DCP-17785 Prepaid Static Page Online only Pills",
+          "Pill PDP Samsung Galaxy Tab",
+          "EGW | DCP-personalized-business-contact-form",
+          "DCP-18362-Apple NPI-Coming Soon-Alert",
+          "DCP-17201 CLM Offer for Launch",
+          "DCP-16683-update-sq-box-results-nbn-page",
+          "DCP-17576-iPad Air 13-inch (M4)",
+          "DCP-18685-Vision-Page-BTL-session-SQ-check",
+          "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+          "EGW | DCP-personalized-business-Apple-Nav",
+          "DCP-18608-Apple-PDP-iPhone Duo",
+          "Mega Nav Links",
+          "Clearance - PDP pill and callout"
+        ],
+        "pages": [
+          {
+            "name": "Single: /mobile/mobile-phones",
+            "apiName": "24176680311_device_listing_page"
+          },
+          {
+            "name": "Home page",
+            "apiName": "24176680311_homepage"
+          },
+          {
+            "name": "/cart",
+            "apiName": "24176680311_cart_page"
+          },
+          {
+            "name": "/checkout",
+            "apiName": "24176680311_checkout_page_"
+          },
+          {
+            "name": "?extra=OnlineBTL",
+            "apiName": "24176680311_ptk_offer_page"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/(apple|samsung)/(iphone-15|samsung-galaxy-s23-ultra-5g)",
+            "apiName": "24176680311_iphone_15promax_samsung_fold5_pdp"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones|/mobile/sim-only-phone-plans|/home-internet|/prepaid/plans|/mobile/tablets",
+            "apiName": "24176680311_product_category_pages_phonessimoprepaidfwatablets"
+          },
+          {
+            "name": "/mobile/sim-only-phone-plans",
+            "apiName": "24176680311_sim_only"
+          },
+          {
+            "name": "NBN Plans",
+            "apiName": "24176680311_nbn_plans"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/(apple|samsung)/(iphone-15|samsung-galaxy-s24-ultra)",
+            "apiName": "24176680311_multiple_pages_mobilemobilephonesapplesamsungiphone1"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone15propromaxplu"
+          },
+          {
+            "name": "Prepaid Plans",
+            "apiName": "24176680311_prepaid_plans"
+          },
+          {
+            "name": "Multiple: /mobile/(sim-only-phone-plans|mobile-phones)|/hot-offers/samsung-galaxy-s24-hub|/home-internet/plans",
+            "apiName": "24176680311_multiple_mobilesimonlyphoneplansmobilephoneshotoffer"
+          },
+          {
+            "name": "Single: /ticket",
+            "apiName": "24176680311_single_ticket"
+          },
+          {
+            "name": "Multiple: /support",
+            "apiName": "24176680311_multiple_support"
+          },
+          {
+            "name": "Multiple: /mobile/sim-only-phone-plans|/mobile/mobile-phones",
+            "apiName": "24176680311_multiple_mobilesimonlyphoneplansmobilemobilephones"
+          },
+          {
+            "name": "Single: /eofy",
+            "apiName": "24176680311_single_eofy"
+          },
+          {
+            "name": "Single: /iframe/popular-products",
+            "apiName": "24176680311_popular_products_component_"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone-15",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone15"
+          },
+          {
+            "name": "nbn plans page Wolverine",
+            "apiName": "24176680311_nbn_plans_page_wolverine"
+          },
+          {
+            "name": "Hot offers nbn",
+            "apiName": "24176680311_hot_offers_nbn"
+          },
+          {
+            "name": "/hot-offers?title=nbn-and-internet",
+            "apiName": "24176680311_hotofferstitlenbnandinternet"
+          },
+          {
+            "name": "Hubbl",
+            "apiName": "24176680311_httpswwwvodafonecomauhubbl"
+          },
+          {
+            "name": "Multiple: /samsung/samsung-galaxy-s24",
+            "apiName": "24176680311_multiple_samsungsamsunggalaxys24"
+          },
+          {
+            "name": "Multiple: /samsung-galaxy-z-fold6|/samsung-galaxy-z-flip6",
+            "apiName": "24176680311_multiple_samsunggalaxyzfold6samsunggalaxyzflip6"
+          },
+          {
+            "name": "Multiple: /support/prepaid",
+            "apiName": "24176680311_single_supportprepaidrecharge"
+          },
+          {
+            "name": "PIN Reset Page",
+            "apiName": "24176680311_pin_reset_page"
+          },
+          {
+            "name": "Multiple: /accessories/smart-watches/samsung/",
+            "apiName": "24176680311_multiple_accessoriessmartwatchessamsung"
+          },
+          {
+            "name": "Single: /network/coverage-expansion",
+            "apiName": "24176680311_single_networkcoverageexpansion"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone-16",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone16"
+          },
+          {
+            "name": "Single: /mobile/mobile-phones?brand=Apple",
+            "apiName": "24176680311_single_mobilemobilephonesbrandapple"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-business-Apple-PDP-iPhone-Duo",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcpbusinessapplepdpip"
+          },
+          {
+            "name": "Device care for all iPhone17 family devices",
+            "apiName": "24176680311_device_care_for_all_iphone17_family_devices"
+          },
+          {
+            "name": "Single: /ticket/lady-gaga",
+            "apiName": "24176680311_single_ticketladygaga"
+          },
+          {
+            "name": "multiple: /mobile/sim-only-phone-plans|multi-sim.+step=1",
+            "apiName": "24176680311_multiple_mobilesimonlyphoneplansmultisimstep1"
+          },
+          {
+            "name": "Multiple: /mobile/mobile-phones/apple/iphone-17",
+            "apiName": "24176680311_multiple_mobilemobilephonesappleiphone17"
+          },
+          {
+            "name": "Single: /ticket/kendrick-lamar",
+            "apiName": "24176680311_single_ticketkendricklamar"
+          },
+          {
+            "name": "URL Targeting for EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_6"
+          },
+          {
+            "name": "Network",
+            "apiName": "24176680311_network"
+          },
+          {
+            "name": "/mobile/mobile-phones/google/google-pixel-10-pro-xl",
+            "apiName": "24176680311_mobilemobilephonesgooglegooglepixel10proxl"
+          },
+          {
+            "name": "Samsung Pages",
+            "apiName": "24176680311_samsung_hub"
+          },
+          {
+            "name": "URL Targeting for Clearance - save purple badge on popular module",
+            "apiName": "24176680311_url_targeting_for_hp_save_purple"
+          },
+          {
+            "name": "URL Targeting for DCP-17577-Exit Intent $30 Credit Toaster",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp16339exit_intent_20_c_1"
+          },
+          {
+            "name": "URL Targeting for DCP-18685-vision-btl-oneSQ-page",
+            "apiName": "24176680311_url_targeting_for_dcp18685visionbtlonesqpage"
+          },
+          {
+            "name": "URL Targeting for DCP-18446-bundle-save-oneSQ-page",
+            "apiName": "24176680311_url_targeting_for_dcp18446bundlesaveonesqpage"
+          },
+          {
+            "name": "URL Targeting for DCP-18106-888 Tiles Restyle",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17577eofy_tiles"
+          },
+          {
+            "name": "URL Targeting for DCP-18198-Apple NPI: Previously Viewed Contextual Messaging",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17572eofycontextualmess"
+          },
+          {
+            "name": "URL Targeting for Quick links with Chevron",
+            "apiName": "24176680311_url_targeting_for_dcp15294_quick_links_with_chevron"
+          },
+          {
+            "name": "URL Targeting for DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17943tdd_apple_device_1"
+          },
+          {
+            "name": "URL Targeting for Clearance - device listing pills",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17407clearance_hub_pill"
+          },
+          {
+            "name": "URL Targeting for Pill PDP Samsung Galaxy Tab",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_pdp_pil"
+          },
+          {
+            "name": "URL Targeting for Apple-NPI-Hub-Fixes",
+            "apiName": "24176680311_url_targeting_for_applenpihubfixes"
+          },
+          {
+            "name": "URL Targeting for EGW- DCP-business-48-home",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp1820948m_mpp_1"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18317-Hot Offers Deal",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_15"
+          },
+          {
+            "name": "URL Targeting for DCP-18685-Vision-Page-BTL-session-SQ-check",
+            "apiName": "24176680311_url_targeting_for_visionpagebtlsessionsqcheck"
+          },
+          {
+            "name": "URL Targeting for EGW|DCP-Personalized-Business-mobile-phones-apple",
+            "apiName": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusiness"
+          },
+          {
+            "name": "URL Targeting for DCP-18209-48M MPP",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17731_clearance_device_"
+          },
+          {
+            "name": "URL Targeting for Clearance - PDP pill and callout",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17046clearance_pdp_pill"
+          },
+          {
+            "name": "URL Targeting for DCP-16264-Vision-pop-up-nbn-page-perso",
+            "apiName": "24176680311_url_targeting_for_dcp16264visionpopupnbnpageperso"
+          },
+          {
+            "name": "URL Targeting for DCP-12435-Account PIN page - Round 2 - 60-40",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp12435account_pin_page_2"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalised_7"
+          },
+          {
+            "name": "URL Targeting for Deals Hub Filter",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp15207_deals_hub_filter"
+          },
+          {
+            "name": "URL Targeting for Mega Nav Links",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp16623summer_switch_mega"
+          },
+          {
+            "name": "OneSQ Page",
+            "apiName": "24176680311_onesq_page"
+          },
+          {
+            "name": "PDP for All Phones",
+            "apiName": "24176680311_pdp_for_all_phones"
+          },
+          {
+            "name": "URL Targeting for DCP-18642-bundle-save-pill-banner",
+            "apiName": "24176680311_url_targeting_for_dcp18642bundlesavepillbanner"
+          },
+          {
+            "name": "URL Targeting for DCP-18274-New Apple Compare Link + 3D Spin",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp15845apple_compare_link"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-Galaxy Tab S10 FE+ 5G",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576galaxy_tab_a11_5_1"
+          },
+          {
+            "name": "Exclusive Offer",
+            "apiName": "24176680311_exclusive_offer"
+          },
+          {
+            "name": "Single: /ticket/usher",
+            "apiName": "24176680311_single_ticketusher"
+          },
+          {
+            "name": "Device Plans Page",
+            "apiName": "24176680311_device_plans_page"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-iPad Air 11-inch (M4)",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576galaxy_tab_a11_5g"
+          },
+          {
+            "name": "URL Targeting for DCP-18720 eSim Cludo A/B",
+            "apiName": "24176680311_url_targeting_for_dcp18720_esim_cludo_ab"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Apple-PDP",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcppersonalizedbusi_3"
+          },
+          {
+            "name": "URL Targeting for Hat Component",
+            "apiName": "24176680311_url_targeting_for_copy_of_fabio_hat_template_s3_test"
+          },
+          {
+            "name": "Multiple: Product Category Pages + Deals ",
+            "apiName": "24176680311_multiple_product_category_pages__deals_"
+          },
+          {
+            "name": "/contact/samsung-news",
+            "apiName": "24176680311_httpswwwvodafonecomaucontactsamsungnews"
+          },
+          {
+            "name": "URL Targeting for DCP-17201 CLM Offer for Launch",
+            "apiName": "24176680311_url_targeting_for_dcp17201_clm_offer_for_launch"
+          },
+          {
+            "name": "URL Targeting for EGW|DCP-Personalized-Salesforce-POC",
+            "apiName": "24176680311_url_targeting_for_copy_of_egwdcppersonalizedbusine_2"
+          },
+          {
+            "name": "FWA",
+            "apiName": "24176680311_fwa"
+          },
+          {
+            "name": "Spilt Milk Page",
+            "apiName": "24176680311_spilt_milk_page"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcppersonalizedbusi_4"
+          },
+          {
+            "name": "URL Targeting for DCP-17707-bundle-save-inline-nbn-page",
+            "apiName": "24176680311_url_targeting_for_dcp17707bundlesaveinlinenbnpage"
+          },
+          {
+            "name": "URL Targeting for DCP-17785 Prepaid Static Page Online only Pills",
+            "apiName": "24176680311_url_targeting_for_prepaid_starter_pack_pills"
+          },
+          {
+            "name": "URL Targeting for DCP-17304-NDC-fix-for-oneSQ",
+            "apiName": "24176680311_url_targeting_for_dcp17304ndcfixforonesq"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-Galaxy Tab S10 FE 5G",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576galaxy_tab_a11_5_2"
+          },
+          {
+            "name": "URL Targeting for DCP-18209-48M CTA",
+            "apiName": "24176680311_url_targeting_for_dcp1820948m_cta"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-17039-personalised-business-simo",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalisedbu"
+          },
+          {
+            "name": "Android Hub",
+            "apiName": "24176680311_android_hub"
+          },
+          {
+            "name": "Every Page",
+            "apiName": "24176680311_every_page"
+          },
+          {
+            "name": "URL Targeting for DCP-16683-update-sq-box-results-nbn-page",
+            "apiName": "24176680311_url_targeting_for_dcp16683updatesqboxresultsnbnpage"
+          },
+          {
+            "name": "Android Summer Sale",
+            "apiName": "24176680311_android_summer_sale"
+          },
+          {
+            "name": "URL Targeting for VT: A/B SIMO Bridge CTA Solution",
+            "apiName": "24176680311_url_targeting_for_vt_ab_simo_bridge_cta_solution"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_10"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-Apple-Nav",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_17"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-iPad Air 13-inch (M4)",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17576ipad_air_11inch_m4"
+          },
+          {
+            "name": "URL Targeting for DCP-17351-Hide DV tab title",
+            "apiName": "24176680311_url_targeting_for_hide_dv_tab_copy"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-MCP-personalized-business-simo-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcpmcppersonalizedbus"
+          },
+          {
+            "name": "URL Targeting for DCP-16554-prepaid esim quick links",
+            "apiName": "24176680311_url_targeting_for_dcp16554prepaid_esim_quick_links"
+          },
+          {
+            "name": "Single: /deals",
+            "apiName": "24176680311_single_deals"
+          },
+          {
+            "name": "URL Targeting for DCP-17576-Samsung Galaxy Edge S25 Watch GWP",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp175711200_eofy_promote_"
+          },
+          {
+            "name": "URL Targeting for VT - TEST ASN POC",
+            "apiName": "24176680311_url_targeting_for_vt__test_asn_poc"
+          },
+          {
+            "name": "URL Targeting for DCP-18199-Apple NPI Bento Banner",
+            "apiName": "24176680311_url_targeting_for_dcp18199apple_npi_bento_banner"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18152- CRO | SIMO Plan layout",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_13"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-business-mobile-phone-pay-48m",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcpbusinessapplepdp_1"
+          },
+          {
+            "name": "URL Targeting for DCP-18362-Apple NPI-Coming Soon-Alert",
+            "apiName": "24176680311_url_targeting_for_dcp18362apple_npicoming_soonalert"
+          },
+          {
+            "name": "URL Targeting for DCP-17577-Exit Intent $30 Credit Message",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp16339exit_intent_20_c_3"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-business-contact-form",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcp18488personalizedb"
+          },
+          {
+            "name": "URL Targeting for DCP-16888-CLM-Samsung Galaxy S26 Plus Alert Bar",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp17099_alert_bar_samsu_1"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18151 - CRO | Team Plan layout",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_12"
+          },
+          {
+            "name": "Google Pixel 10 Pro XL",
+            "apiName": "24176680311_google_pixel_10_pro_xl"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-MCP-personalized-business-team-plans",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_14"
+          },
+          {
+            "name": "URL Targeting for DCP-17785 Prepaid Static Page Great value Pills",
+            "apiName": "24176680311_url_targeting_for_dcp16171"
+          },
+          {
+            "name": "Fibre Upgrade",
+            "apiName": "24176680311_fibre_upgrade"
+          },
+          {
+            "name": "Existing Customers Home Page",
+            "apiName": "24176680311_existing_customers_home_page"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-Custom-Variant-Code",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_16"
+          },
+          {
+            "name": "URL Targeting for DCP-18608-Apple-PDP-iPhone Duo",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp18277applenpipdpiphone_"
+          },
+          {
+            "name": "URL Targeting for DCP-18722-New-Bundle-Pill",
+            "apiName": "24176680311_url_targeting_for_new_bundle_pill_test_"
+          },
+          {
+            "name": "URL Targeting for DCP-17340-Prepaid BTL Bris Airport Offer",
+            "apiName": "24176680311_url_targeting_for_dcp17340prepaid_btl_bris_airport_o"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-18488-personalized-business-black-Banner-hide",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcptemppersonalise_19"
+          },
+          {
+            "name": "Single: Homepage",
+            "apiName": "24176680311_single_homepage"
+          },
+          {
+            "name": "URL Targeting for DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+            "apiName": "24176680311_url_targeting_for_copy_of_dcp18277applenpipdp"
+          },
+          {
+            "name": "URL Targeting for EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+            "apiName": "24176680311_url_targeting_for_copy_of_egw__dcppersonalizedcustom"
+          }
+        ],
+        "experiments": [
+          {
+            "name": "DCP-17391-Upgrades Offer",
+            "campaignName": "Hat Component"
+          },
+          {
+            "name": "DCP-12435-Account PIN page - Round 2 - 60-40",
+            "campaignName": null
+          },
+          {
+            "name": " EGW | DCP-MCP-personalized-business-team-plans",
+            "campaignName": "EGW | DCP-MCP-personalized-business-team-plans"
+          },
+          {
+            "name": "Everyone",
+            "campaignName": "DCP-17351-Hide DV tab title"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-18685-vision-btl-oneSQ-page"
+          },
+          {
+            "name": "DCP-17576-iPad Air 11-inch (M4)",
+            "campaignName": "DCP-17576-iPad Air 11-inch (M4)"
+          },
+          {
+            "name": "Apple-NPI-Hub-Fixes",
+            "campaignName": "Apple-NPI-Hub-Fixes"
+          },
+          {
+            "name": "EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+            "campaignName": "EGW | DCP-personalized-Custom-Variant-Code-18-promax"
+          },
+          {
+            "name": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+            "campaignName": "EGW | DCP-personalized-nbn-Basic-and-Pro-plans"
+          },
+          {
+            "name": "DCP-18106-888 Tiles Restyle",
+            "campaignName": "DCP-18106-888 Tiles Restyle"
+          },
+          {
+            "name": "DCP-17576-Galaxy Tab S10 FE+ 5G",
+            "campaignName": "DCP-17576-Galaxy Tab S10 FE+ 5G"
+          },
+          {
+            "name": "EGW | DCP-18317-Hot Offers Deal",
+            "campaignName": "EGW | DCP-18317-Hot Offers Deal"
+          },
+          {
+            "name": "EGW|DCP-Personalized-Business-mobile-phones-apple",
+            "campaignName": "EGW|DCP-Personalized-Business-mobile-phones-apple"
+          },
+          {
+            "name": "EGW- DCP-business-48-home",
+            "campaignName": "EGW- DCP-business-48-home"
+          },
+          {
+            "name": "DCP-17577-Exit Intent $30 Credit Toaster",
+            "campaignName": "DCP-17577-Exit Intent $30 Credit Toaster"
+          },
+          {
+            "name": " EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+            "campaignName": "EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max"
+          },
+          {
+            "name": "SIMO",
+            "campaignName": "DCP-18199-Apple NPI Bento Banner"
+          },
+          {
+            "name": " EGW | DCP-business-mobile-phone-pay-48m",
+            "campaignName": "EGW | DCP-business-mobile-phone-pay-48m"
+          },
+          {
+            "name": "EGW | DCP-18151 - CRO | Team Plan layout",
+            "campaignName": "EGW | DCP-18151 - CRO | Team Plan layout"
+          },
+          {
+            "name": "EGW | DCP-business-Apple-PDP-iPhone-Duo",
+            "campaignName": "EGW | DCP-business-Apple-PDP-iPhone-Duo"
+          },
+          {
+            "name": "ASN POC",
+            "campaignName": "VT - TEST ASN POC"
+          },
+          {
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "campaignName": "EGW | DCP-personalized-business-Apple-PDP"
+          },
+          {
+            "name": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+            "campaignName": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro"
+          },
+          {
+            "name": "DCP-18720 eSim Cludo A/B",
+            "campaignName": null
+          },
+          {
+            "name": "DCP-18209-48M CTA",
+            "campaignName": "DCP-18209-48M CTA"
+          },
+          {
+            "name": "DCP-18666-clearance-pill",
+            "campaignName": "Clearance - device listing pills"
+          },
+          {
+            "name": "VT: A/B SIMO Bridge CTA Solution",
+            "campaignName": null
+          },
+          {
+            "name": "nbn users",
+            "campaignName": "DCP-17707-bundle-save-inline-nbn-page"
+          },
+          {
+            "name": " EGW | DCP-personalized-Custom-Variant-Code",
+            "campaignName": "EGW | DCP-personalized-Custom-Variant-Code"
+          },
+          {
+            "name": "EGW|DCP-Personalized-Salesforce-POC",
+            "campaignName": "EGW|DCP-Personalized-Salesforce-POC"
+          },
+          {
+            "name": "DCP-17039-personalised-business-simo-hide-banner",
+            "campaignName": "EGW | DCP-17039-personalised-business-simo"
+          },
+          {
+            "name": "DCP-18666-clearance-purple-save-values",
+            "campaignName": "Clearance - save purple badge on popular module"
+          },
+          {
+            "name": "NDC fix",
+            "campaignName": "DCP-17304-NDC-fix-for-oneSQ"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-17785 Prepaid Static Page Great value Pills"
+          },
+          {
+            "name": "EGW | DCP-18152- CRO | SIMO Plan layout",
+            "campaignName": "EGW | DCP-18152- CRO | SIMO Plan layout"
+          },
+          {
+            "name": "brisbane-offer-audience",
+            "campaignName": "DCP-17340-Prepaid BTL Bris Airport Offer"
+          },
+          {
+            "name": "Everyone",
+            "campaignName": "DCP-18722-New-Bundle-Pill"
+          },
+          {
+            "name": " EGW | DCP-MCP-personalized-business-simo-plans",
+            "campaignName": "EGW | DCP-MCP-personalized-business-simo-plans"
+          },
+          {
+            "name": "DCP-16264",
+            "campaignName": "DCP-16264-Vision-pop-up-nbn-page-perso"
+          },
+          {
+            "name": "DCP-17576-Galaxy Tab S10 FE 5G",
+            "campaignName": "DCP-17576-Galaxy Tab S10 FE 5G"
+          },
+          {
+            "name": "DCP-17576-Galaxy Edge S25 Watch GWP",
+            "campaignName": "DCP-17576-Samsung Galaxy Edge S25 Watch GWP"
+          },
+          {
+            "name": "DCP-18274-New Apple Compare Link + 3D Spin",
+            "campaignName": null
+          },
+          {
+            "name": "DCP-18198-AppleNPI-Contextual-Messaging",
+            "campaignName": "DCP-18198-Apple NPI: Previously Viewed Contextual Messaging"
+          },
+          {
+            "name": "DCP-15294 Quick links with Chevron",
+            "campaignName": "Quick links with Chevron"
+          },
+          {
+            "name": "DCP-17577-Exit Intent $30 Credit Message",
+            "campaignName": "DCP-17577-Exit Intent $30 Credit Message"
+          },
+          {
+            "name": "DCP-18209-48M MPP",
+            "campaignName": "DCP-18209-48M MPP"
+          },
+          {
+            "name": "EGW | DCP-18488-personalized-business-black-Banner-hide",
+            "campaignName": "EGW | DCP-18488-personalized-business-black-Banner-hide"
+          },
+          {
+            "name": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+            "campaignName": "EGW | DCP-personalized-business-Team-plan-ACN-chat-now"
+          },
+          {
+            "name": "DCP-16400: Deals Hub Filter Personalisation",
+            "campaignName": "Deals Hub Filter"
+          },
+          {
+            "name": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+            "campaignName": "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-16554-prepaid esim quick links"
+          },
+          {
+            "name": "oneSQ visitors",
+            "campaignName": "DCP-18446-bundle-save-oneSQ-page"
+          },
+          {
+            "name": "all users",
+            "campaignName": "DCP-18642-bundle-save-pill-banner"
+          },
+          {
+            "name": "Everyone",
+            "campaignName": "DCP-17785 Prepaid Static Page Online only Pills"
+          },
+          {
+            "name": "Pill PDP Samsung Galaxy Tab",
+            "campaignName": "Pill PDP Samsung Galaxy Tab"
+          },
+          {
+            "name": "EGW-DCP-personalized-business-contact-form",
+            "campaignName": "EGW | DCP-personalized-business-contact-form"
+          },
+          {
+            "name": "DCP-18362-Apple NPI-Coming Soon-Alert",
+            "campaignName": "DCP-18362-Apple NPI-Coming Soon-Alert"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-17201 CLM Offer for Launch"
+          },
+          {
+            "name": "DCP-16683",
+            "campaignName": "DCP-16683-update-sq-box-results-nbn-page"
+          },
+          {
+            "name": "DCP-17576-iPad Air 13-inch (M4)",
+            "campaignName": "DCP-17576-iPad Air 13-inch (M4)"
+          },
+          {
+            "name": "experiment-eligible group",
+            "campaignName": "DCP-18685-Vision-Page-BTL-session-SQ-check"
+          },
+          {
+            "name": "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+            "campaignName": "EGW|DCP-17619-Personalized-business-banner-eofy-cta"
+          },
+          {
+            "name": "EGW | DCP-personalized-Business-Apple",
+            "campaignName": "EGW | DCP-personalized-business-Apple-Nav"
+          },
+          {
+            "name": "DCP-18608-Apple-PDP-iPhone Duo",
+            "campaignName": "DCP-18608-Apple-PDP-iPhone Duo"
+          },
+          {
+            "name": "DCP-18197-Iphone18 Nav",
+            "campaignName": "Mega Nav Links"
+          },
+          {
+            "name": "DCP-18666-clearance",
+            "campaignName": "Clearance - PDP pill and callout"
+          }
+        ],
+        "variations": [
+          "DCP-17391-Upgrades Offer",
+          "Original",
+          "Variation #1",
+          " EGW | DCP-MCP-personalized-business-team-plans",
+          "Variation #1",
+          "Variation #1",
+          "DCP-17576-iPad Air 11-inch (M4)",
+          "Apple-NPI-Hub-Fixes",
+          "EGW | DCP-personalized-Custom-Variant-Code-18-promax",
+          "EGW | DCP-personalized-nbn-Basic-and-Pro-plans",
+          "DCP-18106-888 Tiles Restyle",
+          "DCP-17576-Galaxy Tab S10 FE+ 5G",
+          "EGW | DCP-18317-Hot Offers Deal",
+          "EGW|DCP-Personalized-Business-mobile-phones-apple",
+          "EGW- DCP-business-48-home",
+          "DCP-17577-Exit Intent $30 Credit Toaster",
+          " EGW | DCP-business-Apple-PDP-iPhone-18-Pro-Max",
+          "SIMO",
+          " EGW | DCP-business-mobile-phone-pay-48m",
+          "EGW | DCP-18151 - CRO | Team Plan layout",
+          "EGW | DCP-business-Apple-PDP-iPhone-Duo",
+          "Variation #1",
+          "EGW | DCP-personalized-business-Apple-PDP",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro",
+          "Original",
+          "Variation esim cludo banner",
+          "DCP-18209-48M CTA",
+          "Listings",
+          "Original",
+          "Bridge CTA",
+          "Variation #1",
+          " EGW | DCP-personalized-Custom-Variant-Code",
+          "EGW|DCP-Personalized-Salesforce-POC",
+          "EGW|DCP-TEMP-Personalised-Business-SIMO",
+          "Variation #1",
+          "Variation #1",
+          "Variation #1",
+          "EGW | DCP-18152- CRO | SIMO Plan layout",
+          "Variation #1",
+          "Variation #1",
+          " EGW | DCP-MCP-personalized-business-simo-plans",
+          "Variation #1",
+          "DCP-17576-Galaxy Tab S10 FE 5G",
+          "DCP-17576-Galaxy Edge S25 Watch GWP",
+          "Original",
+          "show compare and 3D links under gallery",
+          "DCP-18198-Contextual Messaging",
+          "Variation #1",
+          "DCP-17577-Exit Intent $30 Credit Message",
+          "DCP-18209-48M MPP",
+          "EGW | DCP-18488-personalized-business-black-Banner-hide",
+          "EGW | DCP-personalized-business-Team-plan-ACN-chat-now",
+          "DCP-16400: Deals Hub Filter Personalisation",
+          "DCP-18277-Apple-NPI-PDP-iPhone 18 Pro Max",
+          "Variation #1",
+          "Variation #1",
+          "Variation #1",
+          "Variation #1",
+          "Pill PDP Samsung Galaxy Tab",
+          "EGW-DCP-personalized-business-contact-form",
+          "DCP-18362-Apple NPI-Coming Soon-Alert",
+          "Variation #1",
+          "Variation #1",
+          "DCP-17576-iPad Air 13-inch (M4)",
+          "Variation #1",
+          "EGW|DCP-17619-Personalized-business-banner-eofy-cta",
+          "EGW | DCP-personalized-Business-Apple",
+          "DCP-18608-Apple-PDP-iPhone Duo",
+          "DCP-18197-Iphone18 Nav",
+          "Variation #1"
+        ]
+      }
+    }
   }
 }

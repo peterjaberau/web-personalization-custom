@@ -1638,6 +1638,40 @@
         "visitorRedirected": false,
         "isInCampaignHoldback": false
       }
+    },
+    "meta": {
+      "current": {
+        "data": {
+          "campaigns": [
+            // array string of all names from each item of get data campaigns
+          ],
+          "pages": [
+            // array object has all name and apiName from each item of get data pages
+          ],
+          "experiments": [
+            // array object has all name and campaignName from each item of get data experiments
+          ],
+          "variations": [
+            // array string of all names from each item of get data variations
+          ]
+        },
+      },
+      "all": {
+        "data": {
+          "campaigns": [
+            // array string of all names from each item of get data campaigns
+          ],
+          "pages": [
+            // array object has all campaignName and apiName from each item of get data pages
+          ],
+          "experiments": [
+            // array object has all name and campaignName from each item of get data experiments
+          ],
+          "variations": [
+            // array string of all names from each item of get data variations
+          ]
+        }
+      }
     }
 
 

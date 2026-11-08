@@ -1,17 +1,18 @@
 /*
- * Salesforce -> Optimizely attribute POC for the matched sitemap page.
+ * Salesforce -> Optimizely page-decision attribute POC.
  * Run as a Chrome DevTools snippet after loading the Salesforce sitemap.
- * It requests decisions for the SDK's matched page; it does not request content,
+ * It requests configured page decisions; it does not request content,
  * change the page, activate campaigns, or reload Optimizely.
  *
  * Console commands:
- *   vhaPoc.run()     Fetch fresh Salesforce decisions for the matched page
+ *   vhaPoc.run()     Fetch fresh Salesforce decisions for the configured points
  *                    and submit their attributes to Optimizely. The snippet
  *                    also runs this once automatically when loaded.
  *   vhaPoc.inspect() Log the submitted command, visitor and current Optimizely
  *                    active page, campaign and experiment state plus the
  *                    related configuration; returns an object
  *                    with get.state and filtered get.data as separate keys.
+ *                    meta summarizes current and all project-data names.
  *                    It does not fetch or submit Salesforce decisions.
  *   vhaPoc.stop()    Ignore the result of any pending POC request. It does not
  *                    clear attributes already submitted to Optimizely.
@@ -22,7 +23,25 @@
   'use strict';
 
   var prefix = '[VHA Salesforce Optimizely POC]';
-  var previousKeys = [];
+  var targetPagePersonalizationPoints = ['page_base_poc', 'page_extended_poc', 'page_priority_poc'];
+  // Each Optimizely key explicitly selects its Salesforce point and field.
+  var salesforceOptimizelyDecisionMaping = {
+    base_point: { point: 'page_base_poc', field: 'personalizationPointName' },
+    base_decision: { point: 'page_base_poc', field: 'decisionId' },
+    base_experience_scope: { point: 'page_base_poc', field: 'attributes.experienceScope' },
+    base_experience_tags: { point: 'page_base_poc', field: 'attributes.experienceTags' },
+    base_experience_value: { point: 'page_base_poc', field: 'attributes.experienceValue' },
+    extended_point: { point: 'page_extended_poc', field: 'personalizationPointName' },
+    extended_decision: { point: 'page_extended_poc', field: 'decisionId' },
+    extended_experience_scope: { point: 'page_extended_poc', field: 'attributes.experienceScope' },
+    extended_experience_tags: { point: 'page_extended_poc', field: 'attributes.experienceTags' },
+    extended_experience_value: { point: 'page_extended_poc', field: 'attributes.experienceValue' },
+    priority_point: { point: 'page_priority_poc', field: 'personalizationPointName' },
+    priority_decision: { point: 'page_priority_poc', field: 'decisionId' },
+    priority_experience_scope: { point: 'page_priority_poc', field: 'attributes.experienceScope' },
+    priority_experience_tags: { point: 'page_priority_poc', field: 'attributes.experienceTags' },
+    priority_experience_value: { point: 'page_priority_poc', field: 'attributes.experienceValue' }
+  };
   var requestGeneration = 0;
   var lastPayload = null;
 
@@ -48,9 +67,26 @@
       return report;
     }
     report['get.state'] = inspectOptimizelyState(readOptimizely('state'));
-    report['get.data'] = selectActiveConfiguration(readOptimizely('data'), report['get.state']);
+    var allData = readOptimizely('data');
+    report['get.data'] = selectActiveConfiguration(allData, report['get.state']);
+    report.meta = { current: { data: summarizeData(report['get.data']) }, all: { data: summarizeData(allData) } };
     console.log(prefix, 'get("data") scoped to active pages and campaigns; selected objects are unchanged:', report['get.data']);
+    console.log(prefix, 'Project-data summaries for current scope and all entities:', report.meta);
     return report;
+  }
+
+  function summarizeData(data) {
+    if (!data) return null;
+    function items(key) {
+      var collection = data[key] || {};
+      return Object.keys(collection).map(function (id) { return collection[id]; }).filter(function (item) { return item && typeof item === 'object'; });
+    }
+    return {
+      campaigns: items('campaigns').map(function (item) { return item.name == null ? null : item.name; }),
+      pages: items('pages').map(function (item) { return { name: item.name == null ? null : item.name, apiName: item.apiName == null ? null : item.apiName }; }),
+      experiments: items('experiments').map(function (item) { return { name: item.name == null ? null : item.name, campaignName: item.campaignName == null ? null : item.campaignName }; }),
+      variations: items('variations').map(function (item) { return item.name == null ? null : item.name; })
+    };
   }
 
   function inspectOptimizelyState(state) {
@@ -136,47 +172,43 @@
     return selected;
   }
 
-  function buildAttributes(decisions) {
-    var attributes = {};
-    var currentKeys = [];
-    previousKeys.forEach(function (key) { attributes[key] = null; });
-    var mapped = [];
-    decisions.forEach(function (decision) {
-      var point = decision && decision.personalizationPointName;
-      if (typeof point !== 'string' || !/^[A-Za-z0-9_]+$/.test(point)) {
-        console.warn(prefix, 'Skipping decision with invalid personalizationPointName:', point);
-        return;
-      }
-      var zone = decision.contentZone || {};
-      var data = decision.attributes || {};
-      var values = {
-        contentZoneName: zone.name,
-        contentZoneSelector: zone.selector,
-        contentPath: data.contentPath,
-        experienceKey: data.experienceKey,
-        isSalesforceDecision: 'true'
-      };
-      mapped.push({ personalizationPointName: point, contentZone: { name: zone.name || null, selector: zone.selector || null },
-        contentPath: data.contentPath || null, experienceKey: data.experienceKey || null, isSalesforceDecision: 'true' });
-      Object.keys(values).forEach(function (field) {
-        var key = point + '_' + field;
-        attributes[key] = values[field] == null ? null : String(values[field]);
-        if (currentKeys.indexOf(key) === -1) currentKeys.push(key);
-      });
-    });
-    attributes.decisions = JSON.stringify(mapped);
-    return { command: { type: 'user', attributes: attributes }, keys: currentKeys, decisions: mapped };
+  function readDecisionField(decision, path) {
+    return path.split('.').reduce(function (value, key) {
+      return value != null ? value[key] : undefined;
+    }, decision);
   }
 
-  function publish(batch) {
+  // Map each explicit Optimizely key to its configured point and field.
+  // Missing points and fields are cleared after a successful response.
+  function buildAttributes(decisions) {
+    var attributes = {};
+    var byPoint = Object.create(null);
+    decisions.forEach(function (decision) {
+      var point = decision && decision.personalizationPointName;
+      if (targetPagePersonalizationPoints.indexOf(point) !== -1) {
+        if (byPoint[point]) console.warn(prefix, 'Multiple decisions for point; using the last:', point);
+        byPoint[point] = decision;
+      }
+    });
+    targetPagePersonalizationPoints.forEach(function (point) {
+      if (!byPoint[point]) console.log(prefix, 'No decision returned for point:', point);
+    });
+    Object.keys(salesforceOptimizelyDecisionMaping).forEach(function (attributeName) {
+      var mapping = salesforceOptimizelyDecisionMaping[attributeName];
+      var decision = byPoint[mapping.point];
+      var value = decision ? readDecisionField(decision, mapping.field) : null;
+      attributes[attributeName] = value == null ? null : String(value);
+    });
+    return { type: 'user', attributes: attributes };
+  }
+
+  function publish(command) {
     try {
       host.optimizely = host.optimizely || [];
       if (typeof host.optimizely.push !== 'function') throw new Error('Optimizely push is unavailable.');
-      host.optimizely.push(batch.command);
-      previousKeys = batch.keys;
-      lastPayload = batch.command;
-      console.log(prefix, 'Mapped decisions:', batch.decisions);
-      console.log(prefix, 'User command submitted (may be queued):', batch.command);
+      host.optimizely.push(command);
+      lastPayload = command;
+      console.log(prefix, 'User command submitted (may be queued):', command);
       inspect();
     } catch (error) {
       console.warn(prefix, 'Could not submit the user command:', error);
@@ -186,36 +218,19 @@
   function getSalesforceSdk() {
     if (typeof host.getSalesforceInteractions !== 'function') throw new Error('Salesforce Interactions SDK is unavailable. Load it using the extension first.');
     var sdk = host.getSalesforceInteractions();
-    if (!sdk || typeof sdk.getSitemapResult !== 'function' || !sdk.Personalization || typeof sdk.Personalization.fetch !== 'function') {
-      throw new Error('Salesforce sitemap or Personalization.fetch API is unavailable.');
+    if (!sdk || !sdk.Personalization || typeof sdk.Personalization.fetch !== 'function') {
+      throw new Error('Salesforce Personalization.fetch API is unavailable.');
     }
     return sdk;
   }
 
-  function getMatchedZones(sdk) {
-    var result = sdk.getSitemapResult();
-    var page = result && result.matchedConfig;
-    if (!page) throw new Error('Salesforce has not matched a page. Check the sitemap and run vhaPoc.run() again.');
-    if (!Array.isArray(page.contentZones)) throw new Error('The matched page has no content zones.');
-    var zones = new Map();
-    page.contentZones.forEach(function (zone) {
-      if (zone && typeof zone.name === 'string' && zone.name.trim() && !zones.has(zone.name)) zones.set(zone.name, zone);
-    });
-    if (!zones.size) throw new Error('The matched page has no valid content zone names.');
-    console.log(prefix, 'Matched Salesforce page:', page.name, 'zones:', Array.from(zones.values()));
-    return zones;
-  }
-
-  async function fetchDecisions(sdk, zones) {
-    var points = Array.from(zones.keys());
+  async function fetchDecisions(sdk) {
+    var points = targetPagePersonalizationPoints.slice();
+    console.log(prefix, 'Requesting Salesforce page decisions for:', points);
     var response = await sdk.Personalization.fetch(points);
     if (!response || !Array.isArray(response.personalizations)) throw new Error('Unexpected Salesforce personalization response.');
-    console.log(prefix, 'Requested personalization points:', points, 'Salesforce response:', response);
-    return response.personalizations.reduce(function (items, item) {
-      var zone = item && zones.get(item.personalizationPointName);
-      if (zone) items.push(Object.assign({}, item, { contentZone: { name: zone.name, selector: zone.selector || null } }));
-      return items;
-    }, []);
+    console.log(prefix, 'Salesforce page-decision response:', response);
+    return response.personalizations;
   }
 
   async function run() {
@@ -223,8 +238,7 @@
     try {
       var requestedUrl = host.location.href;
       var sdk = getSalesforceSdk();
-      var zones = getMatchedZones(sdk);
-      var decisions = await fetchDecisions(sdk, zones);
+      var decisions = await fetchDecisions(sdk);
       if (generation !== requestGeneration || host.location.href !== requestedUrl) {
         console.warn(prefix, 'Ignoring an outdated decision request.');
         return;

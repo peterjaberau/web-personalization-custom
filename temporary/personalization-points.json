@@ -1,0 +1,540 @@
+{
+  "decisionResponseFromSalesforce": [
+    {
+      "personalizationId": "1a0fe364-0735-4ecb-a9c3-98598212f31f",
+      "personalizationPointId": "9pp9p00000001IfAAI",
+      "personalizationPointName": "page_base_poc",
+      "decisionId": "9pb9p00000001ovAAA",
+      "data": [ ],
+      "attributes": {
+        "experienceScope": "page",
+        "experienceValue": "default",
+        "experienceTags": ""
+      },
+      "metadata": { }
+    },
+    {
+      "personalizationId": "7e0d4786-147a-4f88-8e30-f9b1d4054cc1",
+      "personalizationPointId": "9pp9p00000001KHAAY",
+      "personalizationPointName": "page_extended_poc",
+      "data": [ ],
+      "attributes": { },
+      "metadata": { }
+    },
+    {
+      "personalizationId": "71ac6f1d-88b9-4d0e-b8d2-37242da71a59",
+      "personalizationPointId": "9pp9p00000001LtAAI",
+      "personalizationPointName": "page_priority_poc",
+      "data": [ ],
+      "attributes": { },
+      "metadata": { }
+    }
+  ],
+  "optmizelyMappedDecisions": {
+    "base_point": {
+      "value": "page_base_poc"
+    },
+    "base_decision": {
+      "value": "9pb9p00000001ovAAA"
+    },
+    "base_experience_scope": {
+      "value": "page"
+    },
+    "base_experience_tags": {
+      "value": ""
+    },
+    "base_experience_value": {
+      "value": "default"
+    },
+    "extended_point": {
+      "value": "page_extended_poc"
+    },
+    "extended_decision": {
+      "value": null
+    },
+    "extended_experience_scope": {
+      "value": null
+    },
+    "extended_experience_tags": {
+      "value": null
+    },
+    "extended_experience_value": {
+      "value": null
+    },
+    "priority_point": {
+      "value": "page_priority_poc"
+    },
+    "priority_decision": {
+      "value": null
+    },
+    "priority_experience_scope": {
+      "value": null
+    },
+    "priority_experience_tags": {
+      "value": null
+    },
+    "priority_experience_value": {
+      "value": null
+    }
+  },
+  "optimizelyAttributes": {
+    "base_point": "",
+    "base_decision": "",
+    "base_experience_scope": "",
+    "base_experience_tags": "",
+    "base_experience_value": "",
+    "extended_point": "",
+    "extended_decision": "",
+    "extended_experience_scope": "",
+    "extended_experience_tags": "",
+    "extended_experience_value": "",
+    "priority_point": "",
+    "priority_decision": "",
+    "priority_experience_scope": "",
+    "priority_experience_tags": "",
+    "priority_experience_value": ""
+  },
+  "test": [
+    {
+      "title": "Base Page Personalization",
+      "scenarios": [
+        {
+          "title": "Default Base Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans",
+            "https://www.vodafone.com.au/business/sim-only",
+            "https://www.vodafone.com.au/business/team-plans"
+          ]
+        },
+        {
+          "title": "Top Sectors Base Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=top_sectors",
+            "https://www.vodafone.com.au/business/sim-only?utm_campaign=top_sectors",
+            "https://www.vodafone.com.au/business/team-plans?utm_campaign=top_sectors"
+          ]
+        },
+        {
+          "title": "First Visit Lead Base Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=first_visit_lead",
+            "https://www.vodafone.com.au/business/sim-only?utm_campaign=first_visit_lead",
+            "https://www.vodafone.com.au/business/team-plans?utm_campaign=first_visit_lead"
+          ]
+        },
+        {
+          "title": "Returning Visitor Lead Base Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=returning_visitor_lead",
+            "https://www.vodafone.com.au/business/sim-only?utm_campaign=returning_visitor_lead",
+            "https://www.vodafone.com.au/business/team-plans?utm_campaign=returning_visitor_lead"
+          ]
+        },
+        {
+          "title": "Hot Lead Base Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=hot_lead",
+            "https://www.vodafone.com.au/business/sim-only?utm_campaign=hot_lead",
+            "https://www.vodafone.com.au/business/team-plans?utm_campaign=hot_lead"
+          ]
+        },
+        {
+          "title": "Warm Lead Base Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=warm_lead",
+            "https://www.vodafone.com.au/business/sim-only?utm_campaign=warm_lead",
+            "https://www.vodafone.com.au/business/team-plans?utm_campaign=warm_lead"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Extended Page Personalization",
+      "scenarios": [
+        {
+          "title": "NBN Plans Extended Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=identified_lead"
+          ]
+        },
+        {
+          "title": "Sim Only Extended Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/sim-only?utm_campaign=identified_lead"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Priority Page Personalization",
+      "scenarios": [
+        {
+          "title": "Iphone 18 Launch Default Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=iphone_18_launch"
+          ]
+        },
+        {
+          "title": "Iphone 18 Launch Business Experience",
+          "urls": [
+            "https://www.vodafone.com.au/business/nbn-plans?utm_campaign=iphone_18_launch&utm_source=business"
+          ]
+        }
+      ]
+    }
+  ],
+  "salesforce": [
+    {
+      "pointName": "Page Personalization - Base - POC",
+      "pointApiName": "page_base_poc",
+      "description": "This applies as a base where the decision is relevant to all pages the decision is not related to special events. eg, default, business in normal days",
+      "decisions": [
+        {
+          "decisionName": "base_default",
+          "description": "This applies to all pages for default or common experience. e.g anonymous, cold etc",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "",
+            "experienceValue": "default"
+          },
+          "targetRules": [
+            "always"
+          ]
+        },
+        {
+          "decisionName": "base_top_sectors",
+          "description": "",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "transportation,food,healthcare,finance,retail",
+            "experienceValue": "top_sectors"
+          },
+          "targetRules": [
+            "utm_campaign=top_sectors"
+          ]
+        },
+        {
+          "decisionName": "base_first_visit_lead",
+          "description": "",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "first_visit,identified,lead",
+            "experienceValue": "first_visit_lead"
+          },
+          "targetRules": [
+            "utm_campaign=first_visit_lead"
+          ]
+        },
+        {
+          "decisionName": "base_returning_visitor_lead",
+          "description": "",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "returning_visitor,identified,lead",
+            "experienceValue": "returning_visitor_lead"
+          },
+          "targetRules": [
+            "utm_campaign=returning_visitor_lead"
+          ]
+        },
+        {
+          "decisionName": "base_hot_lead",
+          "description": "",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "",
+            "experienceValue": "hot_lead"
+          },
+          "targetRules": [
+            "utm_campaign=hot_lead"
+          ]
+        },
+        {
+          "decisionName": "base_warm_lead",
+          "description": "",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "",
+            "experienceValue": "warm_lead"
+          },
+          "targetRules": [
+            "utm_campaign=warm_lead"
+          ]
+        }
+      ]
+    },
+    {
+      "pointName": "Page Personalization - Extended - POC",
+      "pointApiName": "page_extended_poc",
+      "description": "This applies to specific pages where the decision is relevant to the page. e.g, business nbn plans, business sim only, business team plans etc",
+      "decisions": [
+        {
+          "decisionName": "nbn_plans_from_email_visit",
+          "attributes": {
+            "experienceScope": "nbn_plans",
+            "experienceTags": "",
+            "experienceValue": "email"
+          },
+          "targetRules": [
+            "sourceUrl contains /business/nbn-plans"
+          ]
+        },
+        {
+          "decisionName": "nbn_plans_identified_lead",
+          "attributes": {
+            "experienceScope": "nbn_plans",
+            "experienceTags": "",
+            "experienceValue": "identified_lead"
+          },
+          "targetRules": [
+            "sourceUrl contains /business/nbn-plans",
+            "utm_campaign=identified_lead"
+          ]
+        },
+        {
+          "decisionName": "sim_only_identified_lead",
+          "attributes": {
+            "experienceScope": "sim_only",
+            "experienceTags": "",
+            "experienceValue": "identified_lead"
+          },
+          "targetRules": [
+            "sourceUrl contains /business/sim-only",
+            "utm_campaign=identified_lead"
+          ]
+        }
+      ]
+    },
+    {
+      "pointName": "Page Personalization - Priority - POC",
+      "pointApiName": "page_priority_poc",
+      "description": "This for priority when special sales events or campaigns are running. e.g. iphone launch, black friday, cyber monday, christmas, new year etc",
+      "decisions": [
+        {
+          "decisionName": "iphone_18_launch_default",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "",
+            "experienceValue": "default"
+          },
+          "targetRules": [
+            "utm_campaign=iphone_18_launch"
+          ]
+        },
+        {
+          "decisionName": "iphone_18_business_launch",
+          "attributes": {
+            "experienceScope": "page",
+            "experienceTags": "",
+            "experienceValue": "business"
+          },
+          "targetRules": [
+            "utm_campaign=iphone_18_launch",
+            "utm_source=business"
+          ]
+        }
+      ]
+    }
+  ],
+
+  "OptimizelyExpectedMapping": [
+    {
+      "scenario": "Default Base Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "",
+        "base_experience_value": "default",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": null,
+        "extended_experience_tags": null,
+        "extended_experience_value": null,
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": ["always"]
+    },
+    {
+      "scenario": "Top Sectors Base Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "transportation,food,healthcare,finance,retail",
+        "base_experience_value": "top_sectors",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": null,
+        "extended_experience_tags": null,
+        "extended_experience_value": null,
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": ["utm_campaign=top_sectors"]
+    },
+    {
+      "scenario": "First Visit Lead Base Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "first_visit,identified,lead",
+        "base_experience_value": "first_visit_lead",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": null,
+        "extended_experience_tags": null,
+        "extended_experience_value": null,
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": ["utm_campaign=first_visit_lead"]
+    },
+    {
+      "scenario": "Returning Visitor Lead Base Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "returning_visitor,identified,lead",
+        "base_experience_value": "returning_visitor_lead",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": null,
+        "extended_experience_tags": null,
+        "extended_experience_value": null,
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": ["utm_campaign=returning_visitor_lead"]
+    },
+    {
+      "scenario": "Hot Lead Base Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "",
+        "base_experience_value": "hot_lead",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": null,
+        "extended_experience_tags": null,
+        "extended_experience_value": null,
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": ["utm_campaign=hot_lead"]
+    },
+    {
+      "scenario": "Warm Lead Base Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "",
+        "base_experience_value": "warm_lead",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": null,
+        "extended_experience_tags": null,
+        "extended_experience_value": null,
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": ["utm_campaign=warm_lead"]
+    },
+    {
+      "scenario": "NBN Plans Extended Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "",
+        "base_experience_value": "default",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": "nbn_plans",
+        "extended_experience_tags": "",
+        "extended_experience_value": "identified_lead",
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": [
+        "always",
+        "sourceUrl contains /business/nbn-plans",
+        "utm_campaign=identified_lead"
+      ]
+    },
+    {
+      "scenario": "Sim Only Extended Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "",
+        "base_experience_value": "default",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": "sim_only",
+        "extended_experience_tags": "",
+        "extended_experience_value": "identified_lead",
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": null,
+        "priority_experience_tags": null,
+        "priority_experience_value": null
+      },
+      "rules": [
+        "always",
+        "sourceUrl contains /business/sim-only",
+        "utm_campaign=identified_lead"
+      ]
+    },
+    {
+      "scenario": "Iphone 18 Launch Default Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "",
+        "base_experience_value": "default",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": "nbn_plans",
+        "extended_experience_tags": "",
+        "extended_experience_value": "email",
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": "page",
+        "priority_experience_tags": "",
+        "priority_experience_value": "default"
+      },
+      "rules": [
+        "always",
+        "sourceUrl contains /business/nbn-plans",
+        "utm_campaign=iphone_18_launch"
+      ]
+    },
+    {
+      "scenario": "Iphone 18 Launch Business Experience",
+      "attributes": {
+        "base_point": "page_base_poc",
+        "base_experience_scope": "page",
+        "base_experience_tags": "",
+        "base_experience_value": "default",
+        "extended_point": "page_extended_poc",
+        "extended_experience_scope": "nbn_plans",
+        "extended_experience_tags": "",
+        "extended_experience_value": "email",
+        "priority_point": "page_priority_poc",
+        "priority_experience_scope": "page",
+        "priority_experience_tags": "",
+        "priority_experience_value": "business"
+      },
+      "rules": [
+        "always",
+        "sourceUrl contains /business/nbn-plans",
+        "utm_campaign=iphone_18_launch",
+        "utm_source=business"
+      ]
+    }
+  ]
+
+}

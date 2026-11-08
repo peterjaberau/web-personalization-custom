@@ -20,58 +20,128 @@
   var activeContainer = null;
   var outputs = new WeakMap();
 
-  // Independent diagnostic path: publish a string-valued Web Experimentation
-  // attribute without changing the existing Salesforce rendering flow.
-  var attributeLogPrefix = '[Optimizely decision attributes]';
+  // Page-decision mapping is independent from the section rendering flow.
+  // Salesforce returns decisionId; the configured decision names are not
+  // included in the response and cannot safely be inferred from attributes.
+  var targetPagePersonalizationPoints = ['page_base_poc', 'page_extended_poc', 'page_priority_poc'];
+  // Each Optimizely key explicitly selects its Salesforce point and field.
+  var salesforceOptimizelyDecisionMaping = {
+    base_point: { point: 'page_base_poc', field: 'personalizationPointName' },
+    base_decision: { point: 'page_base_poc', field: 'decisionId' },
+    base_experience_scope: { point: 'page_base_poc', field: 'attributes.experienceScope' },
+    base_experience_tags: { point: 'page_base_poc', field: 'attributes.experienceTags' },
+    base_experience_value: { point: 'page_base_poc', field: 'attributes.experienceValue' },
+    extended_point: { point: 'page_extended_poc', field: 'personalizationPointName' },
+    extended_decision: { point: 'page_extended_poc', field: 'decisionId' },
+    extended_experience_scope: { point: 'page_extended_poc', field: 'attributes.experienceScope' },
+    extended_experience_tags: { point: 'page_extended_poc', field: 'attributes.experienceTags' },
+    extended_experience_value: { point: 'page_extended_poc', field: 'attributes.experienceValue' },
+    priority_point: { point: 'page_priority_poc', field: 'personalizationPointName' },
+    priority_decision: { point: 'page_priority_poc', field: 'decisionId' },
+    priority_experience_scope: { point: 'page_priority_poc', field: 'attributes.experienceScope' },
+    priority_experience_tags: { point: 'page_priority_poc', field: 'attributes.experienceTags' },
+    priority_experience_value: { point: 'page_priority_poc', field: 'attributes.experienceValue' }
+  };
+  var pageDecisionConfig = {
+    retryIntervalMs: 250,
+    waitTimeoutMs: 30000
+  };
+  var attributeLogPrefix = '[Optimizely page decision attributes]';
   var lastAttributePayload = null;
-  var previousDecisionAttributeKeys = [];
+  var pageRequestGeneration = 0;
+  var pageRequestTimer = null;
 
-  function publishDecisionAttribute(decisions) {
-    var mapped = decisions.map(function (decision) {
-      var zone = decision && decision.contentZone || {};
-      var attributes = decision && decision.attributes || {};
-      return {
-        contentZone: { name: zone.name || null, selector: zone.selector || null },
-        contentPath: attributes.contentPath || null,
-        experienceKey: attributes.experienceKey || null,
-        isSalesforceDecision: 'true'
-      };
-    });
-    // Clear keys from the preceding batch on this page before setting the new
-    // values. Optimizely may retain attributes from earlier page loads.
-    var attributes = { decisions: JSON.stringify(mapped) };
-    previousDecisionAttributeKeys.forEach(function (key) { attributes[key] = null; });
-    var currentKeys = [];
-    decisions.forEach(function (decision, index) {
-      var point = decision && decision.personalizationPointName;
-      if (typeof point !== 'string' || !/^[A-Za-z0-9_]+$/.test(point)) {
-        console.warn(attributeLogPrefix, 'Skipping flat attributes for an invalid personalization point name:', point);
+  // Step 1. Request page-level decisions once Salesforce and its sitemap are ready.
+  // This is separate from the sitemap event used for section rendering.
+  function requestPageDecisions() {
+    var requestId = ++pageRequestGeneration;
+    var requestedUrl = host.location.href;
+    var deadline = Date.now() + pageDecisionConfig.waitTimeoutMs;
+    if (pageRequestTimer !== null) host.clearTimeout(pageRequestTimer);
+
+    function attempt() {
+      pageRequestTimer = null;
+      if (requestId !== pageRequestGeneration || host.location.href !== requestedUrl) return;
+      var sdk;
+      var sitemap;
+      try {
+        sdk = typeof host.getSalesforceInteractions === 'function' && host.getSalesforceInteractions();
+        sitemap = sdk && typeof sdk.getSitemapResult === 'function' && sdk.getSitemapResult();
+      } catch (error) {
+        // The SDK accessor may throw during initialization; retry until timeout.
+      }
+      if (!sdk || !sdk.Personalization || typeof sdk.Personalization.fetch !== 'function' || !sitemap || !sitemap.matchedConfig) {
+        if (Date.now() >= deadline) {
+          console.warn(attributeLogPrefix, 'Salesforce SDK or sitemap not ready; page decisions were not requested.');
+          return;
+        }
+        pageRequestTimer = host.setTimeout(attempt, pageDecisionConfig.retryIntervalMs);
         return;
       }
-      var item = mapped[index];
-      var values = {
-        contentZoneName: item.contentZone.name,
-        contentZoneSelector: item.contentZone.selector,
-        contentPath: item.contentPath,
-        experienceKey: item.experienceKey,
-        isSalesforceDecision: item.isSalesforceDecision
-      };
-      Object.keys(values).forEach(function (field) {
-        var key = point + '_' + field;
-        attributes[key] = values[field] == null ? null : String(values[field]);
-        if (currentKeys.indexOf(key) === -1) currentKeys.push(key);
-      });
+      try {
+        var points = targetPagePersonalizationPoints.slice();
+        console.log(attributeLogPrefix, 'Requesting page decisions for:', points);
+        Promise.resolve(sdk.Personalization.fetch(points)).then(function (response) {
+          if (requestId !== pageRequestGeneration || host.location.href !== requestedUrl) {
+            console.warn(attributeLogPrefix, 'Ignoring an outdated page-decision response.');
+            return;
+          }
+          receivePageDecisions(response);
+        }).catch(function (error) {
+          if (requestId === pageRequestGeneration) console.warn(attributeLogPrefix, 'Page-decision request failed:', error);
+        });
+      } catch (error) {
+        console.warn(attributeLogPrefix, 'Unable to request page decisions:', error);
+      }
+    }
+    attempt();
+  }
+
+  function readDecisionField(decision, path) {
+    return path.split('.').reduce(function (value, key) {
+      return value != null ? value[key] : undefined;
+    }, decision);
+  }
+
+  // Map only configured keys. A successful response clears missing point/field
+  // values so persisted Optimizely attributes do not describe an older batch.
+  function mapPageDecisionAttributes(decisions) {
+    var attributes = {};
+    var byPoint = Object.create(null);
+    decisions.forEach(function (decision) {
+      var point = decision && decision.personalizationPointName;
+      if (targetPagePersonalizationPoints.indexOf(point) !== -1) {
+        if (byPoint[point]) console.warn(attributeLogPrefix, 'Multiple decisions for point; using the last:', point);
+        byPoint[point] = decision;
+      }
     });
-    var payload = { type: 'user', attributes: attributes };
+    targetPagePersonalizationPoints.forEach(function (point) {
+      if (!byPoint[point]) console.log(attributeLogPrefix, 'No decision returned for point:', point);
+    });
+    Object.keys(salesforceOptimizelyDecisionMaping).forEach(function (attributeName) {
+      var mapping = salesforceOptimizelyDecisionMaping[attributeName];
+      var decision = byPoint[mapping.point];
+      var value = decision ? readDecisionField(decision, mapping.field) : null;
+      attributes[attributeName] = value == null ? null : String(value);
+    });
+    return attributes;
+  }
+
+  // Step 2.b. Receive and map page decisions before submitting to Optimizely.
+  function receivePageDecisions(response) {
+    if (!response || !Array.isArray(response.personalizations)) {
+      console.warn(attributeLogPrefix, 'Invalid Salesforce response; leaving existing attributes unchanged:', response);
+      return;
+    }
+    console.log(attributeLogPrefix, 'Salesforce page-decision response:', response);
+    var payload = { type: 'user', attributes: mapPageDecisionAttributes(response.personalizations) };
     try {
       host.optimizely = host.optimizely || [];
       if (typeof host.optimizely.push !== 'function') throw new Error('Optimizely push is unavailable');
       host.optimizely.push(payload);
       lastAttributePayload = payload;
-      previousDecisionAttributeKeys = currentKeys;
       console.log(attributeLogPrefix, 'User command submitted (may be queued):', payload);
-      console.log(attributeLogPrefix, 'Decoded decisions:', mapped);
-      inspectDecisionAttribute('after user command');
+      inspectDecisionAttribute('after page decisions');
     } catch (error) {
       console.warn(attributeLogPrefix, 'Could not submit the user command.', error);
     }
@@ -120,7 +190,7 @@
     inspectDecisionAttribute('manual inspection');
   });
 
-  // Step 1. Subscribe to and forward Salesforce decisions.
+  // Step 1.a. Subscribe to and forward Salesforce section decisions.
   function connectToDecisions(apply, containerSelector) {
     if (typeof apply !== 'function') throw new Error('A personalization renderer is required');
     var container = host.document.querySelector(containerSelector || 'body');
@@ -134,13 +204,12 @@
     return function () { host.removeEventListener('personalization:decisions', onDecisions); };
   }
 
-  // Step 2. Store decisions and try to process them.
+  // Step 2.a. Store section decisions and try to process them.
   function receiveDecisions(container, decisions) {
     if (!Array.isArray(decisions)) return;
     activeContainer = container;
     generation += 1;
     latestDecisions = decisions;
-    publishDecisionAttribute(decisions);
     processLatestDecisions();
   }
 
@@ -156,6 +225,7 @@
       if (typeof utils.onUrlChange === 'function') utils.onUrlChange(function () {
         generation += 1;
         latestDecisions = null;
+        requestPageDecisions();
       });
       processLatestDecisions();
       return true;
@@ -282,6 +352,7 @@
   }
 
   connectToDecisions(receiveDecisions, 'main');
+  requestPageDecisions();
   if (!tryInitializeOptimizely()) {
     console.warn(logPrefix, 'Waiting for Optimizely utilities.');
     interval = host.setInterval(function () {
